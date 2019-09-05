@@ -119,8 +119,8 @@ tutti = \markup { \remark Tutti }
 tuttiE = \markup { \remarkE Tutti }
 tasto = \markup { \remark "tasto solo" }
 tastoE = \markup { \remarkE "tasto solo" }
-org = \markup { \remark Org. }
-orgE = \markup { \remarkE Org. }
+org = \markup { \remark "coll Org." }
+orgE = \markup { \remarkE "coll Org." }
 vlc = \markup { \remark "Vlc." }
 vlcE = \markup { \remarkE "Vlc." }
 bassi = \markup { \remark Bassi }
@@ -129,7 +129,7 @@ tenuto = \markup { \remark ten. }
 tenutoE = \markup { \remarkE ten. }
 unisono = \markup { \remark "unisono" }
 unisonoE = \markup { \remarkE "unisono" }
-senzaOrg = \markup { \remark "Org." }
+senzaOrg = \markup { \remark "senza Org." }
 senzaOrgE = \markup { \remarkE "senza Org." }
 
 t = \markup { \combine \fontsize #-2 \transparent \number 5 \raise #.6 \draw-line #'(1 . 0) }
@@ -345,6 +345,9 @@ tempoKyrie = \tempoMarkup "Adagio"
 		extraNatural = ##t
 		\override NoteHead.style = #'baroque
 		aDueText = \markup { \medium \remark "a 2" }
+		\override DynamicTextSpanner.style = #'none
+		\crescTextCresc
+		crescendoText = \markup { \remark "cresc." }
 	}
 	\context {
 		\Lyrics
