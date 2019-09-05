@@ -28,7 +28,7 @@ KyrieOrgano = {
 		c8 c' c,4 r8 c~\mfE
 		c d16 c h4 r8 a~
 		a h16 a g4 r8 f %20
-		f4 r8 f f' f
+		f4 r8 f\pE f' f
 		e e, r4 r8 r16 h'-\unisono\<
 		c( d e) gis,-. a( h c) f, g8 g
 		\mvTr c\fE-\tuttiE c' c,4 r
@@ -53,8 +53,8 @@ KyrieOrgano = {
 		\mvTr f(\p-\solo a) f( a) e([ b')]
 		a( f) a( f) e([ c)]
 		f es d \mvTr b\fE-\tuttiE c c %45
-		\mvTr f\p-\soloE a f a e[ b']
-		a f a f e c
+		\mvTr \slurDashed f(\p-\soloE a) f( a) e[( b'])
+		a( f) a( f) e([ c)] \slurSolid
 		f a, b \mvTr g\f-\tuttiE c cis
 		d\ff a b g c c,
 		f f' f,4 r\fermata \bar "|." %50 FINIS
@@ -80,8 +80,8 @@ KyrieBassFigures = \figuremode {
 	<_!>2 <6 4>8 <7! 2>
 	<8 4>4 <\t 3> <6 4>
 	<\t \t> <5 3> r8 <6>
-	<4 2>4 <6>8 <6\\> <8 3> <6 \t>
-	<4 2!>4 <6> <8 3>8 <6 \t> %20
+	<4\+ 2>8. \bassFigureExtendersOn q16 \bassFigureExtendersOff <6>8 <6\\> <8 3> <6 \t>
+	<[4\+] 2!>8. \bassFigureExtendersOn <4\+ 2!>16 \bassFigureExtendersOff <6 [_!]>4 <8 3>8 <6 \t> %20
 	<4! 2>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
 	<6>2.
 	r2 <6 4>8 <5 _!>
@@ -90,7 +90,7 @@ KyrieBassFigures = \figuremode {
 	<4> <\t> <_-> <6> <7> <7 _+>
 	<4> <\t> <3> <6> <7> <7 [5!] _+>
 	<4> <\t> <3> <6 _!> <7> <6\\>
-	<4> <\t> <_+>2
+	<[5!] 4>8 \bassFigureExtendersOn <5! 4> <5! _+>2 \bassFigureExtendersOff
 	<7 [_!]>4 <\t> <5> %30
 	<7-> <\t> <_->
 	<7->2 <_!>4
@@ -110,7 +110,7 @@ KyrieBassFigures = \figuremode {
 	r2.
 	<6>2 <6 5>8 <\t \t>
 	r <6 3>16 <\l _+> r4 <6 4>8 <7 5>
-	<5> <6> <6 5> <\t \t> <5 4> <\t 3>
+	<5> <6> <6 5> <\t \t [_!]> <5 4> <\t 3>
 	r2. %50 FINIS
 }
 

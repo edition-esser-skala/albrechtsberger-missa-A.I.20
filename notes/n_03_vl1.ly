@@ -28,7 +28,7 @@ KyrieViolinoI = {
 		a4( g8) e,\mf \appoggiatura d'16 c8 \appoggiatura h16 a8
 		\appoggiatura g fis8.( g32 a) g8-. gis( a f)
 		dis8.( e32 fis) e8-. e-. g16( f) e( d) %20
-		c( h) a'( g) c,( h) a'( g) c,( h) a'( g)
+		c( h) a'( g) c,(\pE h) a'( g) c,( h) a'( g)
 		g8.( a32 h) c16( d) e-. h-. c(\< d) e-. h-.
 		c( d) e-. gis,-. a( h) c-. a'-. a( g?) r h,
 		c4.\f d16 e f8 f
@@ -51,13 +51,13 @@ KyrieViolinoI = {
 		c8.( d32 e) f16( g a) e-. f(\< g a) e-.
 		f( g a) cis,-. d( e f) h,-.\fE c8 c,
 		f4 r r
-		\mvTr f'4.\pE-\markup { \remark "dolce" } e16 d c8 c
+		\mvTr f'4.\pE-\dolce e16 d c8 c
 		c4( d8) b'16(\f g) a( f) g( e) %45
 		f8 f, r4 r
-		\mvTr f'4.\pE-\markup { \remark "dolce" } e16 d c8 c
+		\mvTr f'4.\pE-\dolce e16 d c8 c
 		c8.( cis16) d b' b\f b a f g e
 		f\ff a a a g g g g g g g g
-		f8 <f, a,>16. q32 q4 r\fermata \bar "|." %50 FINIS
+		\kneeBeam f8 <f, a,>16. q32 q4 r\fermata \bar "|." %50 FINIS
 	}
 }
 

@@ -131,6 +131,8 @@ unisono = \markup { \remark "unisono" }
 unisonoE = \markup { \remarkE "unisono" }
 senzaOrg = \markup { \remark "senza Org." }
 senzaOrgE = \markup { \remarkE "senza Org." }
+dolce = \markup { \remark dolce }
+dolceE = \markup { \remarkE dolce }
 
 t = \markup { \combine \fontsize #-2 \transparent \number 5 \raise #.6 \draw-line #'(1 . 0) }
 l = \markup { \fontsize #-2 \transparent \number 5 }
@@ -329,8 +331,8 @@ tempoKyrie = \tempoMarkup "Adagio"
 		\GrandStaff
 		\override InstrumentName.font-shape = #'italic
 		\override StaffGrouper.staffgroup-staff-spacing =
-		  #'((basic-distance . 12)
-         (minimum-distance . 12)
+		  #'((basic-distance . 15)
+         (minimum-distance . 15)
          (padding . -100)
          (stretchability . 0))
 		\override StaffGrouper.staff-staff-spacing =
