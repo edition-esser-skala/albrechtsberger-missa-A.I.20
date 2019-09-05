@@ -14,8 +14,8 @@ KyrieOrgano = {
 		f g16 f e4 r8 d~
 		d e16 d c4 r8 b %5
 		b4 r8 b\p b' b
-		a a, r4 r8 r16 e'\<
-		f( g a) cis, d(\f e f) h, c8 c
+		a a, r4 r8 r16 e'-\unisonoE\<
+		f( g a) cis,-\parenthesize-. d(\f e f) h,-\parenthesize-. c8-\parenthesize-. c-\parenthesize-.
 		f,-\tutti f' f,4 r
 		f8-\org f' f,4 r %10
 		f8 f'16 e f8 f, r f'
@@ -23,15 +23,15 @@ KyrieOrgano = {
 		f f f f cis cis cis cis d d d d
 		h h h h g g g g c c c c
 		fis, fis fis fis g g g g g g g g %15
-		c8-\solo c' c,4 r
+		\mvTr c8\pE-\solo c' c,4 r
 		c8 c' c,4 r
-		c8 c' c,4 r8 c~
+		c8 c' c,4 r8 c~\mfE
 		c d16 c h4 r8 a~
 		a h16 a g4 r8 f %20
 		f4 r8 f f' f
-		e e, r4 r8 r16 h'-\unisono
+		e e, r4 r8 r16 h'-\unisono\<
 		c( d e) gis,-. a( h c) f, g8 g
-		c c' c,4 r
+		\mvTr c\fE-\tuttiE c' c,4 r
 		c8 c' c, b! a d %25
 		g, g' g, f' e a
 		d, d' d, c h e
@@ -48,14 +48,14 @@ KyrieOrgano = {
 		b4 a r8 c
 		c4 b r8 \mvTr b,\p-\senzaOrg
 		b4 r8 b' b, b %40
-		a a' r4 r8 r16 e-\tutti-\unisono
-		f( g a) cis,-. d( e f) h,-. c8-. c-.
+		a a' r4 r8 r16 e-\<-\unisono
+		f( g a) cis,-. d( e f) \mvTr h,-.\fE-\tuttiE c8-. c-.
 		\mvTr f(\p-\solo a) f( a) e([ b')]
 		a( f) a( f) e([ c)]
-		f es d b c c %45
-		f\p a f a e[ b']
+		f es d \mvTr b\fE-\tuttiE c c %45
+		\mvTr f\p-\soloE a f a e[ b']
 		a f a f e c
-		f a, b g\f c cis
+		f a, b \mvTr g\f-\tuttiE c cis
 		d\ff a b g c c,
 		f f' f,4 r\fermata \bar "|." %50 FINIS
 	}
@@ -109,7 +109,7 @@ KyrieBassFigures = \figuremode {
 	<3>8 <\t> <6> q <6 4> <5 3> %45
 	r2.
 	<6>2 <6 5>8 <\t \t>
-	r <6 3> r4 <6 4>8 <7 5>
+	r <6 3>16 <\l _+> r4 <6 4>8 <7 5>
 	<5> <6> <6 5> <\t \t> <5 4> <\t 3>
 	r2. %50 FINIS
 }
