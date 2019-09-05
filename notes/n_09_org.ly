@@ -111,7 +111,7 @@ KyrieBassFigures = \figuremode {
 	<6>2 <6 5>8 <\t \t>
 	r <6 3> r4 <6 4>8 <7 5>
 	<5> <6> <6 5> <\t \t> <5 4> <\t 3>
-	r2.
+	r2. %50 FINIS
 }
 
 % Organo = {
