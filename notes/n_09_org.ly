@@ -30,7 +30,7 @@ KyrieOrgano = {
 		a h16 a g4 r8 f %20
 		f4 r8 f\pE f' f
 		e e, r4 r8 r16 h'-\unisono\<
-		c( d e) gis,-. a( h c) f, g8 g
+		c( d e) gis,-. a( h c) f,-\parenthesize-. g8 g
 		\mvTr c\fE-\tuttiE c' c,4 r
 		c8 c' c, b! a d %25
 		g, g' g, f' e a

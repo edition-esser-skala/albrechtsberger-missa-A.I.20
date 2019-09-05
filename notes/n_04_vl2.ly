@@ -27,10 +27,10 @@ KyrieViolinoII = {
 		c4. d16 e f8 f
 		f4( e8) g,,16(\mf c) e8-. e-.
 		d4. h16( d) c8-. c-.
-		h4. g16( h) g8-. g-. %20
+		h4. g16( h) a8-. a-. %20
 		g4 r r8 h(\p
 		c) r r r16 h\< c( d e) h-.
-		\once \slurDashed c( d e) gis,-. \once \slurDashed a( h c) f' f( e) r f,
+		\once \slurDashed c( d e) gis,-. \once \slurDashed a( h c) f'-\parenthesize-.f( e) r f,
 		e4.\f f16 g a8 h
 		c g4 a16 b c8 c %25
 		c4( b8) d4 cis8
