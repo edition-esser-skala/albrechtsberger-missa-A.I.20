@@ -153,3 +153,11 @@ GloriaViolinoII = {
 		a2.\fermata \bar "|." %86 FINIS
 	}
 }
+
+CredoViolinoII = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 3/4 \tempoCredo
+		
+	}
+}

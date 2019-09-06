@@ -272,6 +272,18 @@ GloriaSopranoLyrics = \lyricmode {
 	men. %86 FINIS
 }
 
+CredoSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 3/4 \autoBeamOff \tempoCredo
+		
+	}
+}
+
+CredoSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

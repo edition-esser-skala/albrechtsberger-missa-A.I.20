@@ -150,3 +150,11 @@ GloriaTromboneII = {
 		a\fermata \bar "|." %86 FINIS
 	}
 }
+
+CredoTromboneII = {
+	\relative c' {
+		\clef "treble_8"
+		\key f \major \time 3/4 \tempoCredo
+		
+	}
+}

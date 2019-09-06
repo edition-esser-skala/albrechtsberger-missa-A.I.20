@@ -265,6 +265,18 @@ GloriaBassoLyrics = \lyricmode {
 	men. %86 FINIS
 }
 
+CredoBassoNotes = {
+	\relative c {
+		\clef bass
+		\key f \major \time 3/4 \autoBeamOff \tempoCredo
+		
+	}
+}
+
+CredoBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

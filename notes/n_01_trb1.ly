@@ -147,3 +147,11 @@ GloriaTromboneI = {
 		f\fermata \bar "|." %86 FINIS
 	}
 }
+
+CredoTromboneI = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 3/4 \tempoCredo
+		
+	}
+}

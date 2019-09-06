@@ -272,6 +272,18 @@ GloriaAltoLyrics = \lyricmode {
 	men. %86 FINIS
 }
 
+CredoAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 3/4 \autoBeamOff \tempoCredo
+		
+	}
+}
+
+CredoAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

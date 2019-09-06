@@ -278,6 +278,18 @@ GloriaTenoreLyrics = \lyricmode {
 	men. %86 FINIS
 }
 
+CredoTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key f \major \time 3/4 \autoBeamOff \tempoCredo
+		
+	}
+}
+
+CredoTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

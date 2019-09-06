@@ -296,6 +296,18 @@ GloriaBassFigures = \figuremode {
 	r %86 FINIS
 }
 
+CredoOrgano = {
+	\relative c {
+		\clef bass
+		\key f \major \time 3/4 \tempoCredo
+		\mvTr f8\fE-\tutti f a4 f16 c a f
+	}
+}
+
+CredoBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
