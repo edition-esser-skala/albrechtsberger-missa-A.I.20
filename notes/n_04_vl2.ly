@@ -65,6 +65,91 @@ GloriaViolinoII = {
 	\relative c' {
 		\clef treble
 		\key f \major \time 3/4 \tempoGloria
-		
+		f'16\f f, f f f f f f e e' e e
+		d d, d d d d d d c c' c c
+		b b, b b b b b b a a' a a
+		b f f f g g g g g g g g
+		a a, a a a a a a a f' f f %5
+		e g g g g g g g g e e e
+		d f f f f f f f f d d d
+		d' d, d d d d d d c c' c c
+		c c c c c c c c h h h h
+		c c, c c c c c c h h h h %10
+		c c' c c c c, c c c c c c
+		e e' e e e e, e e e e e e
+		d d' d d e e, e e d d' d d
+		cis cis, cis cis cis cis cis cis cis cis' cis cis
+		d d, d d d d d d d d' d d %15
+		d d, d d d d d d d d' d d
+		c c, c c c c c c d d c c
+		h h' h h h h h h h, h' h h
+		h, h' h h h h h h d h h h
+		d, h' h h h h h h d h h h %20
+		a c c c h h h h h h h h
+		c a a a a a a a gis gis gis gis
+		a c, c c c c c c c a' a a
+		b! cis, cis cis cis cis cis cis cis b' b b
+		a d, d d d d d d d a' a a %25
+		c a, a a a a a a c c' c c
+		b d d d c c c c c c c c
+		d b b b b b b b a a a a
+		b b, b b b b b b b d' d d
+		d d, d d d d d d d d' d d %30
+		c c, c c c c c c c es' es es
+		e e, e e e e e e e e' e e
+		d d, d d d d d d d c' c c
+		b g g g g g g g fis fis fis fis
+		g b, b b a a a a a a a a %35
+		b b' b b b g g g g b b b
+		d, h' h h h d, d d d h' h h
+		g es' es es es es, es es es c c c
+		g' b! b b b g g g g cis, cis cis
+		d g g g fis fis fis fis fis a a a %40
+		a, fis' fis fis fis fis fis fis fis es' es es
+		d d, d d d d d d d d' d d
+		f f, f f f f f f f f' f f
+		es es, es es es es es es es es' es es
+		es c c c c c c c h h h h %45
+		c c, c c c c c c c c' c c
+		e e, e e e e e e e e' e e
+		d d, d d d d d d d d' d d
+		cis cis, cis cis cis cis cis cis cis cis' cis cis
+		d f f f f f f f f d^\critnote d d %50
+		d f f f e^\critnote cis cis cis cis cis, cis cis
+		e b' b b b b b b a d, d d
+		f d' d d d d d d cis cis cis cis 
+		d f a f e e e e e e e e
+		fis fis, fis fis fis fis fis fis fis fis' fis fis %55
+		g b, b b b b b b b g' g g
+		a a, a a a a a a a a' a a a
+		a, a a g g g g g g' g g
+		e e, e e e e e e e e' e e
+		f a, a a a a a a a f' f f %60
+		g g, g g g g g g g g' g g
+		g g, g g f f f f f f' f f
+		f, f' f f d b b b f a a a
+		a4 g8 e  e16 g c e,
+		c f f f f f f f f f f f %65
+		d d' d d d d d d d d d d
+		es es, es es es es es es es es es es
+		d b b b f' d d d b' f f f
+		f' f, f f as f f f f' f, f f
+		g e! e e b'! g g g f c c c %70
+		f d d d d d' d d c c, c c
+		c a a a c a a a c f f f
+		f d d d d h h h d g g g
+		g e e e c e e e g c c c
+		c a a a f a a a b d d d %75
+		d g g g f f f f e e e e
+		f f, f f f f f f es' c c c
+		b d, d d d d d d f' d d d
+		c e, e e e e e e b' g g g
+		f a a a a a a a b d d d %80
+		d g g g f f f f e e e e
+		f a, a a c c, c c c c' c c
+		b d, d d d d d d c c'-\critnote c c
+		b d, d d d d d d c c' c c
+		b d, d d d' f, f f d' b b b %85
+		a2.\fermata \bar "|." %86 FINIS
 	}
 }
