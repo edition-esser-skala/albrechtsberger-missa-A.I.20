@@ -59,6 +59,91 @@ GloriaTromboneI = {
 	\relative c' {
 		\clef treble
 		\key f \major \time 3/4 \tempoGloria
-		
+		a'8\fE a a a g g
+		f8. f16 f4 e8 e
+		d8. d16 d4 c8 c
+		b f' f4( e)
+		f4 r8 f f f %5
+		e4 e8 e e e16 e
+		d4 d8 d d d
+		d4 r8 g g4
+		g g4. f8
+		e4 r r %10
+		e8. e16 e4 e8 e16 e
+		e4 e e8 e
+		d d e e16 e d4
+		cis? a' a8 a
+		a4 a a8 a %15
+		g4 g g8 g
+		g4 g8 g g g
+		g4 g g8 g
+		gis4 gis gis8 gis
+		gis?4 gis8 gis h4 %20
+		a a( gis)
+		a r r
+		r e e8 e
+		e4 e e8 e
+		f4 f f8 f %25
+		f4 f f
+		f8 f f4. es8
+		d4 r c
+		d d d
+		f2 f4 %30
+		es es es
+		g2 g4
+		g fis fis8 fis
+		g g g4 fis
+		g r d %35
+		d d d
+		d2 d4
+		es es es
+		g2 g4
+		g fis r %40
+		fis4. fis8 fis4
+		g4. g8 g4
+		f!4. f8 f f
+		es2 es4~
+		es d2 %45
+		es4 r g
+		g g g
+		f4. f8 f4
+		a a a
+		a4. a8 a4 %50
+		a a r
+		b!4. b8 a4
+		a a4. g8
+		f4 r r
+		fis4. fis8 fis4 %55
+		g4. g8 g4
+		a a a
+		a g r
+		e e e
+		f!8. f16 f4 f %60
+		g g g
+		g8. g16 f4 a~
+		a g f
+		f e r
+		f f f %65
+		f4. f8 f f
+		f4 f8 f f f
+		f4 f f
+		f f8 f f f
+		e4 c c %70
+		f f( e)
+		f f2
+		f4 g2
+		g8 g b4 g8 g
+		f4 f f %75
+		g f( e)\trill
+		f f2
+		f4 g2
+		g8 g b4 g8 g
+		f4 f f %80
+		g f( e)\trill
+		f f f
+		f2.
+		f
+		f %85
+		f\fermata \bar "|." %86 FINIS
 	}
 }
