@@ -137,7 +137,7 @@ GloriaSopranoNotes = {
 		a4. a8 a4
 		b4. b8 b4
 		as4. as8 as as
-		as?2 g4(
+		g2 g4(
 		c) c( h) %45
 		c r c
 		cis cis cis

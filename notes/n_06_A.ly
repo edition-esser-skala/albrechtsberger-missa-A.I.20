@@ -137,7 +137,7 @@ GloriaAltoNotes = {
 		fis4. fis8 fis4
 		g4. g8 g4
 		f!4. f8 f f
-		f2^\critnote es4~
+		es2 es4~
 		es d2 %45
 		es4 r g
 		g g g

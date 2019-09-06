@@ -134,7 +134,7 @@ GloriaOrgano = {
 		a a' a,16 cis e a a,8 a'
 		d, d' d,16 f a d d,8 d' %15
 		h, h' h,16 d f h h,8 h'
-		c, c' c,16 e g c h8 c
+		c,! c'! c,16 e g c h8 c
 		g g, g16 h d g g,8 g'
 		f, f' f,16 h d f f,8 f'
 		e e' e,16 gis h e e,8 e' %20
@@ -211,7 +211,7 @@ GloriaBassFigures = \figuremode {
 	r2.
 	r2 <5>4
 	r2.
-	r8 <[6]> <7>4 q
+	<[6]>8 q <7>4 q
 	r2. %5
 	r4 <6 5>2
 	r2.
@@ -251,8 +251,8 @@ GloriaBassFigures = \figuremode {
 	<4+ _->2.
 	<6>
 	<7->
-	<[6- 4]>2 <[5 _-]>4
-	<6> <5 4> <\l _!> %45
+	<_->
+	<6>4 <5 4> <\l _!> %45
 	<_->2.
 	<7 _+>
 	<6 4>
