@@ -160,7 +160,7 @@ GloriaOrgano = {
 		d, d' d,16 fis a d d,8 d' %40
 		c,! c' c,16 fis a c c,8 c'
 		b, b' b,16 d g b b,8 b'
-		h, h' h,16 d g h h,8 h'
+		h, h' h,16 d f h h,8 h'
 		c, c' c,16 es g c c,8 c'
 		es, c' g16 as g f g8 g, %45
 		c c' c,16 es g c c,8 c'

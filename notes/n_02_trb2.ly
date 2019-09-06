@@ -132,7 +132,7 @@ GloriaTromboneII = {
 		d4 d d
 		f f8 f f, f
 		g2 f4~ %70
-		f d'( c8[ b)]
+		f d' c8 b
 		a4 c2
 		b4 d2
 		c8 c c4 c8 c
