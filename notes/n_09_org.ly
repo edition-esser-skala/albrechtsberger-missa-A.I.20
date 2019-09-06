@@ -251,8 +251,8 @@ GloriaBassFigures = \figuremode {
 	<4+ _->2.
 	<6>
 	<7->
-	<_->
-	<6>4 <5 4> <\l _!> %45
+	<[6- 4]>2 <[5 _-]>4
+	<6> <5 4> <\l _!> %45
 	<_->2.
 	<7 _+>
 	<6 4>
@@ -292,8 +292,8 @@ GloriaBassFigures = \figuremode {
 	r <6> <5->
 	r2 <6 5->4
 	r2 <7->4
-	r2.
-	r
+	r2. %85
+	r %86 FINIS
 }
 
 % Organo = {
