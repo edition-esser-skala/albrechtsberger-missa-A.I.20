@@ -141,7 +141,7 @@ GloriaOrgano = {
 		a,, a' e16 f e d e8 e,
 		a c d16 h c d e8 e,
 		a a' a,16 c e a a,8 a'
-		g, g' g,16 cis e g g,8 g'
+		g,! g' g,16 cis e g g,8 g'
 		f, f' f,16 a d f f,8 f' %25
 		f, f' f,16 a c f a,8 a'
 		b, b' f16 g f es f8 f,
@@ -154,11 +154,11 @@ GloriaOrgano = {
 		g,, g' d16 es d c d8 d,
 		g b c16 b c a d8 d, %35
 		g g' g,16 b d g g,8 g'
-		f, f' f,16 h d f f,8 f'
+		f,! f' f,16 h d f f,8 f'
 		es es' es,16 g c es es,8 es'
 		es, es' es,16 g b es es,8 es'
 		d, d' d,16 fis a d d,8 d' %40
-		c, c' c,16 fis a c c,8 c'
+		c,! c' c,16 fis a c c,8 c'
 		b, b' b,16 d g b b,8 b'
 		h, h' h,16 d g h h,8 h'
 		c, c' c,16 es g c c,8 c'
@@ -197,7 +197,7 @@ GloriaOrgano = {
 		f, f, a16 c f a a,8 a'
 		b b, h16 d g h h,8 h'
 		c c, e16 g c e e,8 e'
-		f, f' d,16 f a d b,8 b' %80
+		f, f' d,16 f a d b,!8 b'! %80
 		g, g' c,16 f a c c,8 c'
 		f, f, a16 c f a a,8 a'
 		b, b' b,16 d f b a,8 a'
