@@ -60,8 +60,93 @@ KyrieTromboneII = {
 
 GloriaTromboneII = {
 	\relative c' {
-		\clef treble
+		\clef "treble_8"
 		\key f \major \time 3/4 \tempoGloria
-		
+		f8\fE f f f e e
+		d8. d16 d4 c8 c
+		b8. b16 b4 a8 a
+		g c^\critnote d4( c)
+		c r8 c c c %5
+		c4 a8 a a a16 a
+		a4 a8 a a a
+		g4 r8 d' c4
+		c c( h8) h
+		c4 r r %10
+		c8. c16 c4 c8 c16 c
+		cis4 cis cis8 cis
+		a a a a16 a a4
+		a cis cis8 cis
+		d4 d d8 d %15
+		d4 d d8 d
+		c!4 c8 c d c
+		h4 h h8 h
+		h4 h h8 h
+		h?4 e8 e e4 %20
+		e e4. d8
+		c4 r r
+		r a a8 a
+		b!4 b b8 b
+		a4 a a8 a %25
+		c4 c c
+		b8 b b4( a)
+		b r f
+		f f f
+		d'2 d4 %30
+		c8 g g4 g
+		e'!2 e4
+		d8 a a4 a8 a
+		b g d'4. c8
+		b4 r a %35
+		b b b
+		h2 h4
+		c c c
+		cis2 cis4
+		d d r %40
+		es4. es8 es4
+		d4. d8 d4
+		d4. d8 d d
+		g,2 g4~
+		g g2 %45
+		g4 r es'
+		e e e
+		a,4. a8 a4
+		cis cis cis
+		d4. d8 d4 %50
+		d cis r
+		e4. e8 f4
+		f e2\trill
+		d4 r r
+		d4. d8 d4 %55
+		d4. d8 d4
+		d d d
+		d d r
+		c^\critnote c c
+		c8. c16 c4 c %60
+		c c c
+		c8. c16 c4 r
+		c d2
+		c4 c r
+		c c c %65
+		d4. d8 d d
+		es4 es8 es es es
+		d4 d d
+		f f8 f f, f
+		g2 f4~ %70
+		f d'( c8[ b)]
+		a4 c2
+		b4 d2
+		c8 c c4 c8 c
+		c4 d d %75
+		d c4.( b8)
+		a4 c2
+		b4 d2
+		c8 c c4 c8 c
+		c4 d d %80
+		d c4.( b8)
+		a4 c2
+		b4 f' es
+		d2 c4
+		b2. %85
+		a\fermata \bar "|." %86 FINIS
 	}
 }

@@ -151,7 +151,7 @@ GloriaTenoreNotes = {
 		cis cis cis
 		d4. d8 d4 %50
 		d cis r
-		e4. e8 d4
+		e4. e8 f4
 		f e2\trill
 		d4 r r
 		d4. d8 d4 %55
