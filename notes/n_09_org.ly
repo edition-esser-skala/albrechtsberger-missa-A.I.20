@@ -114,6 +114,188 @@ KyrieBassFigures = \figuremode {
 	r2. %50 FINIS
 }
 
+GloriaOrgano = {
+	\relative c {
+		\clef bass
+		\key f \major \time 3/4 \tempoGloria
+		\mvTr f8\fE-\tutti f' f,16 a c f c8 c,
+		d d' d,16 f a d a8 a,
+		b b' b,16 d f b f8 f,
+		b' a g16 a b g c8 c,
+		f f, f16 a c f f,8 f' %5
+		c c' cis,16 e a cis cis,8 cis'
+		d, d' d,16 f a d d,8 c
+		h h' h,16 d f h c,8 c'
+		e, c' g16 a g f g8 g,
+		c c' f,16 e f d g8 g, %10
+		c c' c,16 e g c c,8 c'
+		a, a' a,16 cis e a a,8 a'
+		d, d' cis,16 e a cis d8 d,
+		a a' a,16 cis e a a,8 a'
+		d, d' d,16 f a d d,8 d' %15
+		h, h' h,16 d f h h,8 h'
+		c, c' c,16 e g c h8 c
+		g g, g16 h d g g,8 g'
+		f, f' f,16 h d f f,8 f'
+		e e' e,16 gis h e e,8 e' %20
+		a,, a' e16 f e d e8 e,
+		a c d16 h c d e8 e,
+		a a' a,16 c e a a,8 a'
+		g, g' g,16 cis e g g,8 g'
+		f, f' f,16 a d f f,8 f' %25
+		f, f' f,16 a c f a,8 a'
+		b, b' f16 g f es f8 f,
+		b d es16 d es c f8 f,
+		b b' b,16 d f b b,8 b'
+		g, g' g,16 h d g g,8 g' %30
+		c, c' c,16 es g c c,8 c'
+		a, a' a,16 cis e a a,8 a'
+		d, d' d,16 fis a d d,8 d'
+		g,, g' d16 es d c d8 d,
+		g b c16 b c a d8 d, %35
+		g g' g,16 b d g g,8 g'
+		f, f' f,16 h d f f,8 f'
+		es es' es,16 g c es es,8 es'
+		es, es' es,16 g b es es,8 es'
+		d, d' d,16 fis a d d,8 d' %40
+		c, c' c,16 fis a c c,8 c'
+		b, b' b,16 d g b b,8 b'
+		h, h' h,16 d g h h,8 h'
+		c, c' c,16 es g c c,8 c'
+		es, c' g16 as g f g8 g, %45
+		c c' c,16 es g c c,8 c'
+		a, a' a,16 cis e a a,8 a'
+		a, a' a,16 d f a a,8 a'
+		a, a' a,16 cis e a a,8 a'
+		a, a' a,16 d f a a,8 a' %50
+		a, a' a,16 cis e a a,8 a'
+		g, g' g,16 cis e g f8 f,
+		d' d' a16 b a g a8 a,
+		d f g16 f g e a8 a,
+		d d' d,16 fis a d d,8 d' %55
+		d, d' d,16 g b d d,8 d'
+		d, d' d,16 fis a d d,8 d'
+		g,, g' g,16 b d g g,8 g'
+		c, c' c,16 e g c c,8 c'
+		c, c' c,16 f a c c,8 c' %60
+		c, c' c,16 e g c c,8 c'
+		f,, f' f,16 a c f f,8 f'
+		a, a' b,16 d g b h,8 h'
+		c, c' c,16 e g c c,8 b
+		a a' a,16 c f a a,8 a' %65
+		b, b' b,16 d g b b,8 b'
+		c, c' c,16 es a c c,8 c'
+		d, d' d,16 f b d d,8 d'
+		des, des' des,16 f as des des,8 des'
+		c, c' e,!16 g b c f,8 a %70
+		d, f b,16 a b g c8 c,
+		f f' a,16 c f a a,8 a'
+		b b, h16 d g h h,8 h'
+		c c, e16 g c e e,8 e'
+		f, f' d,16 f a d b,!8 b'! %75
+		g, g' c,16 f a c c,8 c'
+		f, f, a16 c f a a,8 a'
+		b b, h16 d g h h,8 h'
+		c c, e16 g c e e,8 e'
+		f, f' d,16 f a d b,8 b' %80
+		g, g' c,16 f a c c,8 c'
+		f, f, a16 c f a a,8 a'
+		b, b' b,16 d f b a,8 a'
+		b, b' b,16 d f b f,8 f'
+		b, b' b,16 d f b b,8 b' %85
+		f,2.\fermata \bar "|." %86 FINIS
+	}
+}
+
+GloriaBassFigures = \figuremode {
+	r2.
+	r2 <5>4
+	r2.
+	r8 <[6]> <7>4 q
+	r2. %5
+	r4 <6 5>2
+	r2.
+	<6 5>
+	<[6]>4 <5 4> <\l _!>
+	r <6 5> <_!> %10
+	r2.
+	<7 _+>
+	r4 <6 5>2
+	<_+>2.
+	r %15
+	<6 5>
+	r2 <6 5>8 <3>
+	<_!>2.
+	<4! 2+>
+	<7 [5!] _+> %20
+	r4 <5! 4> <\l _+>
+	r <6! 5> <[5!] _+>
+	r2.
+	<4\+ _->
+	<6> %25
+	<7->2 <6 5->4
+	r <5 4> <\l 3>
+	r <6 5>2
+	r2.
+	<7 _!> %30
+	<_->
+	<7 _+>
+	<4>4 <_+> <7 _+>
+	r <5 4> <\l _+>
+	r <6 5 _-> <_+> %35
+	r2.
+	<4! _->
+	<6>
+	<6\\ 5>
+	<6 4>4 <5 _+>2 %40
+	<4+ _->2.
+	<6>
+	<7->
+	<_->
+	<6>4 <5 4> <\l _!> %45
+	<_->2.
+	<7 _+>
+	<6 4>
+	<5 _+>
+	<6 4> %50
+	q4 <5 _+>2
+	<4\+ _-> <6>4
+	r <5 4> <\t _+>
+	r <6 5> <_+>
+	<_+>2. %55
+	<6 4>
+	<7 _+>
+	<9 4>4 <8 3>2
+	r2.
+	<6 4> %60
+	<7 5>
+	<9 4>4 <8 3>2
+	<6>4 q <7 5>
+	<6 4> <5 3>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	<6>2. %65
+	<6 5>
+	<6 4 _->
+	<6>
+	<6!>
+	<_!>4 <6 5-> <_!> %70
+	r <6 5>2
+	r4 <6 5->2
+	r4 <6 5>2
+	<_!>4 <6 5->2
+	r2. %75
+	r4 <6 4> <5 3>
+	r <6 5->2
+	r4 <6 5>2
+	<_!>4 <6 5->2
+	r2. %80
+	r4 <6 4> <5 3>
+	r <6> <5->
+	r2 <6 5->4
+	r2 <7->4
+	r2.
+	r
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

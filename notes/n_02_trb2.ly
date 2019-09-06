@@ -57,3 +57,11 @@ KyrieTromboneII = {
 		c r r\fermata \bar "|." %50 FINIS
 	}
 }
+
+GloriaTromboneII = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 3/4 \tempoGloria
+		
+	}
+}

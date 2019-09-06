@@ -60,3 +60,11 @@ KyrieViolinoII = {
 		\kneeBeam f8 c,16. c32 c4 r\fermata \bar "|." %%0 FINIS
 	}
 }
+
+GloriaViolinoII = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 3/4 \tempoGloria
+		
+	}
+}

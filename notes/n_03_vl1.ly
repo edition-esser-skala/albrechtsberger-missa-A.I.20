@@ -61,6 +61,15 @@ KyrieViolinoI = {
 	}
 }
 
+GloriaViolinoI = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 3/4 \tempoGloria
+		
+	}
+}
+
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

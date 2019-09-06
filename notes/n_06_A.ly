@@ -90,6 +90,18 @@ KyrieAltoLyrics = \lyricmode {
 	son. %50 FINIS
 }
 
+GloriaAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 3/4 \autoBeamOff \tempoGloria
+		
+	}
+}
+
+GloriaAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble
