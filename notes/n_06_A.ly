@@ -276,12 +276,337 @@ CredoAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key f \major \time 3/4 \autoBeamOff \tempoCredo
-		
+		\mvTr c4\fE^\tuttiE c8 c c c
+		e4 g8 g e e
+		c4 a' g
+		g e g8 g
+		g4. g8 g4 %5
+		g4. g8 g4
+		a f f
+		g f( e8.) e16
+		f4 f8 f f f
+		g4 g8 g g g %10
+		f4 f f8 f16 f
+		gis4 gis gis8 gis
+		a8. a16 a4 a8 a
+		a2 a4
+		a g! g8 g %15
+		g4. g8 g4
+		g8. g16 f4 r
+		f f f
+		f2 f4
+		g g g %20
+		g4. g8 g4
+		a2 a4
+		a a8 a b4
+		b a4.( g8)
+		f4 r r %25
+		R2.
+		fis4. fis8 fis fis
+		g4 g g8 g
+		e4. e8 e e
+		f!4 f f8 f %30
+		d4. d8 d4
+		e8. e16 e4 e
+		cis cis cis
+		d8. d16 d8 d d d
+		h4 h h %35
+		c c g'
+		a2 f4
+		g2 e4
+		f2 d4
+		c2 c4 %40
+		g' f( e)\trill
+		f r r
+		R2.*5 \noBreak %47
+		R2.\fermataMarkup \bar "||"
+		\key b \major \time 4/4 \tempoEtIncarnatus R1 \noBreak
+		r8 \mvTr as\pE^\tuttiE as as g4. es8 %50
+		f4. h,8 c4 c8 g'
+		f4 es8 es es4 d
+		g8 g g g f8. f16 f4
+		f8 f f f es8. es16 es8 es
+		es4 es es( d8.) d16 %55
+		es4 r r2
+		r g4\fE g
+		g g g8. g16 g8 g
+		f4 f8 f f8. f16 f8 f
+		f4 e g2\ff %60
+		as4 r a2
+		d,4 r d4. as'8
+		g4 c, c( h8) h
+		c4 r r2
+		r es4\p e \noBreak %65
+		f4. f8 e2\fermata \bar "||"
+		\clef treble \key f \major \time 3/4 \tempoEtResurrexit R2. \noBreak
+		a4 c a
+		f2 f4
+		f4. f8 f4 %70
+		f2( e4)
+		f4 r g
+		a( h) c
+		g a( g8[ f)]
+		e4 r r %75
+		R2.*2
+		g2 g4
+		g g g
+		g2. %80
+		a4 f f
+		g2.
+		f4 a g
+		d8 d d4( cis)
+		d r r %85
+		R2.*2
+		f2.
+		f4. f8 f f
+		f4. f8 f f %90
+		fis4 fis8 fis fis fis
+		g2.
+		fis4 d' d,
+		r r d\p
+		d2 cis4 %95
+		d a'\f a
+		b2.~
+		b4 b8 b a4
+		b b( a)
+		b r r %100
+		R2.*2
+		f2 f4
+		g4. g8 g4
+		g2 g4 %105
+		g4. g8 g4
+		g4. g8 g g
+		g4 g r
+		g8 g a!4 c
+		f,8 f g4 b8 b %110
+		e,4 f a8 a
+		d,4 es g
+		f8. c16 c4 r
+		b'4. b8 b b
+		es4 c a %115
+		b4. b8 b b
+		es4 c a8 a
+		b4. f8 f4
+		f2 f4
+		g( f2)\trill %120
+		g4 r r
+		R2.*2
+		es4 g es
+		b' b as %125
+		g8. g16 f4 as
+		g( f) as
+		g8. g16 f4 as
+		g8. f16 es4 r
+		f as g8 f %130
+		c'4 c b
+		as g b8 b
+		as4( g) b
+		as4 g b8 b
+		as4 g g8 g %135
+		f2.
+		e!4 c'\f c
+		c c, r
+		r c8 c e g
+		c4 c, r %140
+		R2.
+		r4 g'\p g
+		f2 e!4~
+		e f c
+		des2 d4 %145
+		c2 h4
+		c2.\fermata
+		R2.
+		a'!4\fE c a8 a
+		f2 f4 %150
+		f4. f8 f4
+		f2( e4)
+		f r g
+		a h c
+		g8 g a4( g8[ f)] %155
+		e4 r r
+		R2.*2
+		g2.
+		g4 g g %160
+		g2 g4
+		a4. a8 f4
+		f2 d4
+		d g2
+		f( e4) %165
+		f r f
+		b r g
+		f f( e)
+		f r f\p
+		b r g %170
+		f f( e)
+		f r g\f
+		a r r\fermata \bar "|." %173 FINIS
 	}
 }
 
 CredoAltoLyrics = \lyricmode {
+	Pa -- trem o -- mni -- po --
+	ten -- tem, fa -- cto -- rem
+	coe -- li et
+	ter -- rae, vi -- si --
+	bi -- li -- um %5
+	o -- mni -- um
+	et in -- vi --
+	si -- bi -- li --
+	um. Et in u -- num
+	Do -- mi -- num, Je -- sum %10
+	Chri -- stum, Fi -- li -- um
+	De -- i u -- ni --
+	ge -- ni -- tum, et ex
+	Pa -- tre
+	na -- tum an -- te %15
+	o -- mni -- a
+	sae -- cu -- la.
+	De -- um de
+	De -- o,
+	Lu -- men de %20
+	Lu -- mi -- ne,
+	De -- um
+	ve -- rum de De --
+	o ve --
+	ro. %25
 	
+	Ge -- ni -- tum non
+	fa -- ctum, con -- sub --
+	stan -- ti -- a -- lem
+	Pa -- tri: Per quem %30
+	o -- mni -- a
+	fa -- cta sunt. Qui
+	pro -- pter nos
+	ho -- mi -- nes et pro -- pter
+	no -- stram sa -- %35
+	lu -- tem de --
+	scen -- _
+	_ _
+	_ _
+	_ dit %40
+	de coe --
+	lis.
+	
+	Et in -- car -- na -- tus %50
+	est de Spi -- ri -- tu,
+	Spi -- ri -- tu San -- cto
+	ex Ma -- ri -- a Vir -- gi -- ne,
+	ex Ma -- ri -- a Vir -- gi -- ne, et
+	ho -- mo fa -- ctus %55
+	est.
+	Cru -- ci --
+	fi -- xus e -- ti -- am pro
+	no -- bis sub Pon -- ti -- o Pi --
+	la -- to, pas -- %60
+	sus, pas --
+	sus, pas -- sus
+	et se -- pul -- tus
+	est,
+	et se -- %65
+	pul -- tus est.
+	
+	Et re -- sur --
+	re -- xit
+	ter -- ti -- a %70
+	di --
+	e se --
+	cun --
+	dum Scri --
+	ptu -- %75
+	ras.
+	
+	Et a --
+	scen -- dit in
+	coe -- %80
+	lum, se -- det,
+	se --
+	det ad dex --
+	te -- ram Pa --
+	tris.
+	
+	Et %88
+	i -- te -- rum ven --
+	tu -- rus est cum %90
+	glo -- ri -- a iu -- di --
+	ca --
+	re vi -- vos
+	et
+	mor -- tu -- %95
+	os, cu -- ius
+	re --
+	gni non e --
+	rit fi --
+	nis. %100
+	
+	Et in %103
+	Spi -- ri -- tum
+	San -- ctum, %105
+	Do -- mi -- num
+	et vi -- vi -- fi --
+	can -- tem,
+	qui ex Pa -- tre
+	Fi -- li -- o -- que pro -- %110
+	ce -- dit. Qui cum
+	Pa -- tre et
+	Fi -- li -- o
+	si -- mul ad -- o --
+	ra -- tur et %115
+	con -- glo -- ri -- fi --
+	ca -- tur: Qui lo --
+	cu -- tus est
+	per Pro --
+	phe -- %120
+	tas.
+	
+	Et u -- nam %124
+	san -- ctam ca -- %125
+	tho -- li -- cam et
+	a -- po --
+	sto -- li -- cam Ec --
+	cle -- si -- am.
+	Con -- fi -- te -- or %130
+	u -- num ba --
+	pti -- sma in re --
+	mis -- si --
+	o -- nem pec -- ca --
+	to -- rum, pec -- ca -- %135
+	to --
+	rum. Et ex --
+	pe -- cto
+	re -- sur -- re -- cti --
+	o -- nem %140
+	
+	mor -- tu --
+	o -- _
+	_ _
+	_ _ %145
+	_ _
+	rum
+	
+	et vi -- tam ven --
+	tu -- ri %150
+	sae -- cu -- li,
+	a --
+	men, ven --
+	tu -- ri sae --
+	cu -- li, a -- %155
+	men,
+	
+	et %159
+	vi -- tam ven -- %160
+	tu -- ri
+	sae -- cu -- li,
+	a -- men,
+	a -- men,
+	a -- %165
+	men, a --
+	men, a --
+	men, a --
+	men, a --
+	men, a -- %170
+	men, a --
+	men, a --
+	men. %173 FINIS
 }
 
 % AltoNotes = {

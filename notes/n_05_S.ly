@@ -331,7 +331,7 @@ CredoSopranoNotes = {
 		r b'4\fE b
 		b b b8. b16 b8 b
 		as4 as8 as as8. as16 as8 as
-		as4 g des'2 %60
+		as4 g des'2\ffE %60
 		c4 r es2
 		d4 r as'4. h,8
 		c4. as16([ f)] es4( d8) d
@@ -367,7 +367,7 @@ CredoSopranoNotes = {
 		r r d'\p
 		b( a) g %95
 		fis4 r r
-		r d' d
+		r d'\fE d
 		c c8 c c4
 		d c2
 		b4 r r %100
@@ -404,7 +404,7 @@ CredoSopranoNotes = {
 		c2 c4
 		c c b8 b %135
 		as2.
-		g4 c c
+		g4 c\f c
 		c c, r
 		r c8 c e g
 		c4 c, r %140
