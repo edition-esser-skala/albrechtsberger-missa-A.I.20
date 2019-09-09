@@ -350,13 +350,13 @@ CredoOrgano = {
 		f8 f f,4 r\fermata \bar "||"
 		\key b \major \time 4/4 \tempoEtIncarnatus
 			\mvTr b8(\p-\soloE d) b( d) c( es) c( es) \noBreak
-		d( f) d( f) es( g) es( g) %50
+		d( f) d( f) es(-\tuttiE g) es( g) %50
 		h,( d) h( d) c( es) c( es)
 		f f fis fis g g g, g
 		e'( c) e( c) f( c) f( c)
 		d( b) d( b) es( b) es( b)
 		a!( c) a!( c) b( es) b b %55
-		es( g) es( g) es( g) es( g)
+		es(-\soloE g) es( g) es( g) es( g)
 		as as, b b \mvTr es\f-\tutti g b g
 		des g b g c, g' b g
 		c, f as f h, f' as f
@@ -365,7 +365,7 @@ CredoOrgano = {
 		h4 r f,16 f' f f f, f' f f
 		es, es' es es f, f' f f g, g' g g g, g' g g
 		c,8-\solo g es' c g' es c' e,
-		f f g g, c\p c c c \noBreak %65
+		f f g g, \mvTr c\p-\tuttiE c c c \noBreak %65
 		c c c c c2\fermata \bar "||"
 		\clef treble \key f \major \time 3/4 \tempoEtResurrexit
 			\mvTr c''4\fE-\tuttiE e! c \noBreak
@@ -383,7 +383,7 @@ CredoOrgano = {
 		h h h' h h, h
 		b b b' b b, b %80
 		a a f' f d d
-		c c c' c c, c
+		cis cis cis' cis cis, cis
 		d d f f g g
 		b b a a a, a
 		d4-\solo r8 d f d %85
@@ -397,7 +397,7 @@ CredoOrgano = {
 		d'4 d' d,
 		r r fis\p
 		g f es %95
-		d \clef treble a''-\tutti-. a-.
+		d \clef treble \mvTr a''\fE-\tutti-. a-.
 		b!8 \clef bass d,,8[ d d d d]
 		es es e e f f
 		b b f f f, f
@@ -449,7 +449,7 @@ CredoOrgano = {
 		b2 h4 %145
 		c2.~
 		c
-		\clef treble c''4-.-\tutti e!-. c-.
+		\clef treble \mvTr c''4\fE-.-\tutti e!-. c-.
 		\clef bass f,,8 f a! a f f
 		b b d d b b %150
 		a a f f a a
@@ -490,11 +490,11 @@ CredoBassFigures = \figuremode {
 	r2.
 	<6\\>2 <7 _+>4 %10
 	r2.
-	<6!>
+	<6 _!>
 	<_+>
 	<6>4 <\t> <5!>4
 	<9 4> <8 _!>2 %15
-	<6>4 <\t> <6 5>
+	<6>4 <\t> <6 5!>
 	<9 4> <8 3>2
 	<4 2>2.
 	<6>
@@ -648,10 +648,10 @@ CredoBassFigures = \figuremode {
 	<6>4. <7>
 	r4 <6 5>2
 	r2.
-	<6>4. <7>
+	<6>4. <7> %170
 	r4 <6 5>2
 	r2.
-	r
+	r %173 FINIS
 }
 
 % Organo = {
