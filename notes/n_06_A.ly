@@ -321,7 +321,7 @@ CredoAltoNotes = {
 		R2.*5 \noBreak %47
 		R2.\fermataMarkup \bar "||"
 		\key b \major \time 4/4 \tempoEtIncarnatus R1 \noBreak
-		r8 \mvTr as\pE^\tuttiE as as g4. es8 %50
+		r8 as\pE as as g4. es8 %50
 		f4. h,8 c4 c8 g'
 		f4 es8 es es4 d
 		g8 g g g f8. f16 f4
@@ -338,8 +338,8 @@ CredoAltoNotes = {
 		c4 r r2
 		r es4\p e \noBreak %65
 		f4. f8 e2\fermata \bar "||"
-		\clef treble \key f \major \time 3/4 \tempoEtResurrexit R2. \noBreak
-		a4 c a
+		\key f \major \time 3/4 \tempoEtResurrexit R2. \noBreak
+		a4\f c a
 		f2 f4
 		f4. f8 f4 %70
 		f2( e4)

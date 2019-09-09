@@ -321,7 +321,7 @@ CredoSopranoNotes = {
 		R2.*5 \noBreak %47
 		R2.\fermataMarkup \bar "||"
 		\key b \major \time 4/4 \tempoEtIncarnatus R1 \noBreak
-		r2 r8 \mvTr es'\pE^\tuttiE es es %50
+		r2 r8 es'\pE es es %50
 		d4. f8 es4 es
 		des c8 c c4 h
 		b8 b b b a!8. a16 a4
@@ -338,8 +338,8 @@ CredoSopranoNotes = {
 		c4 r r2
 		r g'4\p g \noBreak %65
 		as4. as8 g2\fermata \bar "||"
-		\clef treble \key f \major \time 3/4 \tempoEtResurrexit
-			\mvTr c4\fE^\tuttiE e! c \noBreak
+		\key f \major \time 3/4 \tempoEtResurrexit
+			c4\f e! c \noBreak
 		f2 f4
 		d4. d8 d4
 		c4. c8 c4 %70
