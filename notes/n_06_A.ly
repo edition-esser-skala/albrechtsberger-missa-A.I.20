@@ -323,7 +323,7 @@ CredoAltoNotes = {
 		\key b \major \time 4/4 \tempoEtIncarnatus R1 \noBreak
 		r8 as\pE as as g4. es8 %50
 		f4. h,8 c4 c8 g'
-		f4 es8 es es4 d
+		f4 es8 es es4 d!
 		g8 g g g f8. f16 f4
 		f8 f f f es8. es16 es8 es
 		es4 es es( d8.) d16 %55

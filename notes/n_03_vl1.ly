@@ -159,7 +159,176 @@ CredoViolinoI = {
 	\relative c' {
 		\clef treble
 		\key f \major \time 3/4 \tempoCredo
-		
+		f'16(\fE c) a-. c-. f8-. f-. a4
+		g16( e) c-. e-. g8-\parenthesize-. g8-\parenthesize-. b4
+		a16( f) c-. f-. a8-. a-. h4
+		c16( g) e-. g-. c8-. c-. e,4
+		f16( d) h-. g-. f8-\parenthesize-. f8-\parenthesize-. f'4 %5
+		e16( c) g-. e-. c8-\parenthesize-. c-\parenthesize-. e'4
+		f16( c) a-. c-. f8-. f-. d4
+		b'16-\markup { \remarkE "simile" } g d b' a8 a g4
+		f16 c a c f8 f a4
+		g16 e cis e g8 g g,4 %10
+		f'16 d a d f8 f f,4
+		f'16 d b a gis8 gis gis'4
+		a16 e cis e a,8 a a'4
+		d16 a fis a d,8 d c'!4
+		c16 a fis d h'8 h g,4 %15
+		c'16 g e g c,8 c b'4
+		b16 g e c a'8 a f,4
+		f'16 c a c f8 f f4
+		b,16 d f d b8 b b4
+		g'16 d h d g8 g g4 %20
+		c,16 e g e c8 c c4
+		a'16 e cis e a8 a a4
+		d,16 f a f d8 d d4
+		e16 g b g f8 f e4
+		d16 a f a d8 d d4 %25
+		b'16 g e g f8 d' e, cis'
+		d,16 fis a d d,8 d d4
+		d16 g b d d,8 d d4
+		c!16 e g c c,8 c c4
+		c16 f! a c c,8 c c4 %30
+		b16 d f b b,8 b b4
+		b16 e g b b,8 b b4
+		a16 cis e a a,8 a a4
+		a16 d f a a,8 a a4
+		g16 h d g g,8 g g4 %35
+		g16 c e g g,8 g g4
+		c'16 a f c a'8 a b4
+		b16 g e^\critnote b g'8 g a4
+		a16 f d a f'8 f g4
+		g16 e c g e'8 e f4 %40
+		d16 b g d c8 c e'4
+		f16 c a c f8 f f4
+		d16 b f b d8 d d4
+		b16 g e g b8 b b4
+		b'16 g e g b8 b b4 %45
+		a16 f c f a8 a g4\trill
+		a16 f c f a8 a <g c,>4\trill \noBreak
+		<f a,> r r\fermata \bar "||"
+		\key b \major \time 4/4 \tempoEtIncarnatus
+			b,16(\p f) f( d) b'( f) f( d) es( c) c( a) \slurDashed es'( c) c( a) \slurSolid \noBreak
+			b( d) d( f) f( d) d( as) g( b) b( es) es( b) b( g) %50
+		g( d') d( f) f( d) d( g,) es'( c) c( g) g'( c) c( es)
+		des( as) as( f) c'( a) a( es) c'( g) g( es) d?( g) g( h)
+		b( g) g( c,) b'( g) g( c,) a'!( f) f( c) a'( f) f( c)
+		as'( f) f( b,) as'( f) f( b,) g'( es) es( b) g'( es) es( b)
+		c( es) es( f) c( es) es( a) b( g) g( es) as( f) f( d) %55
+		es8..\mf b32 g'8.. es32 b'8.. g32 es'8.. des32
+		des16( c) b( as) g8 f\trillE es16\f es'8 es es es16
+		g, g'8 g g g 16 b, b'8 b b b16
+		as, as'8 as as as16 as, as'8 as as as16~
+		as f8 as,16 g g'8 c16 des\ff e,! e e des' e,! e e %60
+		f c8\p f as c16 es\ff fis, fis fis es' fis, fis fis
+		g g,8\p h d g16 as\ff h, h h as' h, h h
+		c c, c c as'' f f f es c c c g' h, h h
+		c8..\mf es32 g,8.. c32 es,8.. g32 c,8.. b'32
+		b16( as) g( f) es8 d\trill c16(\p es) es( g) c,( e) e( g) \noBreak %65
+		c,( f) f( as) c,( f) f( as) g2\fermata \bar "||"
+		\key f \major \time 3/4 \tempoEtResurrexit c4 e! c \noBreak
+		f8[ f, f f] f8.(\trill e32 f)
+		d'8[ f, f f] f8.(\trill e32 f)
+		c'8[ f, f f] f8.(\trill e32 f) %70
+		b8 b' b16 a g f e d c b
+		a8[ c c c] c8.(\trill h32 c)
+		f8[ f, f f] e16 g a h
+		c g f e d8[ c' g, h']
+		c,[ c' c c] c8.(\trill h32 c) %75
+		f8[ f, f f] f8.(\trill e32 f)
+		e8 c' a[ a' g,, h']
+		c,[ c' c c] c8.(\trill h32 c)
+		d8[-. d-. d-. d]-. d8.(\trill c32 d)
+		e8[-. e-. e-. e]-. e8.(\trill d32 e) %80
+		f8[ a a a] a8.(\trill g32 a)
+		b8[ g, g g] g8.(\trill f32 g)
+		f8[ d' d d] b8.(\trill a32 b)
+		g8[ g' f d] a,[ cis']
+		d,[ d' d d] d8.(\trill cis32 d) %85
+		g8[ g, g g] g8.(\trill f32 g)
+		f8 d' b[ b' a,, cis']
+		d,[ d' d d] d8.(\trill cis32 d)
+		es8[ es, es' es] es8.(\trill d32 es)
+		d8[ d, d' d] d8.(\trill c32 d) %90
+		c8[ c, c' c] c8.(\trill b32 c)
+		b8[ b, b' b] b8.(\trill a32 b)
+		a4 d d,
+		r8 d'\p d d d d
+		b d a d g, g' %95
+		fis[ a a\f a] a8.(\trill g32 a)
+		b8[ fis fis fis] fis8.(\trill e32 fis)
+		g8[ b, b b] a[ f']
+		d b' c,[ b' f, a']
+		b,,[ b' b b] b8.(\trill a32 b) %100
+		es8[ es, es es] es8.(\trill d32 es)
+		d8 b' g[ g' f, a]
+		b,[ b' b b] b8.(\trill a32 b)
+		h8[ h, h' h] h8.(\trill a32 h)
+		c8[ c, c' c] c8.(\trill h32 c) %105
+		\kneeBeam d8[ g,, d'' d] d8.(\trill c32 d)
+		e8 c' c16 b as g f es d c
+		es4-. d-. g8 g
+		es es c c f f
+		d d b b es es %110
+		c c a a d d
+		b b g g c c
+		a16 b a g f g f es d es d c
+		b8[ b' b b] b8.(\trill a32 b)
+		es8 es c c a a %115
+		b,[ b' b b] b8.(\trill a32 b)
+		es8 es c c a a
+		b,[ b' b b] b8.(\trill a32 b)
+		d8[ b b b] b8.(\trill a32 b)
+		es8 b c[ as f d'] %120
+		es,[ es' es es] es8.(\trill d32 es)
+		as8[ as, as as] as8.(\trill g32 as)
+		g8 es' d16( c) b-. as-. g8 f\trill
+		es4-. g-. es-.
+		b'8[ f' f f] f8.(\trill e!32 f) %125
+		g8[^\critnote es f f] f8.(\trill e32 f)
+		g8[ es f f] f8.(\trill e32 f)
+		g8[ es f f] f8.(\trill e32 f)
+		g8[ es, es es] e8.(\trill d32 e)
+		f4 as g8 f %130
+		c'[ g' g g] g8.(\trill f32g)
+		as8[ f g g] g8.(\trill f32 g)
+		as8[ f g g] g8.(\trill f32 g)
+		as8[ f g g] g8.(\trill f32 g)
+		as8[ f g g] g8.(\trill f32 g) %135
+		as8[ as, as as] as8.(\trill g32 as)
+		g4 r r
+		r8 c[ c c] c8.(\trill h32 c)
+		e4-. c-. r
+		r8 e[ e e] e8.(\trill d32 e) %140
+		g4 e r
+		R2.*5 %146
+		R2.\fermataMarkup
+		c8 c e e c c
+		f[ f, f f] f8.(\trill e32 f)
+		d'8[ f, f f] f8.(\trill e32 f) %150
+		c'8[ f, f f] f8.(\trill e32 f)
+		b8 b' b16 a g f e d c b
+		a8[ c c c] c8.(\trill h32 c)
+		f8 f, f f e16 g a h
+		c g f e d8 c'-\critnote g, h' %155
+		c,[ c' c c] c8.(\trill h32 c)
+		f8[ f, f f] f8.(\trill e32 f)
+		e8 c' a[ a' g,, h']
+		c,[ c' c c] c8.(\trill h32 c)
+		d8[ d d d] d8.(\trill c32 d) %160
+		e8[ e e e] e8.(\trill d32 e)
+		f8[ f, f f] es'8.(\trill d32 es)
+		d8[ d, d d] c'8.(\trill b32 c)
+		b8[ b, b b] b'8.(\trill a32 b)
+		a8 f' g,[ f' g, e'] %165
+		f,[ f' f f] f8.(\trill e32 f)
+		e8[ b' b b] b8.(\trill a32 b)
+		a8 f g,[ f' g, e']
+		f,[ f'\p f f] f8.(\trill e32 f)
+		e8[ b' b b] b8.(\trill a32 b) %170
+		a8 f g,[ f' g, e']
+		f16\ff c d e f c a f c8 e'
+		f,4 r r\fermata \bar "|." %173 FINIS
 	}
 }
 
