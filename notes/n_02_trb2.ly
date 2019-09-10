@@ -155,6 +155,168 @@ CredoTromboneII = {
 	\relative c' {
 		\clef "treble_8"
 		\key f \major \time 3/4 \tempoCredo
-		
+		a4\fE a8 a a a
+		c4 c8 c b^\critnote b
+		a4 f' d
+		c c e8 e
+		f4. f8 f4 %5
+		c4. c8 c4
+		c c b
+		d c4. b8
+		a4 c8 c c c
+		e4 e8 e e a, %10
+		a4 a a8 a16 a
+		d4 d d8 d
+		e8. e16 e4 e8 e
+		d2 d4
+		d d d8 d %15
+		c4. c8 c4
+		c8. c16 c4 r
+		c c c
+		d2 d4
+		d d d %20
+		e4. e8 e4
+		e2 e4
+		f f8 f f4
+		g f( e)
+		d r r %25
+		R2.
+		a4. a8 a a
+		b4 b b8 b
+		g4. g8 g g
+		a4 a a8 a %30
+		f4. f8 f4
+		g8. g16 g4 g
+		e e e
+		f8. f16 f8 f f f
+		d4 d g %35
+		g g r
+		c2 d4^\critnote
+		b b a~
+		a a g
+		g2 f4 %40
+		d' c4. b8
+		a4 r r
+		R2.*5 \noBreak %47
+		R2.\fermataMarkup \bar "||"
+		\key b \major \time 4/4 \tempoEtIncarnatus r2 r8 es'\pE es es \noBreak
+		f4. b,8 b4 b %50
+		g g8 g g4 g8 g
+		as4 a8 a g4 g
+		c8 c c c c8. c16 c4
+		b8 b b b b8. b16 b8 b
+		c4. a!8 b4. as8 %55
+		g4 r r2
+		r es'4\fE es
+		es es e8. e16 e8e
+		f4 c8 c d8. d16 d8 d
+		c4 c e2\ff %60
+		f4 r fis2
+		g4 r h,4. d8
+		g,4 as8( c) g4. f8
+		es4 r r2
+		r c'4\p b \noBreak %65
+		as8 f4 as8 c2\fermata \bar "||"
+		\key f \major \time 3/4 \tempoEtResurrexit R2. \noBreak
+		c4\fE c c
+		d2 f4
+		c4. c8 f4 %70
+		b,2( c4)
+		c r c
+		f,( g) g
+		c c( h)
+		c r r %75
+		R2.*2
+		e2 e4
+		f f f
+		c2. %80
+		c4 d f
+		e2.
+		a,4 a b
+		d8 d a2
+		a4 r r %85
+		R2.*2
+		a2.
+		a4. a8 a a
+		b4. b8 b b %90
+		c4 c8 c c c
+		d2.
+		d4 d d,
+		r r a'\p
+		g( a) b8 g %95
+		a4 r r
+		r fis'\fE fis
+		g g8 g f4
+		f f4. es8
+		d4 r r %100
+		R2.*2
+		d2 d4
+		d4. d8 d4
+		es2 es4 %105
+		f4. f8 f4
+		es4. c8 c c
+		c4 h r
+		c8 c f4 a,
+		b!8 b es4 g,8 g %110
+		a4 d f,8 f
+		g4 c es,
+		f8. g16 a4 r
+		b4. b8 b b
+		es4 c a %115
+		b4. b8 b b
+		es4 c a8 a
+		b4. d8 d4
+		b2 b4
+		b( c b) %120
+		b r r
+		R2.*3
+		d4 f d %125
+		es b d
+		es8. es16 b8 b d d
+		es8. es16 b4 d
+		b8. b16 b4 r
+		R2. %130
+		e!4 g e8 e
+		f4 c e!
+		f c e!8 e
+		f4( c) e!
+		f c e!8 e %135
+		c2 d4
+		g, c\fE c
+		c c, r
+		r c8 c e g
+		c4 c, r %140
+		R2.
+		r4 b'\pE b
+		b as g~
+		g f2~
+		f4 g as~ %145
+		as g f
+		g2.\fermata
+		R2.
+		c4\fE c c8 c
+		d2 f4 %150
+		c4. c8 f4
+		b,2( c4)
+		c r c
+		f, g g
+		c8 c c4( h) %155
+		c r r
+		R2.*2
+		e2.
+		f4 f f %160
+		c2 c4
+		c4. c8 c4
+		b2 a4
+		b( d) c
+		c d c8 b %165
+		a4 r c
+		c r c
+		c d c8 b
+		a4 r c\p
+		c r c %170
+		c d c8 b
+		a4 r c\f
+		c r r\fermata \bar "|." %173 FINIS
 	}
 }
