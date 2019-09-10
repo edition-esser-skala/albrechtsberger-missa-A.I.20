@@ -379,7 +379,7 @@ CredoAltoNotes = {
 		g4 g r
 		g8 g a!4 c
 		f,8 f g4 b8 b %110
-		e,4 f a8 a
+		es,4 f a8 a
 		d,4 es g
 		f8. c16 c4 r
 		b'4. b8 b b

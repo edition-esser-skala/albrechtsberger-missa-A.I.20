@@ -336,7 +336,7 @@ CredoBassoNotes = {
 		b2 b4
 		a4. a8 a4 %70
 		g2( c,4)
-		f r f
+		f r e
 		d2 c4
 		e f( g)
 		c, r r %75
