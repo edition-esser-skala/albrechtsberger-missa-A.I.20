@@ -365,3 +365,11 @@ SanctusViolinoII = {
 		b8 d f b a2\fermata \bar "|." %27 FINIS
 	}
 }
+
+BenedictusViolinoII = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 4/4 \tempoBenedictus
+		
+	}
+}

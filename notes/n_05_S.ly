@@ -670,6 +670,18 @@ SanctusSopranoLyrics = \lyricmode {
 	cel -- sis. %27 FINIS
 }
 
+BenedictusSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 4/4 \autoBeamOff \tempoBenedictus
+		
+	}
+}
+
+BenedictusSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

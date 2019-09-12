@@ -671,6 +671,18 @@ SanctusAltoLyrics = \lyricmode {
 	sis. %27 FINIS
 }
 
+BenedictusAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 4/4 \autoBeamOff \tempoBenedictus
+		
+	}
+}
+
+BenedictusAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

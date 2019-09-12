@@ -354,3 +354,11 @@ SanctusTromboneII = {
 		b2^\critnote a\fermata \bar "|." %27 FINIS
 	}
 }
+
+BenedictusTromboneII = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \minor \time 4/4 \tempoBenedictus
+		
+	}
+}

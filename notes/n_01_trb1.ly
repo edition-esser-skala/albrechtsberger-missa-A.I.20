@@ -351,3 +351,11 @@ SanctusTromboneI = {
 		f f\fermata \bar "|." %27 FINIS
 	}
 }
+
+BenedictusTromboneI = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 4/4 \tempoBenedictus
+		
+	}
+}
