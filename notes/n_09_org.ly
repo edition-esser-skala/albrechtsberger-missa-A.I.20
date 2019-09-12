@@ -664,7 +664,7 @@ SanctusOrgano = {
 		c4 \clef bass es,,8 c as as as as 
 		a a b b f f f' f %5
 		f f es c d d g g
-		g g f d b' b b, b \noBreak
+		g g f! d b' b b, b \noBreak
 		a a a a a2\fermata \bar "||"
 		\tempoPleni a8 a'16 gis a8 a a, a'16 gis a8 a \noBreak
 		a, a'16 gis a8 a d, d'16 cis d8 d, %10

@@ -605,12 +605,64 @@ SanctusBassoNotes = {
 	\relative c {
 		\clef bass
 		\key f \major \time 4/4 \autoBeamOff \tempoSanctus
-		
+		r2 \mvTr f4\fE^\tuttiE d
+		b as' g g
+		g2 c,4 r
+		r es8 c as4 as'8 as
+		a4 b f4. f8 %5
+		f4 es8 c d8. d16 g4~
+		g f!8 d b'4. b8 \noBreak
+		a1\fermata \bar "||"
+		\tempoPleni a4 a8 a a4 a8 a \noBreak
+		a4 a8 a, d4 d %10
+		g g8 g g4 g8 g
+		g4 g8 g, c4 c
+		b'!8. b16 b4 a a
+		e8. e16 e4 f8. f16 f4
+		b,( c) f r %15
+		r2 r8 f a h
+		c g c4~ c8[ b16 a] b8[ g]
+		a a g4 f r
+		R1
+		r8 f g a b g f([ d)] %20
+		c4 c c2~
+		c f4 r
+		r2 f8 d' b([ c)]
+		f,4 r r2
+		f8 d' b([ c)] f, f g a %25
+		b4 a b a8 a
+		b2 f\fermata \bar "|." %27 FINIS
 	}
 }
 
 SanctusBassoLyrics = \lyricmode {
+	San -- ctus,
+	San -- ctus, San -- ctus,
+	San -- ctus,
+	San -- ctus Do -- mi -- nus
+	De -- us Sa -- ba -- %5
+	oth, De -- us Sa -- ba -- oth, __
+	De -- us Sa -- ba --
+	oth.
+	Ple -- ni sunt coe -- li, sunt
+	coe -- li et ter -- ra, %10
+	ple -- ni sunt coe -- li, sunt
+	coe -- li et ter -- ra
+	glo -- ri -- a tu -- a,
+	glo -- ri -- a, glo -- ri -- a
+	tu -- a. %15
+	O -- san -- na
+	in ex -- cel -- _
+	sis, o -- san -- na,
 	
+	o -- san -- na in ex -- cel -- %20
+	sis, ex -- cel --
+	sis,
+	in ex -- cel --
+	sis,
+	in ex -- cel -- sis, o -- san -- na %25
+	in ex -- cel -- sis, ex --
+	cel -- sis. %27 FINIS
 }
 
 % BassoNotes = {
