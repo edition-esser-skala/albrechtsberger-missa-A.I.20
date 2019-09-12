@@ -336,7 +336,33 @@ SanctusViolinoI = {
 	\relative c' {
 		\clef treble
 		\key f \major \time 4/4 \tempoSanctus
-		
+		c'8\fE c a a f a' a a
+		b d d d d d c c
+		c c h h c4 g8 es
+		c c' c c c c c c
+		c c b! b b b a a %5
+		h h c c c c b b
+		a a a a a a gis gis \noBreak
+		a f,16( a) e( a) d,( a') cis,2\fermata \bar "||"
+		\tempoPleni e'16 e, e e e e e e f' f, f f f f f f \noBreak
+		g' g, g g g g g g g g g g f f f f %10
+		d' d, d d d d d d e' e, e e e e e e
+		f'^\critnote f, f f f f f f f f f f e e e e
+		g' g, g g g g g g a a' a a a a a a
+		b b, b b b b b b a a' a a a a a a
+		g g, g g g g g g f f' e f g, e' d e %15
+		f,4 r r2
+		R1
+		r8 c' d e f c f4~
+		f8 e16 d e8 c d4. e8
+		f4 r r r8 d %20
+		e f g4. c,8 f4~
+		f8 e16 d e4\trill f8 c' d,\p \tuplet 3/2 8 { b'16 a b }
+		c,8 a' b, \tuplet 3/2 8 { g'16 fis g } a,8\f f' g, \tuplet 3/2 8 { e'16 d e }
+		f,8 c'' d,\p \tuplet 3/2 8 { b'16 a b } c,8 a' b, \tuplet 3/2 8 { g'16 fis g }
+		a,8\f f' g, \tuplet 3/2 8 { e'16 d e } f,8 f'4 es8 %25
+		d d es \tuplet 3/2 8 { es,16 d es } d8 d' es \tuplet 3/2 8 { es,16 d es }
+		d8 b''4 d,8 <c f,>2\fermata \bar "|." %27 FINIS
 	}
 }
 
