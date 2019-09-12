@@ -614,6 +614,18 @@ CredoTenoreLyrics = \lyricmode {
 	men. %173 FINIS
 }
 
+SanctusTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key f \major \time 4/4 \autoBeamOff \tempoSanctus
+		
+	}
+}
+
+SanctusTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

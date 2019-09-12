@@ -331,3 +331,11 @@ CredoViolinoII = {
 		
 	}
 }
+
+SanctusViolinoII = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \tempoSanctus
+		
+	}
+}

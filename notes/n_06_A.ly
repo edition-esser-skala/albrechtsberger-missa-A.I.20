@@ -609,6 +609,18 @@ CredoAltoLyrics = \lyricmode {
 	men. %173 FINIS
 }
 
+SanctusAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \autoBeamOff \tempoSanctus
+		
+	}
+}
+
+SanctusAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

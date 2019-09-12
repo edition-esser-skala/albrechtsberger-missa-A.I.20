@@ -654,6 +654,18 @@ CredoBassFigures = \figuremode {
 	r %173 FINIS
 }
 
+SanctusOrgano = {
+	\relative c {
+		\clef treble
+		\key f \major \time 4/4 \tempoSanctus
+		\mvTr c''4\fE-\tutti a \clef bass f,8 f d d
+	}
+}
+
+SanctusBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

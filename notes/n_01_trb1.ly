@@ -318,3 +318,11 @@ CredoTromboneI = {
 		a r r\fermata \bar "|." %173 FINIS
 	}
 }
+
+SanctusTromboneI = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \tempoSanctus
+		
+	}
+}

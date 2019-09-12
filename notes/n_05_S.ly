@@ -608,6 +608,18 @@ CredoSopranoLyrics = \lyricmode {
 	men. %173 FINIS
 }
 
+SanctusSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \autoBeamOff \tempoSanctus
+		
+	}
+}
+
+SanctusSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble
