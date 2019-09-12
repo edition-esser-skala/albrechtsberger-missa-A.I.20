@@ -166,18 +166,18 @@
 		}
 		\score {
 			<<
-% 				\new StaffGroup <<
-% 					\new GrandStaff <<
-% 						\new Staff {
-% 							\set Staff.instrumentName = "Trombone I"
-% 							\CredoTromboneI
-% 						}
-% 						\new Staff {
-% 							\set Staff.instrumentName = "Trombone II"
-% 							\CredoTromboneII
-% 						}
-% 					>>
-% 				>>
+				\new StaffGroup <<
+					\new GrandStaff <<
+						\new Staff {
+							\set Staff.instrumentName = "Trombone I"
+							\CredoTromboneI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Trombone II"
+							\CredoTromboneII
+						}
+					>>
+				>>
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {

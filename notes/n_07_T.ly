@@ -317,8 +317,8 @@ CredoTenoreNotes = {
 		e e e
 		f8. f16 f8 f f f
 		d4 d g %35
-		g g r
-		c2 d4
+		e^\critnote e r
+		c'2 d4
 		b b a~
 		a a g
 		g2 f4 %40

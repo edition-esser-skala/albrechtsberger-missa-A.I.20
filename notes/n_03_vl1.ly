@@ -266,7 +266,7 @@ CredoViolinoI = {
 		h8[ h, h' h] h8.(\trill a32 h)
 		c8[ c, c' c] c8.(\trill h32 c) %105
 		\kneeBeam d8[ g,, d'' d] d8.(\trill c32 d)
-		e8 c' c16 b as g f es d c
+		es8 c' c16 b as g f es d c
 		es4-. d-. g8 g
 		es es c c f f
 		d d b b es es %110
