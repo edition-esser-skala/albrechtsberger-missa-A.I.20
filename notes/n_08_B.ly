@@ -309,7 +309,7 @@ CredoBassoNotes = {
 		g e a
 		f d g
 		e( c) f %40
-		b, c2
+		b,! c2
 		f,4 r r
 		R2.*5 \noBreak %47
 		R2.\fermataMarkup \bar "||"

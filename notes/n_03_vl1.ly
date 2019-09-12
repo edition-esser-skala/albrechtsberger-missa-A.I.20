@@ -199,7 +199,7 @@ CredoViolinoI = {
 		b16 g e^\critnote b g'8 g a4
 		a16 f d a f'8 f g4
 		g16 e c g e'8 e f4 %40
-		d16 b g d c8 c e'4
+		d16 b! g d c8 c e'4
 		f16 c a c f8 f f4
 		d16 b f b d8 d d4
 		b16 g e g b8 b b4
@@ -290,7 +290,7 @@ CredoViolinoI = {
 		g8[ es f f] f8.(\trill e32 f)
 		g8[ es, es es] e8.(\trill d32 e)
 		f4 as g8 f %130
-		c'[ g' g g] g8.(\trill f32g)
+		c'[ g' g g] g8.(\trill f32 g)
 		as8[ f g g] g8.(\trill f32 g)
 		as8[ f g g] g8.(\trill f32 g)
 		as8[ f g g] g8.(\trill f32 g)
@@ -303,7 +303,7 @@ CredoViolinoI = {
 		g4 e r
 		R2.*5 %146
 		R2.\fermataMarkup
-		c8 c e e c c
+		c8\f c e e c c
 		f[ f, f f] f8.(\trill e32 f)
 		d'8[ f, f f] f8.(\trill e32 f) %150
 		c'8[ f, f f] f8.(\trill e32 f)

@@ -340,7 +340,7 @@ CredoOrgano = {
 		g'8 g e4 a16 e cis a
 		f'8 f d4 g16 d h g
 		e'8 e c4 f16 c a f %40
-		b8 b c4 c'16 g e c
+		b!8 b c4 c'16 g e c
 		f8 f f,4-\solo a'16 f c a
 		b8 b b'4 b16 f d f
 		g8 g g,4 g'16 d b g
@@ -387,7 +387,7 @@ CredoOrgano = {
 		d d f f g g
 		b b a a a, a
 		d4 r8 d-\solo f d %85
-		cis4 r8 cis e cis
+		cis4 r8 a-\critnote cis a
 		d4 g, a
 		d8-\tutti d f f d d
 		c! c c' c c, c
@@ -564,7 +564,7 @@ CredoBassFigures = \figuremode {
 	<5>4 <6>2
 	q4 <6 4> <5 _+>
 	r2. %85
-	<6 5>4. <[6 5]>
+	<6 5>4. <[7 _+]>
 	r4 <6 5> <_+>
 	r2.
 	<6 _->

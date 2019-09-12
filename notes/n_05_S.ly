@@ -316,7 +316,7 @@ CredoSopranoNotes = {
 		e2 cis4
 		d2 h4
 		c!2 a4 %40
-		b a( g\trill)
+		b! a( g\trill)
 		f r r
 		R2.*5 \noBreak %47
 		R2.\fermataMarkup \bar "||"
