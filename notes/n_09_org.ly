@@ -695,8 +695,8 @@ SanctusOrgano = {
 		r2 r8 d'' b c
 		f,4 r r2
 		r8 d' b c f, f g a %25
-		b16 b,( a b) a8 a' b16 b,( a b) a8 a'
-		b16 b,( a b) d8 b f'2\fermata \bar "|." %27 FINIS
+		b8 \tuplet 3/2 8 { b,16( a b) } a8 a' b \tuplet 3/2 8 { b,16( a b) } a8 a'
+		b \tuplet 3/2 8 { b,16( a b) } d8 b f'2\fermata \bar "|." %27 FINIS
 	}
 }
 

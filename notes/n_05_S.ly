@@ -612,7 +612,7 @@ SanctusSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key f \major \time 4/4 \autoBeamOff \tempoSanctus
-		c'4\fE^\tuttiE a f2
+		\mvTr c'4\fE^\tuttiE a f2
 		f4 f'2 es4
 		d2 c4 g'8 es
 		c4 c c c8 c

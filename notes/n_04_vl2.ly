@@ -336,6 +336,32 @@ SanctusViolinoII = {
 	\relative c' {
 		\clef treble
 		\key f \major \time 4/4 \tempoSanctus
-		
+		r2 \kneeBeam \mvDll a8\fE f'' f f
+		\kneeBeam d, f' f f h,, f'' es es,
+		d d' d d es4 r
+		es,8 es' es es \kneeBeam c, es' es es
+		f, es'? des des c c c c %5
+		d d es es a, a g g
+		a e a f d d'16 f d f d f \noBreak
+		d f d, d cis cis h? h a2\fermata \bar "||"
+		\tempoPleni cis'16 cis, cis cis cis cis cis cis d' d, d d d d d d \noBreak
+		e' e, e e e e e e e e e e d d d d %10
+		h' h, h h h h h h c' c, c c c c c c
+		d' d, d d d d d d d d d d c c c c
+		e' e, e e e e e e f f' f f f f f f
+		g g, g g g g g g f f' f f f f f f
+		f f, f f e e e e f8 c d c16 b %15
+		a4 r r2
+		R1
+		r2 r8 f' a h
+		c g c4. b16 a b8 g
+		a a b c f, g a h %20
+		c4. b8 a4. g8
+		g2\trill f8-. a-. b-.\p g-.
+		a-. f-. g-. e-. f\f d'4 c16 b
+		a8-. a-. fis(\pE g) e( f) d( e)
+		f\fE f d' c16 b a8 a b c %25
+		f, b c \tuplet 3/2 8 { c,16 b c } b8 b' c \tuplet 3/2 8 { c,16 b c }
+		b8 d f b a2\fermata \bar "|." %27 FINIS
 	}
 }
