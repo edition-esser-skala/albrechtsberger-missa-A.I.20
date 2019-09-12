@@ -616,7 +616,7 @@ SanctusSopranoNotes = {
 		f4 f'2 es4
 		d2 c4 g'8 es
 		c4 c c c8 c
-		c4 b! b( a8) a %5
+		c4 b! b( a!8) a %5
 		h4 c8 c c8. c16 b4
 		a a a( gis8.) gis16 \noBreak
 		a1\fermata \bar "||"
