@@ -735,11 +735,149 @@ BenedictusOrgano = {
 		\clef bass
 		\key d \minor \time 4/4 \tempoBenedictus
 		\mvTr d8\fE-\tutti d16 e f8 d g g, r g'
+		f f, r f' e e, r e'
+		d d16 c b8 a g f16 g a8 g
+		f d' f e d d16 e f8 g
+		c, c16 d e8 f h, h16 c d8 e %5
+		a, a16 h c8 a d h e d
+		c \clef "treble_8" a'16 h c8 a d h e d
+		cis h16 a d2 cis4
+		\clef bass d,8 d16 e f8 d g g, r g'
+		f f, r f' e e, r e' %10
+		d c b a g fis16 g a8 g
+		fis8 fis' g b, c b16 c d8 c
+		b a16 b g8 b' c c, r f
+		b b, r e! a a, r d
+		g g,16 a b8 g c a d d, %15
+		g g' as es f d g g,
+		c c' d a b g c c,
+		f f g d es c f es
+		d b b' a g g16 f g8 g,
+		f f'16 g f8 es d d16 c d8 b %20
+		f' f16 g f8 es d d16 c d8 b
+		f f'16 g f8 f, b b'16 c d8 b
+		a f16 g a8 f b b,16 c d8 f
+		b b,16 c d8 f b a g d
+		es d16 es f8 f, b4 r %25
+		r2-\solo r4 r8 \tuplet 3/2 8 { es16\< d es }
+		f8 g es f \mvTr b,\f-\tutti b16 c d8 b
+		es es' r es, d d' r d,
+		c c' r c, b b' r g
+		es d16 es f8 es d b' d c %30
+		b b f g a a e f
+		g g d e f c f4~
+		f e8 d16 e f8 f fis e16 fis
+		g8 g, f! f' es es16 d es8 es
+		d d16 es d8 c b g16 a b8 g %35
+		d' d16 es d8 c b b16 a b8 g
+		d' d16 es d8 d, g g'16 a b8 g
+		fis d16 e! fis8 d g g,16 a b8 g
+		c c16 b c8 a d d16 e! fis8 d
+		g g16 a b8 g c c,16 d e!8 c %40
+		f f16 g a8 f b b,16 c d8 b
+		e e16 f g8 e a a,16 h cis8 a
+		d d' c! c, b b'16 a b8 b,
+		a a'16. b32 a16. g32 f16. e32 d8 f16 e f8 d
+		a a16 b a8 g f f'16 e f8 d %45
+		a a16 b a8 a' d, d16 e f8 d
+		cis a16 h cis8 a d d16 e f8 a
+		d d,16 e f8 a d c b f
+		g f16 g a8 a, b b g a
+		d,4 r r2 %50
+		r4-\solo r8 \tuplet 3/2 8 { g'16\p fis g } a8 b g a
+		f\f b g a d, d'-. c!16.-. b32-. a16.-. g32-.
+		\tempoOsanna << {
+			r8 c d e f c f4~
+			f8 e16 d e8 c d4. e8
+			f s
+		} \\ {
+			f,4 r r8 f a h
+			c g c4~ c8 b16 a b8 g
+			a4
+		} >> g f \clef treble << {
+			f''~ %55
+			f8 e16 d e8 c d4. e8
+			f
+		} \\ {
+			a,8 h %55
+			c g c4~ c8 b16 a b8 g
+			a
+		} >> \clef bass f, g a b g f d
+		c4 c c2~
+		c f,4 r
+		r2 r8 d'' b c %60
+		f,4 r r2
+		r8 d' b c f, f g a
+		b8 \tuplet 3/2 8 { b,16( a b) } a8 a' b \tuplet 3/2 8 { b,16( a b) } a8 a'
+		b \tuplet 3/2 8 { b,16( a b) } d8 b f'2\fermata \bar "|." %64 FINIS
 	}
 }
 
 BenedictusBassFigures = \figuremode {
-	
+	r4 <[6]> r4. <6>8
+	r4. q8 <_!>4. <6\\>8
+	r2 <6 5>4 <_+>
+	<6>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff r4. <7 _!>8
+	r4. <7>8 <5>4 <_+>8 <7 [5!] _+> %5
+	r4 <[6]> <[6!] 5> <[5!] _+>
+	<6> <[6]> <6! 5> <5! _+>
+	<6 5> <5 3> <4 2> <6>8 <5>
+	r4 <[6]> r4 <7>8 <6>
+	<5>4 <7>8 <6> <5!>4 <7>8 <6\\> %10
+	r4 <5>8 <\t> <6- 5>4 \bassFigureExtendersOn <6- 3> \bassFigureExtendersOff
+	<6 5>4. <[6]>8 <6 5 _->4 <_+>
+	<6>2 <_->4. <7->8
+	r4. <7>8 r4. <7 _+>8
+	r4 <[6]> <6 5 _-> <_+> %15
+	<7! _!> <[5-] 3>8 <6> <6 5 _->4 <_!>
+	<7- _!> <5>8 <6> <6 5>4 <_!>
+	<7-> <5>8 <6> <6 5>4 <3>
+	<6>2 <7>4 <6!>
+	r2 <6> %20
+	r <6>
+	<7->1
+	<6>4. <7->8 r4. q8
+	r4. q8 r4. <6>8
+	<6 5>1 %25
+	r
+	<7->8 <5> <6 5>4 r <[6]>
+	r4. <6>8 <5>4. <6!>8
+	<_->4. <6 [_-]>8 r2
+	<6 5> <6>4 q8 <6 _-> %30
+	r4 <6> r <6>
+	r <6> <3> <5>16 <6>8 <5>16
+	<4 2>4 <6>2 q4
+	r q <7> <6>
+	<_+>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff <6>2 %35
+	<_+> <6>
+	<7 _+>1
+	<6>4 \bassFigureExtendersOn q8 \bassFigureExtendersOff <7 [_+]> r2
+	<6 5 _->4. \bassFigureExtendersOn q8 \bassFigureExtendersOff <_+>4 <6>8 <7 [_+]>
+	r4 <6>8 <7> <_!>4 <6>8 <7> %40
+	r4 <6>8 <7> r4 <6>8 <7>
+	<5->4 <6>8 <7> <_+>4 <6>8 <7 [_+]>
+	r4 <6> <7> <6\\>
+	<_+>2. <[6]>4
+	<_+>2 <6> %45
+	<7 _+>1
+	<6>4. <7 [_+]>8 r4 <[6]>8 <7 _+>
+	r4 <[6]>8 <7 _+> r4. <6>8
+	<6 5>4 <8 _+>8 <7 \t> <5>4 <6 5>8 <_+>
+	r1 %50
+	r2 <7 _+>8 <5> <6 5> <_+>
+	<6>4 <6 5>8 <_+> r2
+	r1
+	r
+	r8 <10 3> <10 5> <\l 6> r2 %55
+	r1
+	r2 r8 <6> r <6!>
+	<5 3> <4 2> <5 3> <7-> <6 5>4 <\t 4>
+	<5 4> <\t 3> r2
+	r2. <6 5>4 %60
+	r1
+	r4 <6 5> r <7>8 <5->
+	r4 <6 5-> r q
+	r <[6]>2. %64 FINIS
 }
 
 % Organo = {

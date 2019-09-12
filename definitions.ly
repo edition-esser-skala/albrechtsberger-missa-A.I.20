@@ -212,6 +212,7 @@ tempoCredo = \tempoMarkup "Allegro"
 tempoSanctus = \tempoMarkup "Adagio"
 	tempoPleni = \tempoMarkup "Allegro"
 tempoBenedictus = \tempoMarkup "A capella"
+	tempoOsanna = \tempoMarkup "[Allegro]"
 
 
 
