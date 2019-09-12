@@ -659,11 +659,75 @@ SanctusOrgano = {
 		\clef treble
 		\key f \major \time 4/4 \tempoSanctus
 		\mvTr c''4\fE-\tutti a \clef bass f,8 f d d
+		b b as as g g g g
+		g g g g c,4 \clef treble g''''8 es
+		c4 \clef bass es,,8 c as as as as 
+		a a b b f f f' f %5
+		f f es c d d g g
+		g g f d b' b b, b \noBreak
+		a a a a a2\fermata \bar "||"
+		\tempoPleni a8 a'16 gis a8 a a, a'16 gis a8 a \noBreak
+		a, a'16 gis a8 a d, d'16 cis d8 d, %10
+		g, g'16 fis g8 g g, g'16 fis g8 g
+		g, g'16 fis g8 g, c c'16 h c8 c,
+		b! b'16 a b8 b a, a'16 g a8 a
+		e, e'16 d e8 e f, f'16 e f8 f
+		b, b' c c, f a b c %15
+		<< {
+			r c d e f c f4~
+			f8 e16 d e8 c d4. e8
+			f s
+		} \\ {
+			f,4 r r8 f a h
+			c g c4~ c8 b16 a b8 g
+			a4
+		} >> g f \clef treble << {
+			f''~
+			f8 e16 d e8^\critnote c d4. e8
+			f
+		} \\ {
+			a,8 h
+			c g c4~ c8 b16 a b8 g
+			a
+		} >> \clef bass f, g a b g f d %20
+		c4 c c2~
+		c f,4 r
+		r2 r8 d'' b c
+		f,4 r r2
+		r8 d' b c f, f g a %25
+		b16 b,( a b) a8 a' b16 b,( a b) a8 a'
+		b16 b,( a b) d8 b f'2\fermata \bar "|." %27 FINIS
 	}
 }
 
 SanctusBassFigures = \figuremode {
-	
+	r1
+	r4 <6 4 3> <7 _!> <6- 4>
+	<5 4> <\l _!> <_-> r
+	r <6>8 <\t> <8>4 <7->
+	<6 5-> <_!> <5 4> <\l _!> %5
+	<4! 2> <6> <7 _+> <_->
+	<4\+ 2> <6> <7> <6\\>
+	<6 4> <5 _+>8 <4 2!> <\l _+>2
+	<_+>4. \bassFigureExtendersOn q8 <6 4>4. q8
+	<7 _+>4. q8 \bassFigureExtendersOff <9 4>4 <8 3> %10
+	<_!>4. \bassFigureExtendersOn q8 <6 4>4. q8
+	<7 _!>4. q8 \bassFigureExtendersOff <9 4>4 <8 3>
+	<2>2 <6>
+	<6 5>1
+	<6 5>2. q4 %15
+	r1
+	r
+	r8 <10 3> <10 5> <\l 6> r2
+	r1
+	r2 r8 <6> <6> <6!> %20
+	<5 3> <4 2> <5 3> <7-> <6 5>4 <\t 4>
+	<5 4> <\t 3> r2
+	r2. <6 5>4
+	r1
+	r4 <6 5> r <7>8 <5-> %25
+	r4 <6 5-> r q
+	r <[6]>2. %27 FINIS
 }
 
 % Organo = {
