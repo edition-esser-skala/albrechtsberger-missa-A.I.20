@@ -323,6 +323,31 @@ SanctusTromboneI = {
 	\relative c' {
 		\clef treble
 		\key f \major \time 4/4 \tempoSanctus
-		
+		r2 \mvTr c4\fE d
+		d d d c
+		g'4.( f8) es4 r
+		r g8 g as4 ges8 ges8
+		f4 f f4. f8 %5
+		g!4 g8 g fis8. fis16 g4
+		e! f f2~ \noBreak
+		f4 e8 d e2\fermata \bar "||"
+		\tempoPleni a4 a8 a a4 a8 a \noBreak
+		a4 a8 a a4 a %10
+		g g8 g g4 g8 g
+		g4 g8 g g4 g
+		g8. g16 g4 a a
+		b8. b16 g4 f8. f16 f4
+		f( e) f r %15
+		R1*2
+		r2 r8 f a h
+		c g c4. b16 a b8 g
+		a a b c f, g a h %20
+		c4. b8 a2
+		g\trill f4 r
+		r2 a8 a g4
+		a r r2
+		a8 a g4 a8 a b c %25
+		f,4 f f2~
+		f f\fermata \bar "|." %27 FINIS
 	}
 }

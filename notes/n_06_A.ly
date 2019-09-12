@@ -619,7 +619,7 @@ SanctusAltoNotes = {
 		r g8 g as4 ges8 ges8
 		f4 f f4. f8 %5
 		g!4 g8 g fis8. fis16 g4
-		e f f2~ \noBreak
+		e! f f2~ \noBreak
 		f4 e8([ d)] e2\fermata \bar "||"
 		\tempoPleni a4 a8 a a4 a8 a \noBreak
 		a4 a8 a a4 a %10
