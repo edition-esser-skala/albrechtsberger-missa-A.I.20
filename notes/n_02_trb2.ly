@@ -323,8 +323,34 @@ CredoTromboneII = {
 
 SanctusTromboneII = {
 	\relative c' {
-		\clef treble
+		\clef "treble_8"
 		\key f \major \time 4/4 \tempoSanctus
-		
+		r2 a4\fE a
+		b c h c
+		c( h) c r
+		r c8 es es4 es8 es
+		es4 des c4. c8 %5
+		d4 c8 es d8. d16 d4
+		cis?4 d d2~ \noBreak
+		d4 cis8( h) cis2\fermata \bar "||"
+		\tempoPleni cis4 cis8 cis d4 d8 d \noBreak
+		cis4 cis8 cis a4 a %10
+		h h8 h c4 c8 c
+		h4 h8 h g4 g
+		c8. c16 c4 c c
+		c8. c16 c4 c8. c16 c4
+		d( c) c r %15
+		r8 c d e f c f4~
+		f8 e16 d e8 c d4. e8
+		f c b4 a r
+		R1
+		r4 r8 c d e f f %20
+		g( f) e e, f g a b
+		c4. b8 a4 r
+		r2 c8 d d c
+		c4 r r2
+		c8 d d c c4 r %25
+		r8 b c c b4 c
+		b2^\critnote a\fermata \bar "|." %27 FINIS
 	}
 }
