@@ -393,7 +393,7 @@ BenedictusViolinoI = {
 		f4 f8 es d4 d8 c
 		b4 b8 a d4. f16( d)
 		c4.\trill c8 b8 \tuplet 3/2 8 { f'16\p e f } d8 g %25
-		r \tuplet 3/2 8 { es16 d es } d8-. g-. r \tuplet 3/2 8 { d16 c d } b8 es~\<
+		r \tuplet 3/2 8 { es16 d es } c8-. f-. r \tuplet 3/2 8 { d16 c d } b8 es~\<
 		es d c8.(\trill b32 c) b4\f f'
 		g2 f4 r8 f
 		es4 es8 es d4 d8 d

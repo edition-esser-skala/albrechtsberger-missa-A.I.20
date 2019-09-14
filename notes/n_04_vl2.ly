@@ -356,7 +356,7 @@ SanctusViolinoII = {
 		r2 r8 f' a h
 		c g c4. b16 a b8 g
 		a a b c f, g a h %20
-		c4. b8 a4. g8
+		c4. b8 a4. a8-\critnote
 		g2\trill f8-. a-. b-.\p g-.
 		a-. f-. g-. e-. f\f d'4 c16 b
 		a8-. a-. fis(\pE g) e( f) d( e)
