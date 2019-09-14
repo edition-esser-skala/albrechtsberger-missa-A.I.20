@@ -7,8 +7,47 @@
 \include "../definitions.ly"
 
 \paper {
-	first-page-number = #1
-	systems-per-page = #1
+	#(set-paper-size "a4" 'portrait)
+	indent = 2\cm
+	top-margin = 1.5\cm
+	system-separator-markup = ##f
+	system-system-spacing =
+    #'((basic-distance . 30)
+       (minimum-distance . 30)
+       (padding . -100)
+       (stretchability . 0))
+	
+	top-system-spacing =
+    #'((basic-distance . 20)
+       (minimum-distance . 20)
+       (padding . -100)
+       (stretchability . 0))
+	
+	top-markup-spacing =
+    #'((basic-distance . 0)
+       (minimum-distance . 0)
+       (padding . -100)
+       (stretchability . 0))
+		
+	markup-system-spacing =
+    #'((basic-distance . 20)
+       (minimum-distance . 20)
+       (padding . -100)
+       (stretchability . 0))
+	
+	last-bottom-spacing =
+    #'((basic-distance . 0)
+       (minimum-distance . 0)
+       (padding . 0)
+       (stretchability . 1.0e7))
+	systems-per-page = #2
+}
+
+\layout {
+	\context {
+		\Lyrics
+		\override LyricText.font-size = #-.5
+	}
 }
 
 #(set-global-staff-size 15.87)
@@ -18,58 +57,23 @@
 		\header {
 			movement = "1 KYRIE"
 		}
-		\paper { indent = 3.5\cm }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = \TromboneIIncipit
-							\override Staff.InstrumentName.self-alignment-Y = ##f
-							\override Staff.InstrumentName.self-alignment-X = #RIGHT
-							\KyrieTromboneI
-						}
-						\new Staff {
-							\set Staff.instrumentName = \TromboneIIIncipit
-							\override Staff.InstrumentName.self-alignment-Y = ##f
-							\override Staff.InstrumentName.self-alignment-X = #RIGHT
-							\KyrieTromboneII
-						}
-					>>
-				>>
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\KyrieViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\KyrieViolinoII
-						}
-					>>
-				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = \SopranoIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+						\set Staff.instrumentName = "Soprano"
 						\new Voice = "Soprano" { \dynamicUp \KyrieSopranoNotes }
 					}
 					\new Lyrics \lyricsto Soprano \KyrieSopranoLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = \AltoIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+						\set Staff.instrumentName = "Alto"
 						\new Voice = "Alto" { \dynamicUp \KyrieAltoNotes }
 					}
 					\new Lyrics \lyricsto Alto \KyrieAltoLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = \TenoreIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+						\set Staff.instrumentName = "Tenore"
 						\new Voice = "Tenore" { \dynamicUp \KyrieTenoreNotes }
 					}
 					\new Lyrics \lyricsto Tenore \KyrieTenoreLyrics
@@ -90,8 +94,6 @@
 					\KyrieBassFigures
 				}
 			>>
-			\layout { }
-			\midi { \tempo 4 = 60 }
 		}
 	}
 	\bookpart {
@@ -100,30 +102,6 @@
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Trombone I"
-							\GloriaTromboneI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Trombone II"
-							\GloriaTromboneII
-						}
-					>>
-				>>
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\GloriaViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\GloriaViolinoII
-						}
-					>>
-				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
@@ -159,8 +137,6 @@
 					\GloriaBassFigures
 				}
 			>>
-			\layout { }
-			\midi { \tempo 4 = 110 }
 		}
 	}
 	\bookpart {
@@ -169,30 +145,6 @@
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Trombone I"
-							\CredoTromboneI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Trombone II"
-							\CredoTromboneII
-						}
-					>>
-				>>
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\CredoViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\CredoViolinoII
-						}
-					>>
-				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
@@ -228,8 +180,6 @@
 					\CredoBassFigures
 				}
 			>>
-			\layout { }
-			\midi { \tempo 4 = 120 }
 		}
 	}
 	\bookpart {
@@ -238,30 +188,6 @@
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Trombone I"
-							\SanctusTromboneI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Trombone II"
-							\SanctusTromboneII
-						}
-					>>
-				>>
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\SanctusViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\SanctusViolinoII
-						}
-					>>
-				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
@@ -297,8 +223,6 @@
 					\SanctusBassFigures
 				}
 			>>
-			\layout { }
-			\midi { \tempo 4 = 60 }
 		}
 	}
 	\bookpart {
@@ -307,30 +231,6 @@
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Trombone I"
-							\BenedictusTromboneI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Trombone II"
-							\BenedictusTromboneII
-						}
-					>>
-				>>
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\BenedictusViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\BenedictusViolinoII
-						}
-					>>
-				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
@@ -366,8 +266,6 @@
 					\BenedictusBassFigures
 				}
 			>>
-			\layout { }
-			\midi { \tempo 4 = 90 }
 		}
 	}
 	\bookpart {
@@ -376,30 +274,6 @@
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Trombone I"
-							\AgnusDeiTromboneI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Trombone II"
-							\AgnusDeiTromboneII
-						}
-					>>
-				>>
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\AgnusDeiViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\AgnusDeiViolinoII
-						}
-					>>
-				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
@@ -435,8 +309,6 @@
 					\AgnusDeiBassFigures
 				}
 			>>
-			\layout { }
-			\midi { \tempo 4 = 90 }
 		}
 	}
 }

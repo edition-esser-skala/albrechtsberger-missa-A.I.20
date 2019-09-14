@@ -13,7 +13,7 @@
 	bottom-margin = .5\cm
 	outer-margin = 2\cm
 	inner-margin = 1.5\cm
-	indent = 3.5\cm
+	indent = 2.5\cm
 	
 	oddFooterMarkup = \markup {}
 	evenFooterMarkup = \markup {}
@@ -303,7 +303,7 @@ tempoAgnusDei = \tempoMarkup "Adagio"
 		\Score
 		\override MetronomeMark.font-series = #'medium
 		\compressFullBarRests
-		\override BarNumber.break-visibility = #'#(#f #t #t) % uncomment to show each bar number
+% 		\override BarNumber.break-visibility = #'#(#f #t #t) % uncomment to show each bar number
 	}
 	\context {
 		\StaffGroup
