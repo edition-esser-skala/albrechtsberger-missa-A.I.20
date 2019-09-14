@@ -797,10 +797,116 @@ AgnusDeiSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key f \major \time 3/4 \autoBeamOff \tempoAgnusDei
-		
+		\mvTr f2\fE^\tuttiE g4
+		a b c
+		d c r8 r16 f
+		d4 c r8 c
+		b a g2 %5
+		fis4 a a
+		d2 d4
+		d2( cis4)
+		d r r
+		R2.*3 %12
+		d2 cis4
+		d b a
+		gis a r8 r16 e' %15
+		f4 es r8 es
+		d c b2
+		a4 c cis
+		d2 c4
+		b2( a4) %20
+		b r r
+		R2.*3
+		g2 a4 %25
+		h c r8 r16 es
+		\appoggiatura b8 a4 b r8 f'
+		f4( es) d
+		d c c
+		c( d8[ c)] b([ a)] \noBreak %30
+		a4 g r\fermata \bar "||"
+		\time 4/4 \tempoDona f4 g a b
+		c d e,8 f r4
+		g a b c
+		d es fis,8 g d'[ c16 d] %35
+		b4 c8[ b16 c] a4 b8[ a16 b]
+		g4 a8[ g16 a] f4 g8[ f16 g]
+		e8 e' f f e4 f
+		e f e8 e d4
+		c r r2 %40
+		R1*3
+		r2 e,4 g
+		g a g f %45
+		f8 e r4 f a
+		a b! a g
+		g8 f r4 d'2
+		c b
+		a g %50
+		f4 g8 g f4 g
+		f g f8 f' f([ e)]
+		f4 r r2
+		R1*3 %56
+		r2 r4 c8. c16
+		c8 f^\critnote f([ e)] f4 c8. c16
+		c8 f f([ e)] f4 r
+		d(\p e,) f r %60
+		d'( e,) f\f b
+		a r r2\fermata \bar "||" %62 FINIS
 	}
 }
 
 AgnusDeiSopranoLyrics = \lyricmode {
+	A -- gnus
+	De -- i, qui
+	tol -- lis, qui
+	tol -- lis pec --
+	ca -- ta mun -- %5
+	di: Mi -- se --
+	re -- re
+	no --
+	bis.
 	
+	A -- gnus %13
+	De -- i, qui
+	tol -- lis, qui %15
+	tol -- lis pec --
+	ca -- ta mun --
+	di: Mi -- se --
+	re -- re
+	no -- %20
+	bis.
+	
+	A -- gnus %25
+	De -- i, qui
+	tol -- lis pec --
+	ca -- ta
+	mun -- di, pec --
+	ca -- ta %30
+	mun -- di:
+	Do -- na no -- bis
+	pa -- cem, pa -- cem,
+	do -- na no -- bis
+	pa -- cem, pa -- cem, pa -- %35
+	_ _ _ _
+	_ _ _ _
+	_ cem, do -- na no -- bis
+	pa -- cem, no -- bis pa --
+	cem. %40
+	
+	Do -- na %44
+	no -- bis pa -- cem, %45
+	pa -- cem, do -- na
+	no -- bis pa -- cem,
+	pa -- cem, do --
+	na no --
+	bis pa -- %50
+	cem, do -- na no -- bis
+	pa -- cem, no -- bis pa --
+	cem.
+	
+	Do -- na
+	no -- bis pa -- cem, do -- na
+	no -- bis pa -- cem,
+	pa -- cem,
+	pa -- cem, pa --
+	cem.
 }

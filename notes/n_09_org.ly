@@ -1004,12 +1004,12 @@ AgnusDeiBassFigures = \figuremode {
 	r q r q
 	r1
 	r
-	r
+	r %55
 	r
 	r2. <6>8 <7>
 	r4 <6 5> r <6>8 <7>
 	r4 <6 5>2.
-	r4 <7> <5>2
+	r4 <7> <5>2 %60
 	r4 <7> r q
-	r1
+	r1 %62 finis
 }
