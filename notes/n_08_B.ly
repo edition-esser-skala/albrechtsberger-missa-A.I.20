@@ -669,12 +669,131 @@ BenedictusBassoNotes = {
 	\relative c {
 		\clef bass
 		\key d \minor \time 4/4 \autoBeamOff \tempoBenedictus
-		
+		R1*3
+		r2 r8 \mvTr d'\fE^\tuttiE a([ h)]
+		c c g([ a)] h h fis([ gis)] %5
+		a e a2 gis4
+		a r r2
+		R1
+		d,4 a' b2
+		a4 r8 a g4 g8 g %10
+		f4 f8 f es4. es8
+		d4 g2 fis4
+		g r8 b c c, r f
+		b b, r e! a a, r d
+		g g, r g' c a16 a d8 d, %15
+		g g as es16 es f4 g
+		c, r r2
+		r8 f g d16 d es4 f8([ es)]
+		d b b' a16 a g4. g8
+		f4 r r2 %20
+		R1
+		f4 c' d2
+		c4 r8 c b4 b8 a
+		b d,4 f8 b[ a g d]
+		es[ d16 es] f8. f16 b,4 r %25
+		R1
+		r2 r4 r8 d
+		es4 g8 es d4 f8 d
+		c4 es8 c b4 d8 g
+		es d16 es f8 es d4 r %30
+		r8 b' f([ g)] a a e([ f)]
+		g g d([ e)] f c f4~
+		f e8 d16([ e)] f8 f fis[( e16 fis]
+		g4) f8 f es4. es8
+		d4 r8 fis g b r g %35
+		d d'4 c8 b16([ a)] g8 r4
+		d a' b2
+		a4 r8 a g8.([ a16)] b8 g
+		c c16 b c8 a d d,16([ e)] fis8([ d)]
+		g4 r r8 c,16([ d)] e8([ c)] %40
+		f4 r r8 b,16([ c)] d8([ b)]
+		e4 r r8 a,16([ h)] cis8([ a)]
+		d8 d c c16 c b4. b8
+		a4 r8 a' f d r f
+		e a, r4 a' d, %45
+		cis2 d4 r
+		r r8 a' d d, r a'
+		d[ d,16 e] f8[ a] d[ c] b f
+		g([ f16 g] a8) a, b b'([ g)] a
+		d,4 r r2 %50
+		R1*2
+		r2 r8 f a h
+		c g c4~ c8[ b16 a] b8[ g]
+		a a g4 f r %55
+		R1
+		r8 f g a b g f([ d)]
+		c4 c c2~
+		c f4 r
+		r2 f8 d' b([ c)] %60
+		f,4 r r2
+		f8 d' b([ c)] f, f g a
+		b4 a b a8 a
+		b2 f\fermata \bar "|." %64 FINIS
 	}
 }
 
 BenedictusBassoLyrics = \lyricmode {
+	Qui ve -- %4
+	nit, qui ve -- nit, qui ve -- %5
+	nit in no -- mi --
+	ne.
 	
+	Be -- ne -- di -- %9
+	ctus qui ve -- nit in %10
+	no -- mi -- ne Do -- mi --
+	ni, Do -- mi --
+	ni, qui ve -- nit, qui
+	ve -- nit, qui ve -- nit, qui
+	ve -- nit in no -- mi -- ne Do -- mi -- %15
+	ni, in no -- mi -- ne Do -- mi --
+	ni,
+	in no -- mi -- ne Do -- mi --
+	ni, in no -- mi -- ne Do -- mi --
+	ni. %20
+	
+	Be -- ne -- di -- %22
+	ctus qui ve -- nit in
+	no -- mi -- ne Do --
+	_ _ mi -- ni, %25
+	
+	qui
+	ve -- nit, qui ve -- nit, qui
+	ve -- nit, qui ve -- nit in
+	no -- mi -- ne Do -- mi -- ni, %30
+	qui ve -- nit, qui ve --
+	nit, qui ve -- nit in no --
+	_ mi -- ne, in no --
+	mi -- ne Do -- mi --
+	ni, qui ve -- nit, qui %35
+	ve -- nit, qui ve -- nit.
+	Be -- ne -- di --
+	ctus qui ve -- nit in
+	no -- mi -- ne Do -- mi -- ni, qui ve --
+	nit, qui ve -- %40
+	nit, qui ve --
+	nit, qui ve --
+	nit in no -- mi -- ne Do -- mi --
+	ni, qui ve -- nit, qui
+	ve -- nit. Be -- ne -- %45
+	di -- ctus
+	qui ve -- nit in
+	no -- _ _ mi -- ne
+	Do -- mi -- ni, Do -- mi --
+	ni. %50
+	
+	O -- san -- na
+	in ex -- cel -- _
+	sis, o -- san -- na,
+	
+	o -- san -- na in ex -- cel -- %20
+	sis, ex -- cel --
+	sis,
+	in ex -- cel --
+	sis,
+	in ex -- cel -- sis, o -- san -- na %25
+	in ex -- cel -- sis, ex --
+	cel -- sis. %27 FINIS
 }
 
 % BassoNotes = {
