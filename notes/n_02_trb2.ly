@@ -359,6 +359,65 @@ BenedictusTromboneII = {
 	\relative c' {
 		\clef "treble_8"
 		\key d \minor \time 4/4 \tempoBenedictus
-		
+		R1*3
+		a4\fE d f2
+		e4 r8 e d4 d8 d %5
+		c4 c8 c h4. h8
+		a a16 h c8 a d h e d
+		cis h16 a d2 cis4
+		d r r8 g d e
+		f f c d e e h cis %10
+		d a d2 c8 c
+		c4 b! a4. a8
+		g4 r r8 es' b c
+		d d a b c c g a
+		b4 d es d8 d %15
+		d4 c8 g as4 g
+		g8 c d a16 a^\critnote b4 c
+		f,8 c' b f16 f g4 f
+		f8 b b c16 c d4 c8 b
+		c4 r8 a b f r d' %20
+		c f, r4 f' b,
+		a2 b4 r
+		r r8 f' f4 f8 es
+		d4 d8 c b f b4~
+		b a b r %25
+		R1*2
+		r8 es b c d d a h
+		c c g a b f b4~
+		b a8 a b d f es %30
+		d d a b c c g a
+		b b f g a c c d16 c
+		b8 a16 b c4. b16 c d4~
+		d d8 d d4 c8.\trill c16
+		d4 r8 a b d r b %35
+		a d, r4 d' g,
+		fis2 g4 r
+		r r8 d' d4 d8 d
+		es4 es8 es d8. a16 a4
+		r8 g16 a b8 g c4 r %40
+		r8 f,16 g a8 f b4 r
+		r8 e,16 f g8 e a4 a
+		a a8 a d,4. d8
+		e4 r r2
+		R1 %45
+		a4 e' f2
+		e4 r8 e d4 d8 cis
+		f4 f8 e d a d4~
+		d cis d8 b4 a8
+		a4 r r2 %50
+		R1*2
+		r8 c d e f c f4~
+		f8 e16 d e8 c d4. e8
+		f c b4 a r %55
+		R1
+		r4 r8 c d e f f
+		g( f) e e, f g a b
+		c4. b8 a4 r
+		r2 c8 d d c %60
+		c4 r r2
+		c8 d d c c4 r
+		r8 b c c b4 c
+		b2 a\fermata \bar "|." %64 FINIS
 	}
 }

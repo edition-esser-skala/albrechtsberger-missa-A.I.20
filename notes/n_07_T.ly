@@ -691,7 +691,7 @@ BenedictusTenoreNotes = {
 		d r r8 g d([ e)]
 		f f c([ d)] e e h([ cis)] %10
 		d a d2 c8 c
-		c4( b a4.) a8
+		c4( b! a4.) a8
 		g4 r r8 es' b([ c)]
 		d d a([ b)] c c g([ a)]
 		b4 d es d8 d %15
