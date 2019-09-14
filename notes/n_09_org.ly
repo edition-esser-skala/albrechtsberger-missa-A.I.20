@@ -775,7 +775,7 @@ BenedictusOrgano = {
 		c c16 b c8 a d d16 e! fis8 d
 		g g16 a b8 g c c,16 d e!8 c %40
 		f f16 g a8 f b b,16 c d8 b
-		e e16 f g8 e a a,16 h cis8 a
+		e! e16 f g8 e a a,16 h cis8 a
 		d d' c! c, b b'16 a b8 b,
 		a a'16. b32 a16. g32 f16. e32 d8 f16 e f8 d
 		a a16 b a8 g f f'16 e f8 d %45
@@ -784,7 +784,7 @@ BenedictusOrgano = {
 		d d,16 e f8 a d c b f
 		g f16 g a8 a, b b g a
 		d,4 r r2 %50
-		r4-\solo r8 \tuplet 3/2 8 { g'16\p fis g } a8 b g a
+		r4-\solo r8 \tuplet 3/2 8 { g'16\p\< fis g } a8 b g a
 		f\f b g a d, d'-. c!16.-. b32-. a16.-. g32-.
 		\tempoOsanna << {
 			r8 c d e f c f4~

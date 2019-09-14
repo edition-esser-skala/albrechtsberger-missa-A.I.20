@@ -710,7 +710,7 @@ BenedictusSopranoNotes = {
 		a4. a8 a a d([ c)]
 		b4 r r8 g c([ b)] %40
 		a4 r r8 f b([ a)]
-		g4 r r8 e a g16 g
+		g4 r r8 e! a g16 g
 		f4( a2) gis4
 		a r r2
 		a4 e' f2 %45

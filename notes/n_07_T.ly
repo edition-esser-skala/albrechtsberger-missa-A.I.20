@@ -720,7 +720,7 @@ BenedictusTenoreNotes = {
 		es4 es8 es d8. a16 a4
 		r8 g16([ a)] b8([ g)] c4 r %40
 		r8 f,16([ g)] a8([ f)] b4 r
-		r8 e,16([ f)] g8([ e)] a4 a
+		r8 e,!16([ f)] g8([ e)] a4 a
 		a a8 a d,4. d8
 		e4 r r2
 		R1 %45

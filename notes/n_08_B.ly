@@ -708,7 +708,7 @@ BenedictusBassoNotes = {
 		c c16 b c8 a d d,16([ e)] fis8([ d)]
 		g4 r r8 c,16([ d)] e8([ c)] %40
 		f4 r r8 b,16([ c)] d8([ b)]
-		e4 r r8 a,16([ h)] cis8([ a)]
+		e!4 r r8 a,16([ h)] cis8([ a)]
 		d8 d c c16 c b4. b8
 		a4 r8 a' f d r f
 		e a, r4 a' d, %45

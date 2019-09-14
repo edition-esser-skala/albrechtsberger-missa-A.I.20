@@ -712,7 +712,7 @@ BenedictusAltoNotes = {
 		g g8 g fis8. e16 d4
 		r8 d g([ f)] e!4 r %40
 		r8 c f([ e)] d4 r
-		r8 b e d cis4 e
+		r8 b e! d cis4 e
 		d e8 e f4 e8([ d)]
 		cis4 r a' d,
 		cis2 d4 r8 f %45

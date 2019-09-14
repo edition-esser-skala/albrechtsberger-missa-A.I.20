@@ -370,7 +370,65 @@ BenedictusViolinoI = {
 	\relative c' {
 		\clef treble
 		\key d \minor \time 4/4 \tempoBenedictus
-		
+		r2 r8 g''\fE d e
+		f f c d e e h cis
+		d a d2 cis4
+		d8 a4 g8 f4 r8 d'
+		e c r c d h r h %5
+		c a r e' f4 e
+		c r8 c h4 h8 e
+		a,4 a8 d g, a16 b a8 g
+		f4 r r2
+		R1*3 %12
+		g4 d' es2
+		d4 r8 d c4 c8 c
+		b4 b8 b a4. a8 %15
+		h4 c2 h4
+		b a g4. g8
+		a4 b2 a4
+		b8 d d c b4. b8
+		a4 r f' b, %20
+		a2 b4 r8 b
+		es2 d4 r8 f
+		f4 f8 es d4 d8 c
+		b4 b8 a d4. f16( d)
+		c4.\trill c8 b8 \tuplet 3/2 8 { f'16\p e f } d8 g %25
+		r \tuplet 3/2 8 { es16 d es } d8-. f-. r \tuplet 3/2 8 { d16 c d } b8 es~\<
+		es d c8.(\trill b32 c) b4\f f'
+		g2 f4 r8 f
+		es4 es8 es d4 d8 d
+		c4.\trill c8 b4 r %30
+		R1*4
+		r2 d4 g, %35
+		fis2 g4 r8 b
+		c2 b4 r8 d
+		d4 d8 c b4 b8 b
+		a4. a8 a a d c
+		b4 r r8 g c b %40
+		a4 r r8 f b a
+		g4 r r8 e! a g16 g
+		f4 a2 gis4
+		a r r2
+		a4 e' f2 %45
+		e4 r8 e d4 d8 d
+		a4. a8 a4 r8 a
+		a4 a8 a a4 b8 a
+		b4 a8 g f d'4 cis8
+		d8 \tuplet 3/2 8 { a'16\p gis a } f8-. b-. r \tuplet 3/2 8 { g16 f g } e8-. a-. %50
+		r \tuplet 3/2 8 { f16 e f } d8 g g\< f e8.(\trill d32 e)
+		d16.\f a32 f16. d32 e8.(\trill d32 e) d8 d' c!16. b32 a16. g32
+		f4 r r2
+		R1
+		r8 c' d e f c f4~ %55
+		f8 e16 d e8 c d4. e8
+		f4 r r r8 d
+		e f g4. c,8 f4~
+		f8 e16 d e4\trill f8 c' d,\pE \tuplet 3/2 8 { b'16 a b }
+		c,8 a' b, \tuplet 3/2 8 { g'16 fis g } a,8\f f' g, \tuplet 3/2 8 { e'16 d e } %60
+		f,8 c'' d,\p \tuplet 3/2 8 { b'16 a b } c,8 a' b, \tuplet 3/2 8 { g'16 fis g }
+		a,8\f f' g, \tuplet 3/2 8 { e'16 d e } f,8 f'4 es8
+		d d es \tuplet 3/2 8 { es,16 d es } d8 d' es \tuplet 3/2 8 { es,16 d es }
+		d8 b''4 d,8 <c f,>2\fermata \bar "|." %64 FINIS
 	}
 }
 
