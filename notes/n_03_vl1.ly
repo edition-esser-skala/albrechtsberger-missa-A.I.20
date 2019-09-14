@@ -436,6 +436,67 @@ AgnusDeiViolinoI = {
 	\relative c' {
 		\clef treble
 		\key f \major \time 3/4 \tempoAgnusDei
-		
+		f8\fE f f f g g
+		a a b b c c
+		d16( b) f'( d) c4-. r8 r16 f-.
+		\appoggiatura es8 d4-. c-. r8 c
+		b a g g g' g %5
+		fis d, a'-. a-. a-. a-.
+		d d f f f f
+		f d' d d cis cis
+		d a,-.\p a( b) b( a)
+		gis( g) g( a) a( g) %10
+		f f'-. f( d) d( a)
+		c16( b) a( g) g( f) e( d) e8.(\trill d32 e)
+		d8\f d' d d cis cis
+		d d b b a a
+		gis16 f' e d cis a e cis a8 r16 e'' %15
+		f4-. es-. r8 es
+		d c b b b' b
+		a f, c' c cis cis
+		d d d' d c! c
+		b b, b b a a %20
+		g( d')\p d( es) es( d)
+		\once \slurDashed cis( c) c( d) d( c)
+		b b' b( g) g( d)
+		f16( es) d( c) c( b) a( g) a8.(\trill g32 a)
+		g8\f g g g a a %25
+		h g'16( h,) c8 c,16( es) g( h) c( es)
+		\appoggiatura b a8 f'16( a,) b8-. b,16( d) f( b) d( f)
+		b8 f es es d d
+		d d c c c' c
+		c16 a f c d d' c, c' b, b' a, a' \noBreak %30
+		a8.(\trill g32 a) g4 r\fermata \bar "||"
+		f4 g8.(\trill f32 g) a4 b8.(\trill a32 b) \noBreak
+		c4 d e,8-. f-. \tuplet 3/2 8 { c'16[ b a] a g fis }
+		g4 a8.(\trill g32 a) b4 c8.(\trill b32 c)
+		d4 es fis,8-. g-. d'8 c16 d %35
+		b8 b, c' b16 c a8 a, b' a16 b
+		g8 g, a' g16 a f8 f, g' f16 g
+		e8 e, f'16( d) h-. f-.^\critnote \once \slurDashed e( g) c-\parenthesize-. e-\parenthesize-. f( d) h-. f-.
+		e( g) c-. e-. f( d) h-. f-. e( g) c-. e,-. d8-. h'-.
+		c,4 e'8-.\p d16-. e-. c8-. h16-. c-. a8-. g16-. a-. %40
+		f4 f'8-. e16-. f-. d8-. c16-. d-. h8-. a16-. h-.
+		g4 g'8-. f16-. g-. e8-. d16-. e-. c8-. h16-. c-.
+		a8-. g16-. a-. f8 f'~ f16 d e c d,8 h'
+		c16( h) c-. e,-. d8 h' c4\f d8.(\trill c32 d)
+		e4 f8.(\trill e32 f) g4 a %45
+		h,8-. c-. \tuplet 3/2 8 { g'16[ f e] e d cis } d4 e8.(\trill d32 e)
+		f4 g8.( f32 g) a4 b
+		cis,8-. d-. a' g16 a f8 f, g' f16 g
+		e8 e, f' e16 f d8 d, e' d16 e
+		c8 c, d' c16 d b8 b, c' b16 c %50
+		a8 a, b''16 g e b a c f a b g e b
+		a c f a b g e b a c f a, g8 e'
+		f,4 a'8\p g16 a f8 e16 f d8 c16 d
+		b4 b'8 a16 b g8 f16 g e8 d16 e
+		c4 c'8 b16 c a8 g16 a f8 e16 f %55
+		d8 c16 d b8 b'~ b16 g a f g,8 e'
+		f16 e f a, g8 e' f,4\f c''16 g e c
+		a' f c a g8 e' f f, c''16 g e c
+		a' f c a g8 e' f,8 c'8(-.\p c-. c-.)
+		d4( e,) f8 f'8(-. f-. f-.) %60
+		d4( e,) f <g b e>\f
+		<f a c f> r r2\fermata \bar "|." %62 FINIS
 	}
 }

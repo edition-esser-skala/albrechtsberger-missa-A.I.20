@@ -819,7 +819,7 @@ AgnusDeiSopranoNotes = {
 		R2.*3
 		g2 a4 %25
 		h c r8 r16 es
-		\appoggiatura b8 a4 b r8 f'
+		\appoggiatura b16 a4 b r8 f'
 		f4( es) d
 		d c c
 		c( d8[ c)] b([ a)] \noBreak %30

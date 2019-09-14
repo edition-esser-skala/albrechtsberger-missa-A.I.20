@@ -439,6 +439,67 @@ AgnusDeiViolinoII = {
 	\relative c' {
 		\clef treble
 		\key f \major \time 3/4 \tempoAgnusDei
-		
+		a8\fE a a a c c
+		f f f f f f
+		f f f f f f
+		f f a a es-\critnote es
+		d d b b g g %5
+		a4 r r
+		r a'8 a a a
+		d, f' f f e e
+		d4 r8 f,\p f f
+		e4 r8 e e e %10
+		a, d'-. d( a) a( d,)
+		d d d d cis cis
+		d\f f f f g g
+		a a g g e e
+		d gis a a a a %15
+		a a a a f f
+		f f f f e! e
+		f4 r r
+		r a'8 a a a
+		g g, g g fis fis %20
+		g4 r8 b\p b b
+		a4 r8 a a a
+		d, g'-. g( d) d( g,)
+		g g g g fis fis
+		g\fE b, b b d d %25
+		g g g,4 r8 r16 g'
+		f8 f f8 r16 b,-\critnote d( f) b( d)
+		f8 d c c b b
+		b b a a a' a
+		a16 f c a b b' a, a' g, g' f, f' \noBreak %30
+		f8.(\trill e32 f) e4 r \bar "||"
+		f4 g8.(\trill f32 g) a4 b8.(\trill a32 b) \noBreak
+		c4 d e,8-. f-. \tuplet 3/2 8 { c'16[ b a] a g fis }
+		g4 a8.(\trill g32 a) b4 c8.(\trill b32 c)
+		d4 es fis,8-. g-. d'8^\critnote c16 d %35
+		b8 b, c' b16 c a8 a, b' a16 b
+		g8 g, a' g16 a f8 f, g' f16 g
+		e8 e, f'16( d) h-. f-. e( g) c-. e-. f( d) h-. f-.
+		e( g) c-. e-. f( d) h-. f-. e( g) c-. e,-. d8-. h'-.
+		c,4 r r c\p %40
+		d8 a d4 r d
+		e8 h e4 r e
+		f8 c b a g[ r16 e'] f a g f
+		e8 g a g16 f e8\f c' d8.(\trill c32 d)
+		e4 f8.(\trill e32 f) g4 a %45
+		h,8-. c-. \tuplet 3/2 8 { g'16[ f e] e d cis } d4 e8.(\trill d32 e)
+		f4 g8.( f32 g) a4 b
+		cis,8-. d-. a' g16 a f8 f, g' f16 g
+		e8 e, f' e16 f d8 d, e' d16 e
+		c8 c, d' c16 d b8 b, c' b16 c %50
+		a8 a, b''16 g e b a c f a b g e b
+		a c f a b g e b a c f a, g8 e'
+		f,4 r r f\pE
+		g8 d-\critnote g4 r g
+		a8 e a4 r a %55
+		b8-. f-. e-. g-. c,[ r16 a'] b d c b
+		a8 c, d c16 b a4\fE c16 e g c
+		c, f a c b8 g a4 c,16 e g c
+		c, f a c b8 g a4 r
+		a(\p g f8) r r4 %60
+		\once \slurDashed b( g) f8 c16 c c8\f c
+		c4 r r2\fermata \bar "|." %62 FINIS
 	}
 }
