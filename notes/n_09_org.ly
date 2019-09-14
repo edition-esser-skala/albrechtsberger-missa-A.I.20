@@ -969,7 +969,7 @@ AgnusDeiBassFigures = \figuremode {
 	r4 <7> <6!>
 	r2.
 	r4 <6> <6 5!>
-	r8 <7> <6 4>4 <[5] _+> %20
+	r8 <7 _!> <6 4>4 <[5] _+> %20
 	r2.
 	r
 	r
