@@ -719,7 +719,8 @@ BenedictusSopranoNotes = {
 		a4 a8 a a4 b8 a
 		b4 a8([ g)] f d'4 cis8
 		d4 r r2 %50
-		R1*4
+		R1*2
+		\tempoOsanna R1*2
 		r8 c d e f c f4~ %55
 		f8([ e16 d)] e8 c d4.( e8)
 		f4 r r r8 d

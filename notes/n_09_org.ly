@@ -784,8 +784,8 @@ BenedictusOrgano = {
 		d d,16 e f8 a d c b f
 		g f16 g a8 a, b b g a
 		d,4 r r2 %50
-		r4-\solo r8 \tuplet 3/2 8 { g'16\p\< fis g } a8 b g a
-		f\f b g a d, d'-. c!16.-. b32-. a16.-. g32-.
+		r4-\solo r8 \tuplet 3/2 8 { g'16\p\< fis g } a8 b! g a
+		f\f b g a d, d'-. c!16.-. b!32-. a16.-. g32-.
 		\tempoOsanna << {
 			r8 c d e f c f4~
 			f8 e16 d e8 c d4. e8
@@ -864,7 +864,7 @@ BenedictusBassFigures = \figuremode {
 	r4 <[6]>8 <7 _+> r4. <6>8
 	<6 5>4 <8 _+>8 <7 \t> <5>4 <6 5>8 <_+>
 	r1 %50
-	r2 <7 _+>8 <5> <6 5> <_+>
+	r4. <[_!]>8 <7 _+> <5> <6 5> <_+>
 	<6>4 <6 5>8 <_+> r2
 	r1
 	r

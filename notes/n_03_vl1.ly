@@ -393,7 +393,7 @@ BenedictusViolinoI = {
 		f4 f8 es d4 d8 c
 		b4 b8 a d4. f16( d)
 		c4.\trill c8 b8 \tuplet 3/2 8 { f'16\p e f } d8 g %25
-		r \tuplet 3/2 8 { es16 d es } d8-. f-. r \tuplet 3/2 8 { d16 c d } b8 es~\<
+		r \tuplet 3/2 8 { es16 d es } d8-. g-. r \tuplet 3/2 8 { d16 c d } b8 es~\<
 		es d c8.(\trill b32 c) b4\f f'
 		g2 f4 r8 f
 		es4 es8 es d4 d8 d
@@ -416,8 +416,8 @@ BenedictusViolinoI = {
 		b4 a8 g f d'4 cis8
 		d8 \tuplet 3/2 8 { a'16\p gis a } f8-. b-. r \tuplet 3/2 8 { g16 f g } e8-. a-. %50
 		r \tuplet 3/2 8 { f16 e f } d8 g g\< f e8.(\trill d32 e)
-		d16.\f a32 f16. d32 e8.(\trill d32 e) d8 d' c!16. b32 a16. g32
-		f4 r r2
+		d16.\f a32 f16. d32 e8.(\trill d32 e) d8 d' c!16. b!32 a16. g32
+		\tempoOsanna f4 r r2
 		R1
 		r8 c' d e f c f4~ %55
 		f8 e16 d e8 c d4. e8

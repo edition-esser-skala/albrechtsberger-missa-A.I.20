@@ -718,7 +718,7 @@ BenedictusBassoNotes = {
 		g([ f16 g] a8) a, b b'([ g)] a
 		d,4 r r2 %50
 		R1*2
-		r2 r8 f a h
+		\tempoOsanna r2 r8 f a h
 		c g c4~ c8[ b16 a] b8[ g]
 		a a g4 f r %55
 		R1

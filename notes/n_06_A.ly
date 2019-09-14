@@ -721,7 +721,8 @@ BenedictusAltoNotes = {
 		d4 d8 cis f4.( e16[ d]
 		e4.) e8 d f( e8.)\trill e16
 		d4 r r2 %50
-		R1*4
+		R1*2
+		\tempoOsanna R1*2
 		r2 r8 f a h %55
 		c g c4. b16[ a] b8[ g]
 		a a b([ c)] f, g a h

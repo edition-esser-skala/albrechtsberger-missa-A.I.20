@@ -407,7 +407,7 @@ BenedictusTromboneII = {
 		d cis d8 b4 a8
 		a4 r r2 %50
 		R1*2
-		r8 c d e f c f4~
+		\tempoOsanna r8 c d e f c f4~
 		f8 e16 d e8 c d4. e8
 		f c b4 a r %55
 		R1
