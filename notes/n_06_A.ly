@@ -843,7 +843,7 @@ AgnusDeiAltoNotes = {
 		f g a b!
 		cis,8 d a'[ g16 a] f4 g8[ f16 g]
 		e4 f8[ e16 f] d4 e8[ d16 e]
-		c4 d8[ c16 d] b4 c8[ b16 c] %50
+		c!4 d8[ c16 d] b4 c8[ b16 c] %50
 		a8 a' b b a4 b
 		a b a8 a g4\trill
 		f r r2
@@ -852,7 +852,7 @@ AgnusDeiAltoNotes = {
 		a8 a g4\trill f g8. g16
 		a8 a g4\trill f r
 		b(\p g) f r %60
-		f( b) a\f g
+		f( b) a g\f
 		f r r2\fermata \bar "|." %62 FINIS
 	}
 }

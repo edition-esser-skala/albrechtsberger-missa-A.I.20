@@ -800,10 +800,116 @@ AgnusDeiBassoNotes = {
 	\relative c {
 		\clef bass
 		\key f \major \time 3/4 \autoBeamOff \tempoAgnusDei
-		
+		\mvTr f2\fE^\tuttiE e4
+		es d a
+		b f' r8 r16 a
+		b4 fis r8 fis
+		g d es2 %5
+		d4 r r
+		r d d
+		b'8 gis a4( a,)
+		d r r
+		R2.*3 %12
+		d2 e4
+		f g a
+		b a r8 r16 cis %15
+		d4 a r8 a
+		b f g2
+		f4 r r
+		r f fis
+		g8 cis, d2 %20
+		g,4 r r
+		R2.*3
+		g'2 fis4 %25
+		f es r8 r16 es
+		es?4 d r
+		d es e
+		f f, r
+		f' b,4. h8 \noBreak %30
+		c4 c r\fermata \bar "||"
+		\time 4/4 \tempoDona f4 e f d8([ b)]^\critnote \noBreak
+		a4 b c8 f, r4
+		g' fis g es8([ c)]
+		b4 c d8 g, r4 %35
+		g'8[ f16 g] e4 f8[ e16 f] d4
+		e8[ d16 e] cis4 d8[ c16 d] h8 g
+		c4 h c h
+		c h c8 e f([ g)]
+		c,4 r r2 %40
+		R1*3
+		r2 c4 h
+		c a'8([ f)] e4 f %45
+		g8 c, r4 d cis
+		d b'!8[( g)] f4 g
+		a8 d, r4 d'8[ c16 d] h4
+		c8[ b16 c] a4 b8[ a16 b] g4
+		a8[ g16 a] f4 g8[ f16 g] e8 c %50
+		f4 e f e
+		f e f8 a, b([ c)]
+		f,4 r r2
+		R1*3 %56
+		r2 r4 e'8. e16
+		f8 a, b([ c)] f4 e8. e16
+		f8 a, b([ c)] f,4 r
+		b(\pE c) d r
+		b( c) f, c'\f
+		f r r2\fermata \bar "|."
 	}
 }
 
 AgnusDeiBassoLyrics = \lyricmode {
+	A -- gnus
+	De -- i, qui
+	tol -- lis, qui
+	tol -- lis pec --
+	ca -- ta mun -- %5
+	di:
+	Mi -- se --
+	re -- re no --
+	bis.
 	
+	A -- gnus %13
+	De -- i, qui
+	tol -- lis, qui %15
+	tol -- lis pec --
+	ca -- ta mun --
+	di:
+	Mi -- se --
+	re -- re no -- %20
+	bis.
+	
+	A -- gnus %25
+	De -- i, qui
+	tol -- lis
+	pec -- ca -- ta
+	mun -- di, pec --
+	ca -- ta %30
+	mun -- di:
+	Do -- na no -- bis __
+	pa -- cem, pa -- cem,
+	do -- na no -- bis __
+	pa -- cem, pa -- cem, %35
+	pa -- _ _ _
+	_ _ _ _ cem,
+	do -- na no -- bis
+	pa -- cem, no -- bis pa --
+	cem. %40
+	
+	Do -- na %44
+	no -- bis __ pa -- cem, %45
+	pa -- cem, do -- na
+	no -- bis __ pa -- cem,
+	pa -- cem, pa -- _
+	_ _ _ _
+	_ _ _ _ cem, %50
+	do -- na no -- bis
+	pa -- cem, no -- bis pa --
+	cem.
+	
+	Do -- na %57
+	no -- bis pa -- cem, do -- na
+	no -- bis pa -- cem,
+	pa -- cem, %60
+	pa -- cem, pa --
+	cem. %62 FINIS
 }

@@ -863,7 +863,7 @@ AgnusDeiTenoreNotes = {
 		a c d([ c16 b)] a4 c8 b
 		a c d([ c16 b)] a4 r
 		f(\p b) a r %60
-		b( g8[ c]) f,4\fE e'
+		b( g8[ c]) f,4 e'\fE
 		f r r2\fermata \bar "|." %62 FINIS
 	}
 }

@@ -900,7 +900,7 @@ AgnusDeiOrgano = {
 		f f g g a a
 		b b a4 r8 r16 cis %15
 		d4 a r8 a
-		b f f f f f
+		b f g g g g
 		f4 \clef treble c''-. cis-.
 		d-. \clef bass f,,8 f fis fis
 		g cis, d d d, d %20
@@ -944,7 +944,7 @@ AgnusDeiOrgano = {
 		f a, b c f,16 a c f e8 c
 		f a, b c f,4 r
 		\mvTr b(\p-\solo c d) r %60
-		b( c) \mvTr f,8\f-\tutti f' c c,
+		b( c) f,8 f' \mvTr c\f-\tutti c,
 		f4 r r2\fermata \bar "|." %62 FINIS
 	}
 }

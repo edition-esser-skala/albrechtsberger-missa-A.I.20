@@ -849,7 +849,7 @@ AgnusDeiSopranoNotes = {
 		c8 f^\critnote f([ e)] f4 c8. c16
 		c8 f f([ e)] f4 r
 		d(\p e,) f r %60
-		d'( e,) f\f b
+		d'( e,) f b\f
 		a r r2\fermata \bar "||" %62 FINIS
 	}
 }
