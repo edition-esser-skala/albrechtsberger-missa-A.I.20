@@ -426,6 +426,59 @@ AgnusDeiTromboneII = {
 	\relative c' {
 		\clef "treble_8"
 		\key f \major \time 3/4 \tempoAgnusDei
-		
+		a2\fE c4
+		c d es
+		d8( b) a4 r8 r16 c
+		\appoggiatura c8 b4 a r8 a
+		b fis g2 %5
+		a4 r r
+		r a a
+		b8 h a2
+		a4 r r
+		R2.*3 %12
+		a2 a4
+		a8( d) d4 cis
+		d e r8 r16 e %15
+		d4 c! r8 c
+		d a^\critnote b2
+		c4 r r
+		r a8 d d4~
+		d8 e! d2 %20
+		d4 r r
+		R2.*3
+		b2 d4 %25
+		d es r8 r16 c
+		c4 d r8 d
+		d4( c) b
+		b a f'
+		f( d) d \noBreak %30
+		c c r\fermata \bar "||"
+		a4 c c d^\critnote \noBreak
+		c b b8 a r4
+		b d d es
+		d c c8 b r4 %35
+		d c c b
+		b a a g
+		g2 g
+		g g8 c4 h8
+		c4 r r2 %40
+		R1*3
+		r2 g4. d'8
+		c4 c c4. f8 %45
+		d e r4 a,4. e'8
+		d4 d d4. g8
+		e d^\critnote r4 r d8 g
+		g4 f f e
+		e d d^\critnote c %50
+		c2 c
+		c c4 d8 c16 b
+		a4 r r2
+		R1*3 %56
+		r2 r4 c8 b
+		a c d c16 b a4 c8 b
+		a c d c16 b a4 r
+		f(\p b) a r %60
+		b( g) f e'\fE
+		f r r2\fermata \bar "|." %62 FINIS
 	}
 }

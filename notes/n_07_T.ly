@@ -824,7 +824,7 @@ AgnusDeiTenoreNotes = {
 		a2 a4
 		a8([ d)] d4 cis
 		d e r8 r16 e %15
-		d4 c r8 c
+		d4 c! r8 c
 		d a b2
 		c4 r r
 		r a8 d d4~
@@ -863,7 +863,7 @@ AgnusDeiTenoreNotes = {
 		a c d([ c16 b)] a4 c8 b
 		a c d([ c16 b)] a4 r
 		f(\p b) a r %60
-		b( g8[ c]) f,4 e'\fE
+		b( g) f e'\fE
 		f r r2\fermata \bar "|." %62 FINIS
 	}
 }

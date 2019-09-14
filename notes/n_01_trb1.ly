@@ -455,7 +455,7 @@ AgnusDeiTromboneI = {
 		g2 f
 		e d
 		c4 d c d
-		c d c8 g' a( g16 f)
+		c d c8 g' a g16 f
 		e4 r r2 %40
 		R1*3
 		r2 c4 d
