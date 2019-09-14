@@ -807,14 +807,14 @@ BenedictusTenoreLyrics = \lyricmode {
 	cel -- sis. %64 FINIS
 }
 
-% TenoreNotes = {
-% 	\relative c' {
-% 		\clef "treble_8"
-% 		
-% 		
-% 	}
-% }
-% 
-% TenoreLyrics = \lyricmode {
-% 	
-% }
+AgnusDeiTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key f \major \time 3/4 \autoBeamOff \tempoAgnusDei
+		
+	}
+}
+
+AgnusDeiTenoreLyrics = \lyricmode {
+	
+}

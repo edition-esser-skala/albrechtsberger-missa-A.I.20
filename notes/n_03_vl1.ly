@@ -432,10 +432,10 @@ BenedictusViolinoI = {
 	}
 }
 
-% ViolinoI = {
-% 	\relative c' {
-% 		\clef treble
-% 		
-% 		
-% 	}
-% }
+AgnusDeiViolinoI = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 3/4 \tempoAgnusDei
+		
+	}
+}

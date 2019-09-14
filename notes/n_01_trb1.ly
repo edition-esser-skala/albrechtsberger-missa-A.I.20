@@ -416,3 +416,11 @@ BenedictusTromboneI = {
 		f f\fermata \bar "|." %64 FINIS
 	}
 }
+
+AgnusDeiTromboneI = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 3/4 \tempoAgnusDei
+		
+	}
+}

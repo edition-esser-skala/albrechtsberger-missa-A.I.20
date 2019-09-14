@@ -880,14 +880,14 @@ BenedictusBassFigures = \figuremode {
 	r <[6]>2. %64 FINIS
 }
 
-% Organo = {
-% 	\relative c {
-% 		\clef bass
-% 		
-% 		
-% 	}
-% }
-% 
-% BassFigures = \figuremode {
-% 	
-% }
+AgnusDeiOrgano = {
+	\relative c {
+		\clef bass
+		\key f \major \time 3/4 \tempoAgnusDei
+		\mvTr f,8\fE-\tuttiE f f' f e e
+	}
+}
+
+AgnusDeiBassFigures = \figuremode {
+	
+}

@@ -793,14 +793,14 @@ BenedictusSopranoLyrics = \lyricmode {
 	cel -- sis. %64 FINIS
 }
 
-% SopranoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		
-% 		
-% 	}
-% }
-% 
-% SopranoLyrics = \lyricmode {
-% 	
-% }
+AgnusDeiSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 3/4 \autoBeamOff \tempoAgnusDei
+		
+	}
+}
+
+AgnusDeiSopranoLyrics = \lyricmode {
+	
+}
