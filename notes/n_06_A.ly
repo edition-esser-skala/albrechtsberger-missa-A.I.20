@@ -675,12 +675,124 @@ BenedictusAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key d \minor \time 4/4 \autoBeamOff \tempoBenedictus
-		
+		\mvTr d4\fE^\tuttiE a' b2
+		a4 r8 a g4 g8 g
+		f4 f8 f e4. e8
+		d4 r r2
+		R1*2 %6
+		r8 e a2 g!4~
+		g f8 f e4. e8
+		d4 r r8 b' f([ g)]
+		a a e([ f)] g g d([ e)] %10
+		f4 b b a8 a
+		a8. a16 d,4 es d
+		d r r8 c' g([ a)]
+		b b f([ g)] a a e([ fis)]
+		g d g2 fis8 fis %15
+		f4( es d4.) d8
+		e4 f f e8 e
+		es4( d c4.) c8
+		d f f f16 f f4( e8) e
+		f4 r r2 %20
+		f4 c' d2
+		c4 r8 c b4 b8 b
+		f4. f8 f4 r8 f
+		f4 f8 f f4 g8 f
+		g4 f8([ es)] d4 r %25
+		R1*4
+		r2 f4 b %30
+		d2 c4 r8 c
+		b4 b8 b a4 a8 a
+		g4. f16([ g)] a8 a a g16 a
+		b4 a8 a g4. g8
+		fis4 r r2 %35
+		d4 a' b2
+		a4 r8 a g4 g8 g
+		d4. fis8 g d g4~
+		g g8 g fis8. e16 d4
+		r8 d g([ f)] e!4 r %40
+		r8 c f([ e)] d4 r
+		r8 b e d cis4 e
+		d e8 e f4 e8([ d)]
+		cis4 r a' d,
+		cis2 d4 r8 f %45
+		g2 f4 r8 a
+		a4 a8 g f4 f8 e
+		d4 d8 cis f4.( e16[ d]
+		e4.) e8 d f( e8.)\trill e16
+		d4 r r2 %50
+		R1*4
+		r2 r8 f a h %55
+		c g c4. b16[ a] b8[ g]
+		a a b([ c)] f, g a h
+		c4. b8 a2(
+		g)\trill f4 r
+		r2 a8 a g4 %60
+		a r r2
+		a8 a g4 a8 a b c
+		f,4 f f2~
+		f f\fermata \bar "|." %64 FINIS
 	}
 }
 
 BenedictusAltoLyrics = \lyricmode {
+	Be -- ne -- di --
+	ctus qui ve -- nit in
+	no -- mi -- ne Do -- mi --
+	ni,
 	
+	in no -- _ %7
+	mi -- ne Do -- mi --
+	ni, qui ve --
+	nit, qui ve -- nit, qui ve -- %10
+	nit in no -- mi -- ne
+	Do -- mi -- ni, Do -- mi --
+	mi, qui ve --
+	nit, qui ve -- nit, qui ve --
+	nit in no -- mi -- ne %15
+	Do -- mi --
+	ni, in no -- mi -- ne
+	Do -- mi --
+	ni, in no -- mi -- ne Do -- mi --
+	ni. %20
+	Be -- ne -- di --
+	ctus qui ve -- nit in
+	no -- mi -- ne, qui
+	ve -- nit in no -- mi -- ne
+	Do -- mi -- ni. %25
+	
+	Be -- ne -- %30
+	di -- ctus qui
+	ve -- nit in no -- mi -- ne
+	Do -- mi -- ni, qui ve -- nit in
+	no -- mi -- ne Do -- mi --
+	ni. %35
+	Be -- ne -- di --
+	ctus qui ve -- nit in
+	no -- mi -- ne, in no --
+	mi -- ne Do -- mi -- ni,
+	qui ve -- nit, %40
+	qui ve -- nit
+	in no -- mi -- ne, in
+	no -- mi -- ne Do -- mi --
+	ni. Be -- ne --
+	di -- ctus qui %45
+	ve -- nit, qui
+	ve -- nit, qui ve -- nit in
+	no -- mi -- ne Do --
+	mi -- ni, Do -- mi --
+	ni. %50
+	
+	O -- san -- na %55
+	in ex -- cel -- _ _
+	sis, o -- san -- na, o -- san -- na
+	in ex -- cel --
+	sis,
+	in ex -- cel -- %60
+	sis,
+	in ex -- cel -- sis, o -- san -- na
+	in ex -- cel --
+	sis. %64 FINIS
 }
 
 % AltoNotes = {

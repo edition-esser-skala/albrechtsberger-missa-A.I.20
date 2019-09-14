@@ -674,7 +674,7 @@ BenedictusSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key d \minor \time 4/4 \autoBeamOff \tempoBenedictus
-		r2 r8 g'' d([ e)]
+		r2 r8 \mvTr g''\fE^\tuttiE d([ e)]
 		f f c([ d)] e e h([ cis)]
 		d a d2 cis4
 		d8 a4 g8 f4 r8 d'
