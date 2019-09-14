@@ -674,12 +674,122 @@ BenedictusSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key d \minor \time 4/4 \autoBeamOff \tempoBenedictus
-		
+		r2 r8 g'' d([ e)]
+		f f c([ d)] e e h([ cis)]
+		d a d2 cis4
+		d8 a4 g8 f4 r8 d'
+		e c r c d h r h %5
+		c a r e' f4 e
+		c r8 c h4 h8 e
+		a,4 a8 d g,([ a16 b] a8) g
+		f4 r r2
+		R1*3 %12
+		g4 d' es2
+		d4 r8 d c4 c8 c
+		b4 b8 b a4. a8 %15
+		h4 c2 h4
+		b a g4. g8
+		a4 b2 a4
+		b8 d d c16 c b4. b8
+		a4 r f' b, %20
+		a2 b4 r8 b
+		es2 d4 r8 f
+		f4 f8 es d4 d8 c
+		b4 b8 a d4.( f16[ d]
+		c4.)\trill c8 b4 r %25
+		R1
+		r2 b4 f'
+		g2 f4 r8 f
+		es4 es8 es d4 d8 d
+		c4. c8 b4 r %30
+		R1*4
+		r2 d4 g, %35
+		fis2 g4 r8 b
+		c2 b4 r8 d
+		d4 d8 c b4 b8 b
+		a4. a8 a a d([ c)]
+		b4 r r8 g c([ b)] %40
+		a4 r r8 f b([ a)]
+		g4 r r8 e a g16 g
+		f4( a2) gis4
+		a r r2
+		a4 e' f2 %45
+		e4 r8 e d4 d8 d
+		a4. a8 a4 r8 a
+		a4 a8 a a4 b8 a
+		b4 a8([ g)] f d'4 cis8
+		d4 r r2 %50
+		R1*4
+		r8 c d e f c f4~ %55
+		f8([ e16 d)] e8 c d4.( e8)
+		f4 r r r8 d
+		e f g4. c,8 f4~
+		f8([ e16 d] e4)\trill f r
+		r2 a,8 f' f([ e)] %60
+		f4 r r2
+		a,8 f' f([ e)] f f f es
+		d4 es d es8 es
+		d2 c\fermata \bar "|." %64 FINIS
 	}
 }
 
 BenedictusSopranoLyrics = \lyricmode {
+	Qui ve --
+	nit, qui ve -- nit, qui ve --
+	nit in no -- mi --
+	ne Do -- mi -- ni, qui
+	ve -- nit, qui ve -- nit, qui %5
+	ve -- nit in no -- mi --
+	ne, qui ve -- nit in
+	no -- mi -- ne Do -- mi --
+	ni.
 	
+	Be -- ne -- di -- %13
+	ctus qui ve -- nit in
+	no -- mi -- ne Do -- mi -- %15
+	ni, Do -- mi --
+	ni, in no -- mi --
+	ne Do -- mi --
+	ni, in no -- mi -- ne Do -- mi --
+	ni. Be -- ne -- %20
+	di -- ctus qui
+	ve -- nit, qui
+	ve -- nit, qui ve -- nit in
+	no -- mi -- ne Do --
+	mi -- ni. %25
+	
+	Be -- ne --
+	di -- ctus qui
+	ve -- nit in no -- mi -- ne
+	Do -- mi -- ni. %30
+	
+	Be -- ne -- %35
+	di -- ctus qui
+	ve -- nit, qui
+	ve -- nit in no -- mi -- ne
+	Do -- mi -- ni, qui ve --
+	nit, qui ve -- %40
+	nit, qui ve --
+	nit in no -- mi -- ne
+	Do -- mi --
+	ni.
+	Be -- ne -- di -- %45
+	ctus qui ve -- nit in
+	no -- mi -- ne, qui
+	ve -- nit in no -- mi -- ne
+	Do -- mi -- ni, Do -- mi --
+	ni. %50
+	
+	O -- san -- na in ex -- cel -- %55
+	sis, o -- san --
+	na, o --
+	san -- na in ex -- cel --
+	sis,
+	in ex -- cel -- %60
+	sis,
+	in ex -- cel -- sis, o -- san -- na
+	in ex -- cel -- sis, ex --
+	cel -- sis. %64 FINIS
 }
 
 % SopranoNotes = {
