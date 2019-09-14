@@ -800,10 +800,116 @@ AgnusDeiAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key f \major \time 3/4 \autoBeamOff \tempoAgnusDei
-		
+		\mvTr c2\fE^\tuttiE c4
+		f f f
+		f f r8 r16 f
+		f4 es r8 es
+		d d d4( cis) %5
+		d r r
+		r f! f
+		f8 f f4( e)
+		f r r
+		R2.*3 %12
+		f2 g4
+		a g e
+		d cis r8 r16 a' %15
+		a4 f r8 f
+		f f f4( e!)
+		f r r
+		r a a
+		g8 g g4( fis) %20
+		g r r
+		R2.*3
+		d2 d4 %25
+		g g r8 r16 g
+		f4 f r
+		b g4. g8
+		f4 f a
+		a( b8[ a)] g([ f)] \noBreak %30
+		f4 e r\fermata \bar "||"
+		\time 4/4 \tempoDona c4. g'8 f4 f \noBreak
+		f4. b8 g a r4
+		d,4. a'8 g4 g
+		g4. c8 a b r4 %35
+		g2 f
+		e d
+		c4 d c d
+		c d c8 g' a([ g16 f)]
+		e4 r r2 %40
+		R1*3
+		r2 c4 d
+		e f g a %45
+		h,8 c r4 d e
+		f g a b!
+		cis,8 d a'[ g16 a] f4 g8[ f16 g]
+		e4 f8[ e16 f] d4 e8[ d16 e]
+		c4 d8[ c16 d] b4 c8[ b16 c] %50
+		a8 a' b b a4 b
+		a b a8 a g4\trill
+		f r r2
+		R1*3 %56
+		r2 r4 g8. g16
+		a8 a g4\trill f g8. g16
+		a8 a g4\trill f r
+		b(\p g) f r %60
+		f( b) a\f g
+		f r r2\fermata \bar "|." %62 FINIS
 	}
 }
 
 AgnusDeiAltoLyrics = \lyricmode {
+	A -- gnus
+	De -- i, qui
+	tol -- lis, qui
+	tol -- lis pec --
+	ca -- ta mun -- %5
+	di:
+	Mi -- se --
+	re -- re no --
+	bis.
 	
+	A -- gnus %13
+	De -- i, qui
+	tol -- lis, qui %15
+	tol -- lis pec --
+	ca -- ta mun --
+	di:
+	Mi -- se --
+	re -- re no -- %20
+	bis.
+	
+	A -- gnus %25
+	De -- i, qui
+	tol -- lis
+	pec -- ca -- ta
+	mun -- di, pec --
+	ca -- ta __ %30
+	mun -- di:
+	Do -- na no -- bis
+	pa -- cem, pa -- cem,
+	do -- na no -- bis
+	pa -- cem, pa -- cem, %35
+	do -- na
+	no -- bis
+	pa -- cem, do -- na
+	no -- bis pa -- cem, pa --
+	cem. %40
+	
+	Do -- na %44
+	no -- bis pa -- cem, %45
+	pa -- cem, do -- na
+	no -- bis pa -- cem,
+	pa -- cem, pa -- _ _
+	_ _ _ _
+	_ _ _ _ %50
+	_ cem, do -- na no -- bis
+	pa -- cem, no -- bis pa --
+	cem.
+	
+	Do -- na %57
+	no -- bis pa -- cem, do -- na
+	no -- bis pa -- cem,
+	pa -- cem, %60
+	pa -- cem, pa --
+	cem. %62 FINIS
 }

@@ -880,7 +880,7 @@ AgnusDeiSopranoLyrics = \lyricmode {
 	tol -- lis pec --
 	ca -- ta
 	mun -- di, pec --
-	ca -- ta %30
+	ca -- ta __ %30
 	mun -- di:
 	Do -- na no -- bis
 	pa -- cem, pa -- cem,
@@ -903,10 +903,10 @@ AgnusDeiSopranoLyrics = \lyricmode {
 	pa -- cem, no -- bis pa --
 	cem.
 	
-	Do -- na
+	Do -- na %57
 	no -- bis pa -- cem, do -- na
 	no -- bis pa -- cem,
-	pa -- cem,
+	pa -- cem, %60
 	pa -- cem, pa --
-	cem.
+	cem. %62 FINIS
 }
