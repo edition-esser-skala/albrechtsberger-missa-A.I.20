@@ -782,18 +782,18 @@ BenedictusBassoLyrics = \lyricmode {
 	Do -- mi -- ni, Do -- mi --
 	ni. %50
 	
-	O -- san -- na
+	O -- san -- na %53
 	in ex -- cel -- _
-	sis, o -- san -- na,
+	sis, o -- san -- na, %55
 	
-	o -- san -- na in ex -- cel -- %20
+	o -- san -- na in ex -- cel --
 	sis, ex -- cel --
 	sis,
-	in ex -- cel --
+	in ex -- cel -- %60
 	sis,
-	in ex -- cel -- sis, o -- san -- na %25
+	in ex -- cel -- sis, o -- san -- na
 	in ex -- cel -- sis, ex --
-	cel -- sis. %27 FINIS
+	cel -- sis. %64 FINIS
 }
 
 % BassoNotes = {
