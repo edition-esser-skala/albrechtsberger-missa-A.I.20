@@ -481,7 +481,7 @@ AgnusDeiViolinoII = {
 		c,4 r r c\p %40
 		d8 a d4 r d
 		e8 h e4 r e
-		f8 c b a g[ r16 e'] f a g f
+		f8 c h? a g[ r16 e'] f a g f
 		e8 g a g16 f e8\f c' d8.(\trill c32 d)
 		e4 f8.(\trill e32 f) g4 a %45
 		h,8-. c-. \tuplet 3/2 8 { g'16[ f e] e d cis } d4 e8.(\trill d32 e)
@@ -498,7 +498,7 @@ AgnusDeiViolinoII = {
 		a8 c, d c16 b a4\fE c16 e g c
 		c, f a c b8 g a4 c,16 e g c
 		c, f a c b8 g a4 r
-		a(\p g f8) r r4 %60
+		b(\p g f8) r r4 %60
 		\once \slurDashed b( g) f8 c16 c c8\f c
 		c4 r r2\fermata \bar "|." %62 FINIS
 	}
