@@ -885,9 +885,131 @@ AgnusDeiOrgano = {
 		\clef bass
 		\key f \major \time 3/4 \tempoAgnusDei
 		\mvTr f,8\fE-\tuttiE f f' f e e
+		es es d d a a
+		b b f'4 r8 r16 a
+		b4 fis r8 fis
+		g d es es es es %5
+		d4 \clef treble a''-. a-.
+		d-\parenthesize-. \clef bass d,,8 d d d
+		b' gis a a a, a
+		d4 r8 \mvTr d\pE-\senzaOrg d d
+		d4 r8 cis cis cis %10
+		d4 r8 f-. f( fis)
+		g b a a a, a
+		\mvTr d\f-\tutti d d d e e
+		f f g g a a
+		b b a4 r8 r16 cis %15
+		d4 a r8 a
+		b f f f f f
+		f4 \clef treble c''-. cis-.
+		d-. \clef bass f,,8 f fis fis
+		g cis, d d d, d %20
+		g4 r8 \mvTr g'\p-\senzaOrg g g
+		g4 r8 fis fis fis
+		g4 r8 b-. b( h)
+		c es d d d, d
+		\mvTr g\f-\tutti g g g fis fis %25
+		f f es4 r8 r16 es
+		es?4 d r
+		d8 d es es e e
+		f f f, f f f
+		f f b b b h \noBreak %30
+		c2 r4\fermata \bar "||"
+		\time 4/4 \tempoDona f8 a16 f e8 c f f,16 f' d8 b \noBreak
+		a a'16 f b8 b, c f, r d'
+		g, b'16 g fis8 d g g,16 g' es8 c
+		b b'16 g c8 c, d g, r4 %35
+		g'8 f!16 g e!8 c f e16 f d8 b
+		e d16 e cis8 a d c16 d h8 g
+		c c' h g c e16 c h8 g
+		c e16 c h8 g c e, f g
+		c,4 r \mvTr a'8-.\p-\senzaOrg g16-. a-. f8-. e16-. f-. %40
+		d8-. c16-. d-. h4 h'8-. a16-. h-. g8-. f16-. g-.
+		e8-. d16-. e-. c4 c'8-. h16-. c-. a8-. g16-. a-.
+		f8-. e16-. f-. d8-. c16-. d-. h8 c f g
+		a e f g \mvTr c,\fE-\tutti e16 c h8 g
+		c e16 c a8 f e e'16 c f8 f %45
+		g c, r a' d, f16 d cis8 a
+		d f16 d b!8 g f f'16 d g8 g
+		a d, r4 d'8 c16 d h8 g
+		c b16 c a8 f b a16 b g8 e
+		a g16 a f8 d g f16 g e8 c %50
+		f f e c f a16 f e8 c
+		f a16 f e8 c f a, b c
+		f,4 r \mvTr d''8-.\p-\senzaOrg c16-. d-. b8-. a16-. b-.
+		g8-. f16-. g-. e4 e'8-. d16-. e-. c8-. b16-. c-.
+		a8-. g16-. a-. f4 f'8-. e16-. f-. d8-. c16-. d-. %55
+		b8-. a16-. b-. g8-. f16-. g-. e8 f b, c
+		d a b c \mvTr f,16\f-\tutti a c f e8 c
+		f a, b c f,16 a c f e8 c
+		f a, b c f,4 r
+		\mvTr b(\p-\solo c d) r %60
+		b( c) \mvTr f,8\f-\tutti f' c c,
+		f4 r r2\fermata \bar "|." %62 FINIS
 	}
 }
 
 AgnusDeiBassFigures = \figuremode {
-	
+	r2 <6>4
+	<2> <6> <6 5->
+	r2 r8. <6>16
+	r4 <6 5>4. <\t \t>8
+	<_->8 <_+> <7>4 <6\\> %5
+	<_+>2.
+	r4 <_!>2
+	r8 <7 [_!]> <6 4>4 <[5] _+>
+	r2.
+	r %10
+	r
+	r
+	r2 <6\\>4
+	<[6]> r <_+>
+	<6\\> <_+>r8. <6>16 %15
+	r4 <6 5->4. <\t \t>8
+	r4 <7> <6!>
+	r2.
+	r4 <6> <6 5!>
+	r8 <7> <6 4>4 <[5] _+> %20
+	r2.
+	r
+	r
+	r
+	r2 <6>4 %25
+	<4 2> <6>4 r8. <\t>16
+	<4 2>4 <6->2
+	<\t>4 <6> <7>
+	<6 4> <5 3>2
+	r4 <10 8>8 <9 7> <8 6> <7 5> %30
+	<6 4>4 <5 3>2
+	r4 <[6]> r <6>
+	q2 <7>4. <7 _+>8
+	r4 <6>8 <[_+]> r4 <6>8 <[_-]>
+	<6>4 <_-> <7 _+>2 %35
+	r4 <6>8 <7> r4 <6>8 <7>
+	<5->4 <6>8 <7> r4 <6>8 <7 [_!]>
+	r4 <6 5>8 <[_!]> r4 <6 5>8 <[_!]>
+	r4 <6 5>8 <[_!]> r4 <6 5>8 <_!>
+	r1 %40
+	r
+	r
+	r
+	r2. <6>8 <[_!]>
+	r4 <6> q2 %45
+	<7 _!>4. <7 _+>8 r4 <6>8 <[_+]>
+	r4 <6> q <_->
+	<7 _+>2. <6>8 <7 [_!]>
+	r4 <6>8 <7> r4 <6>8 <7>
+	r4 <6>8 <7> r4 <6>8 <7> %50
+	r4 <6 5> r q
+	r q r q
+	r1
+	r
+	r
+	r
+	r2. <6>8 <7>
+	r4 <6 5> r <6>8 <7>
+	r4 <6 5>2.
+	r4 <7> <5>2
+	r4 <7> r q
+	r1
 }
