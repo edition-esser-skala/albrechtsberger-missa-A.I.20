@@ -1,18 +1,14 @@
-% (c) 2019 by Wolfgang Esser-Skala.
-% This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
-% To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
-
-\version "2.18.0"
+\version "2.22.0"
 
 TromboneIIIncipit = \markup {
-	"Trombone II" \hspace #-23 \score {
+	"II" \hspace #-16.5 \score {
 		\new Staff \with {
 			\remove Time_signature_engraver
 		} {
 			\clef tenor s4 \bar empty
 		}
 		\layout { }
-	} \hspace #-1.8
+	} \hspace #-0.8
 }
 
 KyrieTromboneII = {
@@ -198,7 +194,7 @@ CredoTromboneII = {
 		d' c4. b8
 		a4 r r
 		R2.*5 \noBreak %47
-		R2.\fermataMarkup \bar "||"
+		R2.\fermata \bar "||"
 		\key b \major \time 4/4 \tempoEtIncarnatus r2 r8 es'\pE es es \noBreak
 		f4. b,8 b4 b %50
 		g g8 g g4 g8 g

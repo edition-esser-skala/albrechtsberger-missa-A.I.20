@@ -1,8 +1,4 @@
-% (c) 2019 by Wolfgang Esser-Skala.
-% This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
-% To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
-
-\version "2.18.0"
+\version "2.22.0"
 
 KyrieOrgano = {
 	\relative c {
@@ -661,7 +657,7 @@ SanctusOrgano = {
 		\mvTr c''4\fE-\tutti a \clef bass f,8 f d d
 		b b as as g g g g
 		g g g g c,4 \clef treble g''''8 es
-		c4 \clef bass es,,8 c as as as as 
+		c4 \clef bass es,,8 c as as as as
 		a a b b f f f' f %5
 		f f es c d d g g
 		g g f! d b' b b, b \noBreak

@@ -1,47 +1,42 @@
-% (c) 2019 by Wolfgang Esser-Skala.
-% This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
-% To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
-
-\version "2.18.0"
+\version "2.22.0"
 
 \include "../definitions.ly"
 
 \paper {
-	#(set-paper-size "a4" 'portrait)
-	indent = 2\cm
+	indent = 1\cm
 	top-margin = 1.5\cm
 	system-separator-markup = ##f
 	system-system-spacing =
-    #'((basic-distance . 20)
-       (minimum-distance . 20)
-       (padding . -100)
-       (stretchability . 0))
-	
-	top-system-spacing =
     #'((basic-distance . 17)
        (minimum-distance . 17)
        (padding . -100)
        (stretchability . 0))
-	
+
+	top-system-spacing =
+    #'((basic-distance . 12)
+       (minimum-distance . 12)
+       (padding . -100)
+       (stretchability . 0))
+
 	top-markup-spacing =
     #'((basic-distance . 0)
        (minimum-distance . 0)
        (padding . -100)
        (stretchability . 0))
-		
+
 	markup-system-spacing =
-    #'((basic-distance . 17)
-       (minimum-distance . 17)
+    #'((basic-distance . 12)
+       (minimum-distance . 12)
        (padding . -100)
        (stretchability . 0))
-	
+
 	last-bottom-spacing =
     #'((basic-distance . 0)
        (minimum-distance . 0)
        (padding . 0)
        (stretchability . 1.0e7))
-	
-	systems-per-page = #5
+
+	systems-per-page = #6
 }
 
 #(set-global-staff-size 17.82)
@@ -49,19 +44,34 @@
 \layout {
 	\context {
 		\GrandStaff
-		instrumentName = "Trombone"
+		instrumentName = "trb"
+		\override StaffGrouper.staffgroup-staff-spacing =
+			#'((basic-distance . 12)
+				(minimum-distance . 12)
+				(padding . -100)
+				(stretchability . 0))
+		\override StaffGrouper.staff-staff-spacing =
+			#'((basic-distance . 12)
+				(minimum-distance . 12)
+				(padding . -100)
+				(stretchability . 0))
+
 	}
 }
+
 
 \book {
 	\bookpart {
 		\header {
-			movement = "1 KYRIE"
+			number = "1"
+			title = "K Y R I E"
 		}
+		\paper { indent = 2\cm }
 		\score {
 			<<
 				\new StaffGroup <<
 					\new GrandStaff <<
+						\set GrandStaff.instrumentName = "Trombone"
 						\new Staff {
 							\set Staff.instrumentName = "I"
 							\KyrieTromboneI
@@ -77,18 +87,19 @@
 	}
 	\bookpart {
 		\header {
-			movement = "2 GLORIA"
+			number = "2"
+			title = "G L O R I A"
 		}
 		\score {
 			<<
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
-							\set Staff.instrumentName = "I"
+							\set Staff.instrumentName = "1"
 							\GloriaTromboneI
 						}
 						\new Staff {
-							\set Staff.instrumentName = "II"
+							\set Staff.instrumentName = "2"
 							\GloriaTromboneII
 						}
 					>>
@@ -98,18 +109,19 @@
 	}
 	\bookpart {
 		\header {
-			movement = "3.1 CREDO"
+			number = "3"
+			title = "C R E D O"
 		}
 		\score {
 			<<
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
-							\set Staff.instrumentName = "I"
+							\set Staff.instrumentName = "1"
 							\CredoTromboneI
 						}
 						\new Staff {
-							\set Staff.instrumentName = "II"
+							\set Staff.instrumentName = "2"
 							\CredoTromboneII
 						}
 					>>
@@ -119,18 +131,19 @@
 	}
 	\bookpart {
 		\header {
-			movement = "4 SANCTUS"
+			number = "4"
+			title = "S A N C T U S"
 		}
 		\score {
 			<<
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
-							\set Staff.instrumentName = "I"
+							\set Staff.instrumentName = "1"
 							\SanctusTromboneI
 						}
 						\new Staff {
-							\set Staff.instrumentName = "II"
+							\set Staff.instrumentName = "2"
 							\SanctusTromboneII
 						}
 					>>
@@ -140,18 +153,19 @@
 	}
 	\bookpart {
 		\header {
-			movement = "5 BENEDICTUS"
+			number = "5"
+			title = "B E N E D I C T U S"
 		}
 		\score {
 			<<
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
-							\set Staff.instrumentName = "I"
+							\set Staff.instrumentName = "1"
 							\BenedictusTromboneI
 						}
 						\new Staff {
-							\set Staff.instrumentName = "II"
+							\set Staff.instrumentName = "2"
 							\BenedictusTromboneII
 						}
 					>>
@@ -161,18 +175,19 @@
 	}
 	\bookpart {
 		\header {
-			movement = "6 AGNUS DEI"
+			number = "6"
+			title = "A G N U S  D E I"
 		}
 		\score {
 			<<
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
-							\set Staff.instrumentName = "I"
+							\set Staff.instrumentName = "1"
 							\AgnusDeiTromboneI
 						}
 						\new Staff {
-							\set Staff.instrumentName = "II"
+							\set Staff.instrumentName = "2"
 							\AgnusDeiTromboneII
 						}
 					>>

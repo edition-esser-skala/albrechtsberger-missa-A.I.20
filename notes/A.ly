@@ -1,11 +1,7 @@
-% (c) 2019 by Wolfgang Esser-Skala.
-% This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
-% To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
-
-\version "2.18.0"
+\version "2.22.0"
 
 AltoIncipit = \markup {
-	"Alto" \hspace #-18.5 \score {
+	"Alto" \hspace #-16.8 \score {
 		\new Staff \with {
 			\remove Time_signature_engraver
 		} {
@@ -63,7 +59,7 @@ KyrieAltoLyrics = \lyricmode {
 	lei -- son,
 	e -- lei -- %15
 	son.
-	
+
 	Ky -- ri -- e e -- %26
 	lei -- son, e -- lei --
 	son, Ky -- ri -- e e --
@@ -78,13 +74,13 @@ KyrieAltoLyrics = \lyricmode {
 	lei -- son, Ky -- ri -- e e --
 	lei -- son, e --
 	lei -- son,
-	
+
 	e -- lei -- %42
 	son,
-	
+
 	e -- lei -- %45
 	son,
-	
+
 	e -- lei --
 	son, e -- lei --
 	son. %50 FINIS
@@ -319,7 +315,7 @@ CredoAltoNotes = {
 		g' f( e)\trill
 		f r r
 		R2.*5 \noBreak %47
-		R2.\fermataMarkup \bar "||"
+		R2.\fermata \bar "||"
 		\key b \major \time 4/4 \tempoEtIncarnatus R1 \noBreak
 		r8 as\pE as as g4. es8 %50
 		f4. h,8 c4 c8 g'
@@ -469,7 +465,7 @@ CredoAltoLyrics = \lyricmode {
 	ve -- rum de De --
 	o ve --
 	ro. %25
-	
+
 	Ge -- ni -- tum non
 	fa -- ctum, con -- sub --
 	stan -- ti -- a -- lem
@@ -486,7 +482,7 @@ CredoAltoLyrics = \lyricmode {
 	_ dit %40
 	de coe --
 	lis.
-	
+
 	Et in -- car -- na -- tus %50
 	est de Spi -- ri -- tu,
 	Spi -- ri -- tu San -- cto
@@ -504,7 +500,7 @@ CredoAltoLyrics = \lyricmode {
 	est,
 	et se -- %65
 	pul -- tus est.
-	
+
 	Et re -- sur --
 	re -- xit
 	ter -- ti -- a %70
@@ -514,7 +510,7 @@ CredoAltoLyrics = \lyricmode {
 	dum Scri --
 	ptu -- %75
 	ras.
-	
+
 	Et a --
 	scen -- dit in
 	coe -- %80
@@ -523,7 +519,7 @@ CredoAltoLyrics = \lyricmode {
 	det ad dex --
 	te -- ram Pa --
 	tris.
-	
+
 	Et %88
 	i -- te -- rum ven --
 	tu -- rus est cum %90
@@ -537,7 +533,7 @@ CredoAltoLyrics = \lyricmode {
 	gni non e --
 	rit fi --
 	nis. %100
-	
+
 	Et in %103
 	Spi -- ri -- tum
 	San -- ctum, %105
@@ -557,7 +553,7 @@ CredoAltoLyrics = \lyricmode {
 	per Pro --
 	phe -- %120
 	tas.
-	
+
 	Et u -- nam %124
 	san -- ctam ca -- %125
 	tho -- li -- cam et
@@ -575,14 +571,14 @@ CredoAltoLyrics = \lyricmode {
 	pe -- cto
 	re -- sur -- re -- cti --
 	o -- nem %140
-	
+
 	mor -- tu --
 	o -- _
 	_ _
 	_ _ %145
 	_ _
 	rum
-	
+
 	et vi -- tam ven --
 	tu -- ri %150
 	sae -- cu -- li,
@@ -591,7 +587,7 @@ CredoAltoLyrics = \lyricmode {
 	tu -- ri sae --
 	cu -- li, a -- %155
 	men,
-	
+
 	et %159
 	vi -- tam ven -- %160
 	tu -- ri
@@ -648,7 +644,7 @@ SanctusAltoLyrics = \lyricmode {
 	San -- ctus,
 	San -- ctus Do -- mi -- nus
 	De -- us Sa -- ba -- %5
-	oth, De -- us Sa -- ba -- oth, 
+	oth, De -- us Sa -- ba -- oth,
 	De -- us Sa -- ba --
 	oth.
 	Ple -- ni sunt coe -- li, sunt
@@ -658,7 +654,7 @@ SanctusAltoLyrics = \lyricmode {
 	glo -- ri -- a tu -- a,
 	glo -- ri -- a, glo -- ri -- a
 	tu -- a. %15
-	
+
 	O -- san -- na %18
 	in ex -- cel -- _ _
 	sis, o -- san -- na, o -- san -- na %20
@@ -741,7 +737,7 @@ BenedictusAltoLyrics = \lyricmode {
 	ctus qui ve -- nit in
 	no -- mi -- ne Do -- mi --
 	ni,
-	
+
 	in no -- _ %7
 	mi -- ne Do -- mi --
 	ni, qui ve --
@@ -761,7 +757,7 @@ BenedictusAltoLyrics = \lyricmode {
 	no -- mi -- ne, qui
 	ve -- nit in no -- mi -- ne
 	Do -- mi -- ni. %25
-	
+
 	Be -- ne -- %30
 	di -- ctus qui
 	ve -- nit in no -- mi -- ne
@@ -783,7 +779,7 @@ BenedictusAltoLyrics = \lyricmode {
 	no -- mi -- ne Do --
 	mi -- ni, Do -- mi --
 	ni. %50
-	
+
 	O -- san -- na %55
 	in ex -- cel -- _ _
 	sis, o -- san -- na, o -- san -- na
@@ -867,7 +863,7 @@ AgnusDeiAltoLyrics = \lyricmode {
 	Mi -- se --
 	re -- re no --
 	bis.
-	
+
 	A -- gnus %13
 	De -- i, qui
 	tol -- lis, qui %15
@@ -877,7 +873,7 @@ AgnusDeiAltoLyrics = \lyricmode {
 	Mi -- se --
 	re -- re no -- %20
 	bis.
-	
+
 	A -- gnus %25
 	De -- i, qui
 	tol -- lis
@@ -894,7 +890,7 @@ AgnusDeiAltoLyrics = \lyricmode {
 	pa -- cem, do -- na
 	no -- bis pa -- cem, pa --
 	cem. %40
-	
+
 	Do -- na %44
 	no -- bis pa -- cem, %45
 	pa -- cem, do -- na
@@ -905,7 +901,7 @@ AgnusDeiAltoLyrics = \lyricmode {
 	_ cem, do -- na no -- bis
 	pa -- cem, no -- bis pa --
 	cem.
-	
+
 	Do -- na %57
 	no -- bis pa -- cem, do -- na
 	no -- bis pa -- cem,

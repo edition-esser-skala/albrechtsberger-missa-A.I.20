@@ -1,8 +1,4 @@
-% (c) 2019 by Wolfgang Esser-Skala.
-% This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
-% To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
-
-\version "2.18.0"
+\version "2.22.0"
 
 KyrieViolinoII = {
 	\relative c' {
@@ -117,7 +113,7 @@ GloriaViolinoII = {
 		d f f f f f f f f d^\critnote d d %50
 		d f f f e^\critnote cis cis cis cis cis, cis cis
 		e b' b b b b b b a d, d d
-		f d' d d d d d d cis cis cis cis 
+		f d' d d d d d d cis cis cis cis
 		d f a f e e e e e e e e
 		fis fis, fis fis fis fis fis fis fis fis' fis fis %55
 		g b, b b b b b b b g' g g
@@ -301,7 +297,7 @@ CredoViolinoII = {
 		r8 c'[ c c] c8.(\trill h?32 c) %140
 		e4 c r
 		R2.*5 %146
-		R2.\fermataMarkup
+		R2.\fermata
 		c8\f c e e c c
 		f[ f, f f] f8.(\trill e32 f)
 		d'8[ f, f f] f8.(\trill e32 f) %150
@@ -328,7 +324,7 @@ CredoViolinoII = {
 		c4 r8 d c b
 		a4 r <b g'>\ffE
 		<a f'>4 r r\fermata \bar "|." %173 FINIS
-		
+
 	}
 }
 

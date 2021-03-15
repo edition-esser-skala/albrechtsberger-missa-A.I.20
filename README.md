@@ -1,56 +1,32 @@
 # Johann Georg Albrechtsberger: Missa Visitationis Beatae Mariae Virginis SchAl A.I.20
 
-Engraving files for LilyPond 2.18.0
+Engraving files for LilyPond 2.22.0
 
-First version, September 2019
+
+## Requirements
+
+* LilyPond >= 2.22.0
+* LuaLaTeX >= 1.12.0
+* GNU Make >= 4.2.1
+* The Source Sans and Fredericka the Great fonts from Google Fonts
 
 
 ## Build instructions
 
-Use the `make` tool for building scores. Specify one of the following **targets** to create:
+Use `make` for building scores:
+* `make final/scores` generates all publication-ready scores in folder `final/`.
+* `make info` lists other available build targets.
 
-* **org** etc.: individual parts
-* **parts**: all parts
-* **movements**: all movements
-* **score**: full score
-* **all**: full score and all parts
-* **archive**: ZIP file with all sources
-* **info**: show all available targets
-
-PDF files will be stored in a subfolder *./pdf*, MIDI files in a subfolder *./midi*.
-
-The file *master.ly* allows you to work with an editor like Kile: Change the included movement/parts file in this script to generate files *master.pdf* and *master.midi*, which can be opened via the ViewPDF and OpenMIDI functionalities.
+Alternatively, the file *main.ly* allows you to work with a text editor (e.g., Atom):
+Change the included scores file in this script to generate files *main.pdf* and *main.midi*.
 
 
 ## Files
 
-* *Makefile* – the configuration file for make.
-* *definitions.ly* – contains general definitions.
-* *master.ly* – allows building movements/parts from within Kile.
-* Individual voices in folder *notes*:
-    * n_01_trb1.ly
-    * n_02_trb2.ly
-    * n_03_vl1.ly
-    * n_04_vl2.ly
-    * n_05_S.ly
-    * n_06_A.ly
-    * n_07_T.ly
-    * n_08_B.ly
-    * n_09_org.ly
-* Movement definitions in folder *scores*:
-    * s_missa.ly
-* Parts definitions in folder *parts*:
-    * p_b.ly
-    * p_coro.ly
-    * p_org.ly
-    * p_trb.ly
-    * p_vl1.ly
-    * p_vl2.ly
-
-
-## Copyright
-
-(c) 2019 by Wolfgang Esser-Skala.
-
-This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
-To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
+* *definitions.ly* – contains general definitions
+* *Makefile* – configuration file for `make`
+* *main.ly* – allows building scores without using `make`
+* *README.md* – this file
+* *front_matter/* – LuaLaTeX files and images for typesetting front matter
+* *notes/* – LY files containing individual voices
+* *scores/* – LY files containing score definitions

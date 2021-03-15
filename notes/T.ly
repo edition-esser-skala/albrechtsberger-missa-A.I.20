@@ -1,11 +1,7 @@
-% (c) 2019 by Wolfgang Esser-Skala.
-% This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
-% To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
-
-\version "2.18.0"
+\version "2.22.0"
 
 TenoreIncipit = \markup {
-	"Tenore" \hspace #-20 \score {
+	"Tenore" \hspace #-18.2 \score {
 		\new Staff \with {
 			\remove Time_signature_engraver
 		} {
@@ -67,7 +63,7 @@ KyrieTenoreLyrics = \lyricmode {
 	lei -- son,
 	e -- lei -- %15
 	son.
-	
+
 	Ky -- ri -- e e -- %24
 	lei -- son, e -- lei -- %25
 	son, e -- lei --
@@ -84,13 +80,13 @@ KyrieTenoreLyrics = \lyricmode {
 	lei -- son, e --
 	lei -- son, e --
 	lei -- son,
-	
+
 	e -- lei -- %42
 	son,
-	
+
 	e -- lei -- %45
 	son,
-	
+
 	e -- lei --
 	son, e -- lei --
 	son. %50 FINIS
@@ -325,7 +321,7 @@ CredoTenoreNotes = {
 		d' c4.( b8)
 		a4 r r
 		R2.*5 \noBreak %47
-		R2.\fermataMarkup \bar "||"
+		R2.\fermata \bar "||"
 		\key b \major \time 4/4 \tempoEtIncarnatus r2 r8 es'\pE es es \noBreak
 		f4. b,8 b4 b %50
 		g g8 g g4 g8 g
@@ -474,7 +470,7 @@ CredoTenoreLyrics = \lyricmode {
 	ve -- rum de De --
 	o ve --
 	ro. %25
-	
+
 	Ge -- ni -- tum non
 	fa -- ctum, con -- sub --
 	stan -- ti -- a -- lem
@@ -491,7 +487,7 @@ CredoTenoreLyrics = \lyricmode {
 	scen -- dit %40
 	de coe --
 	lis.
-	
+
 	Et in -- car -- %49
 	na -- tus est de %50
 	Spi -- ri -- tu San -- cto, de
@@ -510,7 +506,7 @@ CredoTenoreLyrics = \lyricmode {
 	est,
 	et se -- %65
 	pul -- tus est.
-	
+
 	Et re -- sur --
 	re -- xit
 	ter -- ti -- a %70
@@ -520,7 +516,7 @@ CredoTenoreLyrics = \lyricmode {
 	dum Scri --
 	ptu -- %75
 	ras.
-	
+
 	Et a --
 	scen -- dit in
 	coe -- %80
@@ -529,7 +525,7 @@ CredoTenoreLyrics = \lyricmode {
 	det ad dex --
 	te -- ram Pa --
 	tris.
-	
+
 	Et %88
 	i -- te -- rum ven --
 	tu -- rus est cum %90
@@ -543,7 +539,7 @@ CredoTenoreLyrics = \lyricmode {
 	re -- gni non e --
 	rit fi --
 	nis. %100
-	
+
 	Et in %103
 	Spi -- ri -- tum
 	San -- ctum, %105
@@ -563,7 +559,7 @@ CredoTenoreLyrics = \lyricmode {
 	per Pro --
 	phe -- %120
 	tas.
-	
+
 	Et u -- nam %125
 	san -- ctam ca --
 	tho -- li -- cam et a -- po --
@@ -571,7 +567,7 @@ CredoTenoreLyrics = \lyricmode {
 	cle -- si -- am.
 	%130
 	Con -- fi -- te -- or
-	u -- num ba -- 
+	u -- num ba --
 	pti -- sma in re --
 	mis -- si --
 	o -- nem pec -- ca -- %135
@@ -580,14 +576,14 @@ CredoTenoreLyrics = \lyricmode {
 	pe -- cto
 	re -- sur -- re -- cti --
 	o -- nem %140
-	
+
 	mor -- tu --
 	o -- _ _
 	_
 	_ _ %145
 	_ _
 	rum
-	
+
 	et vi -- tam ven --
 	tu -- ri %150
 	sae -- cu -- li,
@@ -596,7 +592,7 @@ CredoTenoreLyrics = \lyricmode {
 	tu -- ri sae --
 	cu -- li, a -- %155
 	men,
-	
+
 	et %159
 	vi -- tam ven -- %160
 	tu -- ri
@@ -654,7 +650,7 @@ SanctusTenoreLyrics = \lyricmode {
 	San -- ctus,
 	San -- ctus Do -- mi -- nus
 	De -- us Sa -- ba -- %5
-	oth, De -- us Sa -- ba -- oth, 
+	oth, De -- us Sa -- ba -- oth,
 	De -- us Sa -- ba --
 	oth.
 	Ple -- ni sunt coe -- li, sunt
@@ -667,7 +663,7 @@ SanctusTenoreLyrics = \lyricmode {
 	O -- san -- na in ex -- cel --
 	sis, o -- san -- na
 	in ex -- cel -- sis,
-	
+
 	o -- san -- na in ex -- %20
 	cel -- sis, o -- san -- na in ex --
 	cel -- sis,
@@ -768,7 +764,7 @@ BenedictusTenoreLyrics = \lyricmode {
 	qui ve -- nit in
 	no -- mi -- ne Do -- _
 	mi -- ni. %25
-	
+
 	Qui ve -- nit, qui ve -- %28
 	nit, qui ve -- nit in no --
 	mi -- ne Do -- mi -- %30
@@ -792,11 +788,11 @@ BenedictusTenoreLyrics = \lyricmode {
 	no -- mi -- ne Do -- _
 	mi -- ni, Do -- mi --
 	ni. %50
-	
+
 	O -- san -- na in ex -- cel -- %53
 	sis, o -- san -- na
 	in ex -- cel -- sis, %55
-	
+
 	o -- san -- na in ex --
 	cel -- sis, o -- san -- na in ex --
 	cel -- sis,
@@ -878,7 +874,7 @@ AgnusDeiTenoreLyrics = \lyricmode {
 	Mi -- se --
 	re -- re no --
 	bis.
-	
+
 	A -- gnus %13
 	De -- i, qui
 	tol -- lis, qui %15
@@ -888,7 +884,7 @@ AgnusDeiTenoreLyrics = \lyricmode {
 	Mi -- se -- re --
 	re no -- %20
 	bis.
-	
+
 	A -- gnus %25
 	De -- i, qui
 	tol -- lis
@@ -905,7 +901,7 @@ AgnusDeiTenoreLyrics = \lyricmode {
 	no -- bis
 	pa -- cem, pa --
 	cem. %40
-	
+
 	Do -- na %44
 	no -- bis pa -- cem, %45
 	pa -- cem, do -- na
@@ -916,7 +912,7 @@ AgnusDeiTenoreLyrics = \lyricmode {
 	pa -- cem,
 	no -- bis pa --
 	cem.
-	
+
 	Do -- na %57
 	no -- bis pa -- cem, do -- na
 	no -- bis pa -- cem,

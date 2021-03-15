@@ -1,8 +1,4 @@
-% (c) 2019 by Wolfgang Esser-Skala.
-% This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
-% To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
-
-\version "2.18.0"
+\version "2.22.0"
 
 KyrieViolinoI = {
 	\relative c' {
@@ -302,7 +298,7 @@ CredoViolinoI = {
 		r8 e[ e e] e8.(\trill d32 e) %140
 		g4 e r
 		R2.*5 %146
-		R2.\fermataMarkup
+		R2.\fermata
 		c8\f c e e c c
 		f[ f, f f] f8.(\trill e32 f)
 		d'8[ f, f f] f8.(\trill e32 f) %150

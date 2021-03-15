@@ -1,8 +1,4 @@
-% (c) 2019 by Wolfgang Esser-Skala.
-% This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
-% To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
-
-\version "2.18.0"
+\version "2.22.0"
 
 KyrieBassoNotes = {
 	\relative c {
@@ -55,7 +51,7 @@ KyrieBassoLyrics = \lyricmode {
 	lei -- son,
 	e -- lei -- %15
 	son.
-	
+
 	Ky -- ri -- e e -- %25
 	lei -- son, e -- lei --
 	son, e -- lei --
@@ -67,17 +63,17 @@ KyrieBassoLyrics = \lyricmode {
 	lei -- son, e --
 	lei -- son, Chri -- ste e --
 	lei -- son. %35
-	
+
 	Ky -- ri -- e e --
 	lei -- son, e --
 	lei -- son,
-	
+
 	e -- lei -- %42
 	son,
-	
+
 	e -- lei -- %45
 	son,
-	
+
 	e -- lei --
 	son, e -- lei --
 	son. %50 FINIS
@@ -312,7 +308,7 @@ CredoBassoNotes = {
 		b,! c2
 		f,4 r r
 		R2.*5 \noBreak %47
-		R2.\fermataMarkup \bar "||"
+		R2.\fermata \bar "||"
 		\key b \major \time 4/4 \tempoEtIncarnatus r8 b'\pE b b a4. c8 \noBreak
 		b4 d, es es8 es %50
 		h4 h8 d c4 c8 es
@@ -396,7 +392,7 @@ CredoBassoNotes = {
 		f4( e!) c
 		f e! c8 c %135
 		f2( h,4)
-		c \mvDl c'\fE c
+		c c'\fE c
 		c c, r
 		r c8 c e g
 		c4 c, r %140
@@ -461,7 +457,7 @@ CredoBassoLyrics = \lyricmode {
 	ve -- rum de De --
 	o ve --
 	ro. %25
-	
+
 	Ge -- ni -- tum non
 	fa -- ctum, con -- sub --
 	stan -- ti -- a -- lem
@@ -478,7 +474,7 @@ CredoBassoLyrics = \lyricmode {
 	coe -- lis, %40
 	de coe --
 	lis.
-	
+
 	Et in -- car -- na -- tus %49
 	est de Spi -- ri -- tu, %50
 	Spi -- ri -- tu San -- cto, de
@@ -497,7 +493,7 @@ CredoBassoLyrics = \lyricmode {
 	est,
 	et se -- %65
 	pul -- tus est.
-	
+
 	Et re -- sur --
 	re -- xit
 	ter -- ti -- a %70
@@ -507,7 +503,7 @@ CredoBassoLyrics = \lyricmode {
 	dum Scri --
 	ptu -- %75
 	ras.
-	
+
 	Et a --
 	scen -- dit in
 	coe -- %80
@@ -516,7 +512,7 @@ CredoBassoLyrics = \lyricmode {
 	det ad dex --
 	te -- ram Pa --
 	tris.
-	
+
 	Et %88
 	i -- te -- rum ven --
 	tu -- rus est cum %90
@@ -530,7 +526,7 @@ CredoBassoLyrics = \lyricmode {
 	re -- gni non e --
 	rit fi --
 	nis. %100
-	
+
 	Et in %103
 	Spi -- ri -- tum
 	San -- ctum, %105
@@ -550,7 +546,7 @@ CredoBassoLyrics = \lyricmode {
 	per Pro --
 	phe -- %120
 	tas.
-	
+
 	Et u -- nam %125
 	san -- ctam ca --
 	tho -- li -- cam et a -- po --
@@ -558,7 +554,7 @@ CredoBassoLyrics = \lyricmode {
 	cle -- si -- am.
 	%130
 	Con -- fi -- te -- or
-	u -- num ba -- 
+	u -- num ba --
 	pti -- sma in re --
 	mis -- si --
 	o -- nem pec -- ca -- %135
@@ -567,14 +563,14 @@ CredoBassoLyrics = \lyricmode {
 	pe -- cto
 	re -- sur -- re -- cti --
 	o -- nem %140
-	
+
 	mor -- tu --
 	o -- _
 	_ _
 	_ _ %145
 	_
 	rum
-	
+
 	et vi -- tam ven --
 	tu -- ri %150
 	sae -- cu -- li,
@@ -583,7 +579,7 @@ CredoBassoLyrics = \lyricmode {
 	tu -- ri sae --
 	cu -- li, a -- %155
 	men,
-	
+
 	et %159
 	vi -- tam ven -- %160
 	tu -- ri
@@ -654,7 +650,7 @@ SanctusBassoLyrics = \lyricmode {
 	O -- san -- na
 	in ex -- cel -- _
 	sis, o -- san -- na,
-	
+
 	o -- san -- na in ex -- cel -- %20
 	sis, ex -- cel --
 	sis,
@@ -738,7 +734,7 @@ BenedictusBassoLyrics = \lyricmode {
 	nit, qui ve -- nit, qui ve -- %5
 	nit in no -- mi --
 	ne.
-	
+
 	Be -- ne -- di -- %9
 	ctus qui ve -- nit in %10
 	no -- mi -- ne Do -- mi --
@@ -751,12 +747,12 @@ BenedictusBassoLyrics = \lyricmode {
 	in no -- mi -- ne Do -- mi --
 	ni, in no -- mi -- ne Do -- mi --
 	ni. %20
-	
+
 	Be -- ne -- di -- %22
 	ctus qui ve -- nit in
 	no -- mi -- ne Do --
 	_ _ mi -- ni, %25
-	
+
 	qui
 	ve -- nit, qui ve -- nit, qui
 	ve -- nit, qui ve -- nit in
@@ -781,11 +777,11 @@ BenedictusBassoLyrics = \lyricmode {
 	no -- _ _ mi -- ne
 	Do -- mi -- ni, Do -- mi --
 	ni. %50
-	
+
 	O -- san -- na %53
 	in ex -- cel -- _
 	sis, o -- san -- na, %55
-	
+
 	o -- san -- na in ex -- cel --
 	sis, ex -- cel --
 	sis,
@@ -867,7 +863,7 @@ AgnusDeiBassoLyrics = \lyricmode {
 	Mi -- se --
 	re -- re no --
 	bis.
-	
+
 	A -- gnus %13
 	De -- i, qui
 	tol -- lis, qui %15
@@ -877,7 +873,7 @@ AgnusDeiBassoLyrics = \lyricmode {
 	Mi -- se --
 	re -- re no -- %20
 	bis.
-	
+
 	A -- gnus %25
 	De -- i, qui
 	tol -- lis
@@ -894,7 +890,7 @@ AgnusDeiBassoLyrics = \lyricmode {
 	do -- na no -- bis
 	pa -- cem, no -- bis pa --
 	cem. %40
-	
+
 	Do -- na %44
 	no -- bis __ pa -- cem, %45
 	pa -- cem, do -- na
@@ -905,7 +901,7 @@ AgnusDeiBassoLyrics = \lyricmode {
 	do -- na no -- bis
 	pa -- cem, no -- bis pa --
 	cem.
-	
+
 	Do -- na %57
 	no -- bis pa -- cem, do -- na
 	no -- bis pa -- cem,

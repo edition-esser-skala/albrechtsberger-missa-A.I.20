@@ -1,11 +1,7 @@
-% (c) 2019 by Wolfgang Esser-Skala.
-% This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
-% To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
-
-\version "2.18.0"
+\version "2.22.0"
 
 SopranoIncipit = \markup {
-	"Soprano" \hspace #-21 \score {
+	"Soprano" \hspace #-19 \score {
 		\new Staff \with {
 			\remove Time_signature_engraver
 		} {
@@ -64,7 +60,7 @@ KyrieSopranoLyrics = \lyricmode {
 	lei -- son,
 	e -- lei -- %15
 	son.
-	
+
 	Ky -- ri -- e e -- %27
 	lei -- son, e -- lei --
 	son, Chri -- ste e --
@@ -78,13 +74,13 @@ KyrieSopranoLyrics = \lyricmode {
 	lei -- son, Ky -- ri -- e e --
 	lei -- son, e --
 	lei -- son,
-	
+
 	e -- lei -- %42
 	son,
-	
+
 	e -- lei -- %45
 	son,
-	
+
 	e -- lei --
 	son, e -- lei --
 	son. %50 FINIS
@@ -319,7 +315,7 @@ CredoSopranoNotes = {
 		b! a( g\trill)
 		f r r
 		R2.*5 \noBreak %47
-		R2.\fermataMarkup \bar "||"
+		R2.\fermata \bar "||"
 		\key b \major \time 4/4 \tempoEtIncarnatus R1 \noBreak
 		r2 r8 es'\pE es es %50
 		d4. f8 es4 es
@@ -469,7 +465,7 @@ CredoSopranoLyrics = \lyricmode {
 	ve -- rum de De --
 	o ve --
 	ro. %25
-	
+
 	Ge -- ni -- tum non
 	fa -- ctum, con -- sub --
 	stan -- ti -- a -- lem
@@ -486,7 +482,7 @@ CredoSopranoLyrics = \lyricmode {
 	_ dit %40
 	de coe --
 	lis.
-	
+
 	Et in -- car -- %50
 	na -- tus est de
 	Spi -- ri -- tu San -- cto
@@ -514,7 +510,7 @@ CredoSopranoLyrics = \lyricmode {
 	dum Scri --
 	ptu -- %75
 	ras.
-	
+
 	Et a --
 	scen -- dit in
 	coe -- %80
@@ -523,7 +519,7 @@ CredoSopranoLyrics = \lyricmode {
 	det ad dex --
 	te -- ram Pa --
 	tris.
-	
+
 	Et %88
 	i -- te -- rum ven --
 	tu -- rus est cum %90
@@ -537,7 +533,7 @@ CredoSopranoLyrics = \lyricmode {
 	re -- gni non e --
 	rit fi --
 	nis. %100
-	
+
 	Et in %103
 	Spi -- ri -- tum
 	San -- ctum, %105
@@ -557,7 +553,7 @@ CredoSopranoLyrics = \lyricmode {
 	per Pro --
 	phe -- %120
 	tas.
-	
+
 	Et u -- nam %125
 	san -- ctam ca --
 	tho -- li -- cam et a -- po --
@@ -590,7 +586,7 @@ CredoSopranoLyrics = \lyricmode {
 	tu -- ri sae --
 	cu -- li, a -- %155
 	men,
-	
+
 	et %159
 	vi -- tam ven -- %160
 	tu -- ri
@@ -647,7 +643,7 @@ SanctusSopranoLyrics = \lyricmode {
 	San -- ctus, San -- ctus,
 	San -- ctus Do -- mi -- nus
 	De -- us Sa -- ba -- %5
-	oth, De -- us Sa -- ba -- oth, 
+	oth, De -- us Sa -- ba -- oth,
 	De -- us Sa -- ba --
 	oth.
 	Ple -- ni sunt coe -- li, sunt
@@ -657,7 +653,7 @@ SanctusSopranoLyrics = \lyricmode {
 	glo -- ri -- a tu -- a,
 	glo -- ri -- a, glo -- ri -- a
 	tu -- a. %15
-	
+
 	O -- san -- na in ex -- cel -- %18
 	sis, o -- san --
 	na, o -- %20
@@ -744,7 +740,7 @@ BenedictusSopranoLyrics = \lyricmode {
 	ne, qui ve -- nit in
 	no -- mi -- ne Do -- mi --
 	ni.
-	
+
 	Be -- ne -- di -- %13
 	ctus qui ve -- nit in
 	no -- mi -- ne Do -- mi -- %15
@@ -758,12 +754,12 @@ BenedictusSopranoLyrics = \lyricmode {
 	ve -- nit, qui ve -- nit in
 	no -- mi -- ne Do --
 	mi -- ni. %25
-	
+
 	Be -- ne --
 	di -- ctus qui
 	ve -- nit in no -- mi -- ne
 	Do -- mi -- ni. %30
-	
+
 	Be -- ne -- %35
 	di -- ctus qui
 	ve -- nit, qui
@@ -780,7 +776,7 @@ BenedictusSopranoLyrics = \lyricmode {
 	ve -- nit in no -- mi -- ne
 	Do -- mi -- ni, Do -- mi --
 	ni. %50
-	
+
 	O -- san -- na in ex -- cel -- %55
 	sis, o -- san --
 	na, o --
@@ -864,7 +860,7 @@ AgnusDeiSopranoLyrics = \lyricmode {
 	re -- re
 	no --
 	bis.
-	
+
 	A -- gnus %13
 	De -- i, qui
 	tol -- lis, qui %15
@@ -874,7 +870,7 @@ AgnusDeiSopranoLyrics = \lyricmode {
 	re -- re
 	no -- %20
 	bis.
-	
+
 	A -- gnus %25
 	De -- i, qui
 	tol -- lis pec --
@@ -891,7 +887,7 @@ AgnusDeiSopranoLyrics = \lyricmode {
 	_ cem, do -- na no -- bis
 	pa -- cem, no -- bis pa --
 	cem. %40
-	
+
 	Do -- na %44
 	no -- bis pa -- cem, %45
 	pa -- cem, do -- na
@@ -902,7 +898,7 @@ AgnusDeiSopranoLyrics = \lyricmode {
 	cem, do -- na no -- bis
 	pa -- cem, no -- bis pa --
 	cem.
-	
+
 	Do -- na %57
 	no -- bis pa -- cem, do -- na
 	no -- bis pa -- cem,
