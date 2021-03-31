@@ -466,7 +466,7 @@ AgnusDeiViolinoII = {
 		b b a a a' a
 		a16 f c a b b' a, a' g, g' f, f' \noBreak %30
 		f8.(\trill e32 f) e4 r \bar "||"
-		f4 g8.(\trill f32 g) a4 b8.(\trill a32 b) \noBreak
+		\time 4/4 \tempoDona f4 g8.(\trill f32 g) a4 b8.(\trill a32 b) \noBreak
 		c4 d e,8-. f-. \tuplet 3/2 8 { c'16[ b a] a g fis }
 		g4 a8.(\trill g32 a) b4 c8.(\trill b32 c)
 		d4 es fis,8-. g-. d'8^\critnote c16 d %35
