@@ -811,10 +811,10 @@ BenedictusOrgano = {
 
 BenedictusBassFigures = \figuremode {
 	r4 <[6]> r4. <6>8
-	r4. q8 <_!>4. <6\\>8
+	r4. q8 <5!>4. <6\\>8
 	r2 <6 5>4 <_+>
 	<6>2. \bassFigureExtendersOn q8 \bassFigureExtendersOff <7 _!>8
-	r4. <7>8 <5>4 <_+>8 <7 [5!] _+> %5
+	r4. <7>8 <5+>4 <_+>8 <7 [5!] _+> %5
 	r4 <[6]> <[6!] 5> <[5!] _+>
 	<6> <[6]> <6! 5> <5! _!>
 	<6 5> <5 3> <4 2> <6>8 <5>
@@ -971,7 +971,7 @@ AgnusDeiBassFigures = \figuremode {
 	r
 	r
 	r2 <6>4 %25
-	<4 2> <6>4 r8. <\t>16
+	<4! 2> <6>4 r8. <\t>16
 	<4 2>4 <6->2
 	<\t>4 <6> <7>
 	<6 4> <5 3>2
