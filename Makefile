@@ -1,7 +1,7 @@
 # change the following variables according to the current project
 project = Albrechtsberger_Missa_SchAl_A_I_20
-notes = trb1 trb2 vl1 vl2 S A T B org
-scores = full_score trb12 vl1 vl2 coro b org
+notes = trb1 trb2 vl1 vl2 S A T B org chords
+scores = full_score trb12 vl1 vl2 coro b org org_realized
 
 # general definitions
 zipname = $(project:%=%_engraving_files)
