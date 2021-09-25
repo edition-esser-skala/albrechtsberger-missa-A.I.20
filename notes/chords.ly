@@ -68,7 +68,7 @@ KyrieChords = {
     f e8 d <es g>[ <d fis>] %25
     <d g>4. d8 e4
     g f8 a, d4
-    d c8 h e dis
+    d c8 h e[ dis]
     <h e>2 r4
     d2 c4 %30
     c2 b!4
@@ -375,7 +375,7 @@ CredoChords = {
     r r <d a'>
     <g b> <d a'> <cis g'> %95
     <d fis> a' a
-    b8~ <b fis>~ q2
+    b <b fis>2
     <b c>2 <a c>4
     <f b> b a
     b r <f b> %100
@@ -407,8 +407,8 @@ CredoChords = {
     <es g> <f b> <f as>
     <es g> <f b> <f as>
     <es g> <f b> <f as>
-    <es g> r <g c>
-    <f as>2 r4 %130
+    <es g> \oneVoice r8 es e8.(\trill d32 e)
+    f4 \voiceOne <f as> r %130
     <g c>2 <g b>4
     <f as> <g c> <g b>
     <f as> <g c> <g b>
@@ -549,7 +549,7 @@ CredoChords = {
     r r a
     d a b %95
     a a' a
-    b8 d,~ d2
+    b d,2
     g2 f4
     d <c f>2
     <d f>4 r d %100
@@ -581,9 +581,9 @@ CredoChords = {
     b b d
     b b d
     b b d
-    b r c
-    c2 r4 %130
-    e4 c e
+    b s2
+    s4 c r %130
+    e c e
     c c e
     c c e
     c c e
@@ -655,9 +655,9 @@ SanctusChords = {
     f a,[ b c] b4 <c, a'>8 <h g'> %20
     <e g> <d f> <e g> <g b!> <c, a'>2
     <c g'> <c f>4 r
-    r2 r8 <a' d> <f d'> <e c'>
+    r2 r8 <a' d> <f d'>[ <e c'>]
     <a c>4 r r2
-    r8 <a d> <f d'> <e c'> <a c>4. <f c'>8 %25
+    r8 <a d> <f d'>[ <e c'>] <a c>4. <f c'>8 %25
     <f b>4 <f c'> <f b> <f c'>
     <f b>2 <f a>\fermata \bar "|." %27 finis
   } \\ \relative c' {
@@ -721,7 +721,7 @@ BenedictusChords = {
     <f b>4. <es a>8 <f b>4 <g b>8 <f b>
     <g b>4 <f a> <f b> r %25
     r2 r4 r8 <es g>
-    <es a> <d b'> <g b> <f a> <f b>2
+    <es a> <d b'> <g b>[ <f a>] <f b>2
     <g b>4 r8 <g c> <f a>4 r8 <f h>8
     <es g>4 r8 <es a> <f b>4 r8 <g b>
     q4 <f a> <f b> b8 a %30
@@ -745,8 +745,8 @@ BenedictusChords = {
     <f a>4. <g a>8 <f a>4 <f b>8 <d a'>
     <e b'>4 a8 g f4 e
     d r r2 %50
-    r4 r8 <g h> <g cis> <f d'> <b d> <a cis>
-    <a d> <b d> q <a cis> <a d> d c16. b!32 a16. g32
+    r4 r8 <g h> <g cis> <f d'> <b d>[ <a cis>]
+    <a d>[ <b d>] q <a cis> <a d> d c16. b!32 a16. g32
     f8 \oneVoice r r4 r2
     R1
     r8 \voiceOne c' d e f c f4~ %55
@@ -754,9 +754,9 @@ BenedictusChords = {
     f a,[ b c] b4 <c, a'>8 <h g'>
     <e g> <d f> <e g> <g b!> <c, a'>2
     <c g'> <c f>4 r
-    r2 r8 <a' d> <f d'> <e c'> %60
+    r2 r8 <a' d> <f d'>[ <e c'>] %60
     <a c>4 r r2
-    r8 <a d> <f d'> <e c'> <a c>4. <f c'>8
+    r8 <a d> <f d'>[ <e c'>] <a c>4. <f c'>8
     <f b>4 <f c'> <f b> <f c'>
     <f b>2 <f a>\fermata \bar "|." %64 finis
   } \\ \relative c' {
@@ -943,13 +943,3 @@ AgnusDeiChords = {
     a r r2\fermata %62 FINIS
   } >>
 }
-
-% Chords = {
-%   \clef treble
-%
-%   << \relative c' {
-%
-%   } \\ \relative c' {
-%
-%   } >>
-% }

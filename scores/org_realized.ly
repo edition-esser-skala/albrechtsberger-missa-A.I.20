@@ -133,23 +133,6 @@
   }
   \bookpart {
     \header {
-      number = "5"
-      title = "B E N E D I C T U S"
-    }
-    \score {
-      <<
-        \new PianoStaff <<
-          \new Staff { \SanctusChords }
-          \new Staff { \transpose c c \SanctusOrgano }
-        >>
-        \new FiguredBass { \SanctusBassFigures }
-      >>
-      \layout { }
-      \midi { \tempo 4 = 60 }
-    }
-  }
-  \bookpart {
-    \header {
       number = "6"
       title = "A G N U S   D E I"
     }
