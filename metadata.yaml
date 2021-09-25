@@ -2,9 +2,16 @@ composer: Albrechtsberger, Johann Georg
 title: Missa Visitationis Beatae Mariae Virginis
 id: SchAl A.I.20
 genre: mass
-scoring: S, A, T, B (coro), 2 trb, 2 vl, b, org
+scoring: S, A, T, B (coro), 2 vl, b, org
 sources:
   1:
+    siglum: H-Bn
+    shelfmark: Ms. Mus. 2.485
+    type: autograph manuscript
+    date: 1786-05-13
+    rism:
+    url: 
+  2:
     siglum: D-NATk
     shelfmark: NA/SP (A-5)
     type: manuscript copy
@@ -12,6 +19,5 @@ sources:
     rism: 455039712
     url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/D-NATk_A5/
 github: albrechtsberger-missa-A.I.20
-imslp: Missa_in_F_major%2C_SchAl_A.I.20_(Albrechtsberger%2C_Johann_Georg) 
+imslp: Missa_in_F_major%2C_SchAl_A.I.20_(Albrechtsberger%2C_Johann_Georg)
 notes:
-

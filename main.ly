@@ -2,7 +2,6 @@
 
 % \include "scores/full_score.ly"
 
-% \include "scores/trb12.ly"
 % \include "scores/vl1.ly"
 % \include "scores/vl2.ly"
 % \include "scores/coro.ly"

@@ -17,7 +17,6 @@
   pagenumberformat=\itshape
 ]{tocline}{part}
 
-% use commented values if there are no parts
 \DeclareTOCStyleEntry[
   indent=0pt,
   beforeskip=0pt,
@@ -38,11 +37,12 @@
   pagenumberformat=\ltseries
 ]{tocline}{subsection}
 
+
 \usepackage{polyglossia}
 \setdefaultlanguage{english}
 
-\usepackage{fontspec}
 
+\usepackage{fontspec}
 \setmainfont{Source Sans Pro}[
   ItalicFont = Source Sans Pro Italic,
   BoldFont = Source Sans Pro Bold,
@@ -58,27 +58,36 @@
 \DeclareRobustCommand{\sbseries}{\fontseries{sb}\selectfont}
 \DeclareTextFontCommand{\textlt}{\ltseries}
 \DeclareTextFontCommand{\textsb}{\sbseries}
-
 \newfontfamily\headingfont{Fredericka the Great}
+
 
 \usepackage[pass]{geometry}
 \newgeometry{twoside,inner=20mm,outer=40mm,top=20mm,bottom=40mm}
 
+
 \usepackage{url}
 \urlstyle{same}
+
 
 \usepackage{microtype}
 \microtypesetup{verbose=silent}
 
+
 \usepackage{booktabs,array,longtable}
-\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+\newcolumntype{L}[1]{%
+  >{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}p{#1}%
+}
+
 
 \usepackage{graphicx}
+
 
 \usepackage{xcolor}
 \definecolor{oldred}{rgb}{.8313,0,0}
 
+
 \usepackage{pdfpages}
+
 
 \usepackage{scrlayer-scrpage}
 \pagestyle{scrheadings}
@@ -123,26 +132,30 @@
   \endgroup%
 }
 \def\lyrefpart#1{%
-	\begingroup%
-	\makebox[0pt][l]{\sbseries\color{oldred}\lyrefnumber{#1}}\hspace*{2em}%
-	\makebox[0pt][l]{\sbseries\lyreftitle{#1}}\hspace*{6.5em}%
-	\hfill\sbseries\lyrefpage{#1}%
-	\endgroup%
+  \begingroup%
+  \makebox[0pt][l]{\sbseries\color{oldred}\lyrefnumber{#1}}\hspace*{2em}%
+  \makebox[0pt][l]{\sbseries\lyreftitle{#1}}\hspace*{6.5em}%
+  \hfill\sbseries\lyrefpage{#1}%
+  \endgroup%
 }
 \def\lyrefsection#1{%
-	\begingroup%
-	\makebox[0pt][l]{\color{oldred}\lyrefgenrenumber{#1}}\hspace*{2em}%
-	\makebox[0pt][l]{\ltseries\lyrefgenregenre{#1}}\hspace*{6.5em}%
-	\lyrefgenretitle{#1}\Dotfill\lyrefgenrepage{#1}%
-	\endgroup%
+  \begingroup%
+  \makebox[0pt][l]{\color{oldred}\lyrefgenrenumber{#1}}\hspace*{2em}%
+  \makebox[0pt][l]{\ltseries\lyrefgenregenre{#1}}\hspace*{6.5em}%
+  \lyrefgenretitle{#1}\Dotfill\lyrefgenrepage{#1}%
+  \endgroup%
 }
-\InputIfFileExists{../out/lilypond.ref}{}{\InputIfFileExists{../lilypond.ref}{}{}}
+\InputIfFileExists{../tmp/lilypond.ref}{}{\InputIfFileExists{../lilypond.ref}{}{}}
 
 
 \newcommand\fancytitlehead{
-	\headingfont%
-	\fontsize{65}{65}\selectfont\textcolor{black!80}{\@ifundefined{@shortname}{\@lastname}{\@shortname}.}\\[15pt]%
-	\fontsize{50}{50}\selectfont\@ifundefined{@shorttitle}{\@title}{\@shorttitle}.%
+  \headingfont%
+  \fontsize{65}{65}\selectfont%
+  \textcolor{black!80}{%
+    \makebox[0pt][l]{\@ifundefined{@shortname}{\@lastname}{\@shortname}.}%
+  }\\[15pt]%
+  \fontsize{55}{55}\selectfont%
+  \makebox[0pt][l]{\@ifundefined{@shorttitle}{\@title}{\@shorttitle}.}%
 }
 
 
@@ -151,30 +164,30 @@
 \def\shortname#1{\def\@shortname{#1}}
 \def\shorttitle#1{\def\@shorttitle{#1}}
 \def\namesuffix#1{\def\@namesuffix{#1}}
-\def\instrumentation#1{\def\@instrumentation{#1}}
+\def\scoring#1{\def\@scoring{#1}}
 \def\parts#1{\def\@parts{#1}}
 
 \firstname{\relax}
 \lastname{\relax}
 \namesuffix{\relax}
-\instrumentation{\relax}
+\scoring{\relax}
 \parts{\relax}
 
 
 \def\maketitle{%
 \begin{titlepage}%
-	\Large%
-	{\@titlehead}%
-	\vfill%
-	{\strut\@firstname}\\%
-	{\sbseries\color{oldred}\strut\@lastname}\\%
-	{\strut\@namesuffix}%
-	\vfill%
-	{\sbseries\@title}\\%
-	{\@subtitle}\\[\baselineskip]%
-	{\itshape\@instrumentation}%
-	\vfill%
-	{\itshape\@parts}\hspace*{\fill}\raisebox{0pt}[0pt][0pt]{\includegraphics{ees_logo}}%
+  \Large%
+  {\@titlehead}%
+  \vfill%
+  {\strut\@firstname}\\%
+  {\sbseries\color{oldred}\strut\@lastname}\\%
+  {\strut\@namesuffix}%
+  \vfill%
+  {\sbseries\@title}\\%
+  {\@subtitle}\\[\baselineskip]%
+  {\itshape\@scoring}%
+  \vfill%
+  {\itshape\@parts}\hspace*{\fill}\raisebox{0pt}[0pt][0pt]{\includegraphics{ees_logo}}%
 \end{titlepage}%
 }
 
@@ -183,7 +196,6 @@
 \newif\ifprintreport\printreportfalse
 \directlua{
 scores = {
-  trb12 = "Trombone I, II",
   vl1 = "Violino I",
   vl2 = "Violino II",
   coro = "Coro",
@@ -204,11 +216,6 @@ if not (scores[last_arg] == nil) then
 end
 }
 
-% uncomment if the full score is in landscape format
-\ifprintreport
-\geometry{landscape,outer=127mm}
-\fi
-
 \@ifundefined{lypdfname}{%
   \templatefalse
   \printreporttrue
@@ -216,9 +223,6 @@ end
 }{\templatetrue}
 
 \makeatother
-
-
-
 
 
 
@@ -230,8 +234,8 @@ end
 \lastname{Albrechtsberger}
 \title{Missa Visitationis Beatae Mariae Virginis}
 \shorttitle{Missa Visitationis}
-\subtitle{SchAl A.I.20 · WeiA 94\\(D-NATk NA/SP (A-5))}
-\instrumentation{S, A, T, B (coro), 2 trb, 2 vl, b, org}
+\subtitle{SchAl A.I.20 · WeiA 94\\(H-Bn Ms. Mus. 2.485)}
+\scoring{S, A, T, B (coro), 2 vl, b, org}
 \maketitle
 
 
@@ -241,88 +245,108 @@ end
 
 \raisebox{-4mm}{\includegraphics{byncsaeu}}\hspace*{1em}Wolfgang Esser-Skala, 2021
 
-© 2021 by Wolfgang Esser-Skala. This edition is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit \url{http://creativecommons.org/licenses/by-nc-sa/4.0/}. 
+© 2021 by Wolfgang Esser-Skala. This edition is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit \url{http://creativecommons.org/licenses/by-nc-sa/4.0/}.
 
 Music engraving by LilyPond 2.22.0 (\url{http://www.lilypond.org}).\\
 Front matter typeset with Source Sans Pro and Fredericka the Great.
 
-\textit{Second version, March 2021}
+The financial support of the \textit{Verein der Freunde der Kurhauskirche der Barmherzigen Brüder Schärding} is gratefully acknowledged.
+
+\textit{Third version, September 2021}
 
 \vspace*{2cm}
 
 \ifprintreport
-\chapter*{Critical Report.}
+\chapter*{Critical Report}
 
-This edition bases upon a copy in the Benediktinerabtei Niederaltaich. The digital version of the manuscript is available at \url{https://mirador.acdh.oeaw.ac.at/musikarchivspitz/D-NATk_A5/} (siglum NA/SP (H-59); see also RISM ID 455039712).
+This edition bases upon
+\begin{enumerate}
+  \item the autograph manuscript in the National Széchényi Library, Budapest\\
+  (siglum Ms. Mus. 2.485; no RISM entry); and
+  \item a copy in the Benediktinerabtei Niederaltaich\\
+  (siglum NA/SP (H-59); see also RISM ID 455039712; digital version available at\\
+  \url{https://mirador.acdh.oeaw.ac.at/musikarchivspitz/D-NATk_A5/}).
+\end{enumerate}
 
-In general, this edition closely follows the manuscript. Any changes that were introduced by the editor are indicated by italic type (lyrics, dynamics and directions), parentheses (expressive marks and bass figures) or dashes (slurs and ties). Accidentals are used according to modern conventions. Asterisks denote changes that are clarified in the detailed remarks below.\footnote{Abbreviations: A, alto; B, bass; b, basses; Ms, manuscript; org, organ; r, rest; S, soprano; T,~tenor; trb, trombone; vl,~ violin.}
+In general, this edition closely follows the autograph manuscript. Any changes that were introduced by the editor are indicated by italic type (lyrics, dynamics and directions), parentheses (expressive marks and bass figures) or dashes (slurs and ties). Accidentals are used according to modern conventions. Asterisks denote changes that are clarified in the detailed remarks below.\footnote{Abbreviations: A, alto; B, bass; b, basses; org, organ; r, rest; S, soprano; T, tenor; trb, trombone; vl, violin.}
 
 \bigskip
 
 \begin{longtable}{lll L{10cm}}
-	\toprule
-	\itshape Mov. & \itshape Bar & \itshape Staff & \itshape Note \\
-	\midrule \endhead
-	1 & 34  & T        & last eighth in Ms: c′8 \\
-	  & 45  & trb 1    & last eighth in Ms: d′8 \\
-	2 & 4   & trb 2, T & 2nd eighth in Ms: d′8 \\
-	  & 21  & S        & bar in Ms: c″4–c″2 \\
-	  & 50  & vl 2     & 10th sixteenth in Ms: f″16 \\
-	  & 51  & vl 2     & 5th sixteenth in Ms: f″16 \\
-	  & 59  & trb 2    & bar missing in Ms \\
-	  & 83  & vl 2     & 10th sixteenth in Ms: c′16 \\
-	3 & 2   & trb 2    & 3rd quarter in Ms: c′8–c′8 \\
-	  & 12  & org      & 1st quarter in Ms: d8–d8 \\
-	  & 22  & vl 2     & 1st quarter in Ms: a8–a8 \\
-	  & 36  & T        & bar in Ms: g4–g4–r4 \\
-	  & 37  & trb 2    & 3rd quarter in Ms: c′4 \\
-	  & 38  & vl 1     & 3rd sixteenth in Ms: d″16 \\
-	  & 54  & vl 2     & 4th/8th sixteenth in Ms: d′16 \\
-	  & 86  & org      & 4th to 6th eighth in Ms: cis8–e8–cis8 \\
-	  & 104 & org      & 3rd quarter in Ms: g8–g8 \\
-	  & 109 & T        & 3rd quarter in Ms: bes4 \\
-	  & 126 & vl 1     & 1st eighth in Ms: g″8 \\
-	  & 155 & vl 1     & 4th eighth in Ms: d″8 \\
-	  & 165 & vl 2     & 4th eighth in Ms: e″8 \\
-	4 & 12  & vl 1     & 1st sixteenth in Ms: d″16 \\
-	  & 19  & org      & 2nd quarter in upper voice missing in Ms \\
-	  & 21  & vl 2     & last eighth in Ms: g′8 \\
-	  & 27  & trb 2    & bar missing in Ms \\
-	5 & 17  & trb 2    & 8th sixteenth in Ms: bes16 \\
-	  & 27  & vl 2     & bar in Ms: a′8–r8–bes′4–a′8–bes′8–r4 \\
-	6 & 4   & vl 2     & 3rd quarter in Ms: d′8–d′8 \\
-	  & 13  & trb 1    & 3rd quarter in Ms: f′4 \\
-	  & 17  & trb 2    & 2nd eighth in Ms: bes′8 \\
-	  & 27  & vl 2     & 8th sixteenth in Ms: g16 \\
-	  & 32  & trb 2    & last quarter in Ms: c′4 \\
-	  & 32  & B        & last eighth in Ms: c8 \\
-	  & 35–37 & vl 2   & rhythm in Ms: 8.–32–32 (instead of 8–16–16) \\
-	  & 38  & vl 1     & 8th sixteenth in Ms: g′16 \\
-	  & 48  & trb 2    & 2nd eighth in Ms: e′8 \\
-	  & 50  & trb 2    & 2nd half of bar in Ms: c′4–bes′4 \\
-	  & 54  & vl 2     & 2nd eighth in Ms: bes8 \\
-	  & 58  & S        & 2nd eighth in Ms: g″8 \\
-	\bottomrule
+  \toprule
+  \itshape Mov. & \itshape Bar & \itshape Staff & \itshape Note \\
+  \midrule \endhead
+  – & –   & trb 1, 2 & Parts for trombone I and II (colla parte with A and T, respectively) are only available in (2). \\
+  \midrule
+  1 & 9   & B        & last eighth in (2): f8 \\
+    & 34  & T        & last eighth in (2): c′8 \\
+    & 49  & org      & 4th eighth in (2): G8 \\
+  \midrule
+  2 & 4   & T        & 1st quarter in (2): g8–d′8 \\
+    & 7   & vl 1     & all d16 in (2) one octave higher \\
+    & 21  & S        & 2nd note in (2): c″2 \\
+    & 44  & S        & 3rd quarter in (2): g′4 \\
+    & 50  & vl 2     & 10th sixteenth in (2): f″16 \\
+    & 51  & vl 2     & 5th sixteenth in (2): f″16 \\
+    & 83  & vl 2     & 10th sixteenth in (2): c′16 \\
+  \midrule
+  3 & 12  & org      & 1st quarter in (2): d8–d8 \\
+    & 14  & org      & 6th eighth in (2): fis16–a16 \\
+    & 22  & vl 2     & 1st quarter in (2): a8–a8 \\
+    & 38  & vl 1     & 3rd sixteenth in (2): d″16 \\
+    & 41  & vl 2     & last eighth in (2): g8 \\
+    & 50  & B        & last eighth in (2): es8 \\
+    & 54  & vl 1     & 4th/8th sixteenth in (2): bes16 \\
+    & 86  & org      & 4th to 6th eighth in (2): cis8–e8–cis8 \\
+    & 104 & org      & 3rd quarter in (2): g8–g8 \\
+    & 109 & T        & 3rd quarter in (2): bes4 \\
+    & 124 & org      & 2nd/3rd quarter in (2) unison with S \\
+    & 126 & vl 1     & 1st eighth in (2): g″8 \\
+    & 155 & vl 1     & 4th eighth in (2): d″8 \\
+    & 165 & vl 2     & 4th eighth in (2): e″8 \\
+    & 168 & vl 2     & 2nd eighth in (2): f′8 \\
+    & 171 & vl 2     & 1st quarter in (2): c′4 \\
+  \midrule
+  4 & 12  & vl 1     & 1st sixteenth in (2): d″16 \\
+    & 15  & vl 1     & 2nd half of bar in (2): 8 sixteenth \\
+    & 19  & org      & 2nd quarter in upper voice missing in (2) \\
+    & 21  & vl 2     & last eighth in (2): g′8 \\
+  \midrule
+  5 & 7   & vl 1, S  & 1st quarter in (2): c″4 \\
+    & 21  & vl 1, S  & last eighth in (2): bes′8 \\
+    & 24  & B        & 1st half of bar in (2): bes8–d4–f8 \\
+    & 27  & vl 2     & bar in (2): a′8–r8–bes′4–a′8–bes′8–r4 \\
+  \midrule
+  6 & 4   & vl 2     & 3rd quarter in (1) and (2): d′8–d′8 \\
+    & 27  & vl 2     & 8th sixteenth in (2): g16 \\
+    & 32  & B        & last eighth in (2): c8 \\
+    & 35–37 & vl 2   & rhythm in (2): 8.–32–32 (instead of 8–16–16) \\
+    & 38  & vl 1     & 8th sixteenth in (2): g′16 \\
+    & 43  & vl 2     & 3rd eighth in (2) bes8 \\
+    & 48  & T        & 2nd eighth in (2): d′8 \\
+    & 54  & vl 2     & 2nd eighth in (2): bes8 \\
+    & 56  & vl 2     & 2nd quarter in (2): e′8–g′8 \\
+    & 58  & S        & 2nd eighth in (2): g″8 \\
+  \bottomrule
 \end{longtable}
 
 
 This edition has been compiled and checked with utmost diligence. Nevertheless, errors and mistakes cannot be totally excluded. Please report any errors and mistakes to \url{wolfgang@esser-skala.at} or create an issue or pull request on the edition’s GitHub page \url{https://github.com/skafdasschaf/albrechtsberger-missa-A.I.20}. Your help will be greatly appreciated.
 
 \bigskip
-\textit{Koppl, March 2021\\
+\textit{Koppl, September 2021\\
 Wolfgang Esser-Skala}
 
 \cleardoublepage
-\chapter*{Contents.}
+\chapter*{Contents}
 
-\InputIfFileExists{../out/lilypond.toc}{}{\InputIfFileExists{../lilypond.toc}{}{}}
-
+\InputIfFileExists{../tmp/lilypond.toc}{}{\InputIfFileExists{../lilypond.toc}{}{}}
 
 \cleardoublepage
 \fi
 
 \iftemplate
-\includepdf[pages=-]{../out/\lypdfname.pdf}
+\includepdf[pages=-]{../tmp/\lypdfname.pdf}
 \fi
 
 \end{document}
