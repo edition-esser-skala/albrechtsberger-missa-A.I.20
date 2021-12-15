@@ -1,352 +1,67 @@
-\documentclass[parskip=full]{scrreprt}
+\documentclass[shortnamesize=70]{ees}
 
-\RedeclareSectionCommand[pagestyle=plain,afterskip=10pt plus 1pt]{chapter}
-\setkomafont{chapter}{\mdseries\headingfont\fontsize{40}{40}\selectfont\color{black!80}}
-\setkomafont{pageheadfoot}{\normalsize}
-
-\def\pnumbox#1{#1\hspace*{8cm}}
-\def\gobble#1{}
-\DeclareTOCStyleEntry[
-  indent=0pt,
-  beforeskip=0pt,
-  entryformat=\itshape,
-  entrynumberformat=\textcolor{oldred},
-  numwidth=2em,
-  linefill=\hfill,
-  pagenumberbox=\pnumbox,
-  pagenumberformat=\itshape
-]{tocline}{part}
-
-\DeclareTOCStyleEntry[
-  indent=0pt,
-  beforeskip=0pt,
-  entrynumberformat=\textcolor{oldred},
-  numwidth=2em,
-  linefill=\hfill,
-  pagenumberbox=\pnumbox
-]{tocline}{section}
-
-\DeclareTOCStyleEntry[
-  indent=0pt,
-  beforeskip=-\parskip,
-  entrynumberformat=\gobble,
-  entryformat=\ltseries,
-  numwidth=2em,
-  linefill=\hfill,
-  pagenumberbox=\pnumbox,
-  pagenumberformat=\ltseries
-]{tocline}{subsection}
-
-
-\usepackage{polyglossia}
-\setdefaultlanguage{english}
-
-
-\usepackage{fontspec}
-\setmainfont{Source Sans Pro}[
-  ItalicFont = Source Sans Pro Italic,
-  BoldFont = Source Sans Pro Bold,
-  BoldItalicFont = Source Sans Pro Bold Italic,
-  FontFace = {lt}{n}{Source Sans Pro Light},
-  FontFace = {lt}{it}{Source Sans Pro Light Italic},
-  FontFace = {sb}{n}{Source Sans Pro Semibold},
-  FontFace = {sb}{it}{Source Sans Pro Semibold Italic},
-  Numbers = Proportional,
-  Ligatures = Common
-]
-\DeclareRobustCommand{\ltseries}{\fontseries{lt}\selectfont}
-\DeclareRobustCommand{\sbseries}{\fontseries{sb}\selectfont}
-\DeclareTextFontCommand{\textlt}{\ltseries}
-\DeclareTextFontCommand{\textsb}{\sbseries}
-\newfontfamily\headingfont{Fredericka the Great}
-
-
-\usepackage[pass]{geometry}
-\newgeometry{twoside,inner=20mm,outer=40mm,top=20mm,bottom=40mm}
-
-
-\usepackage{url}
-\urlstyle{same}
-
-
-\usepackage{microtype}
-\microtypesetup{verbose=silent}
-
-
-\usepackage{booktabs,array,longtable}
-\newcolumntype{L}[1]{%
-  >{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}p{#1}%
-}
-
-
-\usepackage{graphicx}
-
-
-\usepackage{xcolor}
-\definecolor{oldred}{rgb}{.8313,0,0}
-
-
-\usepackage{pdfpages}
-
-
-\usepackage{scrlayer-scrpage}
-\pagestyle{scrheadings}
-\clearscrheadfoot
-\cfoot[\thepage]{\thepage}
-\pagenumbering{roman}
-
-\usepackage{enumitem}
-\setlist[description]{%
-  style=nextline,%
-  leftmargin=2em,%
-  first=\ltseries,%
-  font=\normalfont%
-}
-\def\lyrefitem#1{\item[\lyref{#1}]}
-
-
-\makeatletter
-
-\def\@firstofthree#1#2#3{#1}
-\def\@secondofthree#1#2#3{#2}
-\def\@thirdofthree#1#2#3{#3}
-\def\@firstoffour#1#2#3#4{#1}
-\def\@secondoffour#1#2#3#4{#2}
-\def\@thirdoffour#1#2#3#4{#3}
-\def\@fourthoffour#1#2#3#4{#4}
-\def\Dotfill{\leavevmode\cleaders\hb@xt@ .75em{\hss .\hss }\hfill \kern \z@}
-
-\def\lyrefnumber#1{\expandafter\@setref\csname r@#1\endcsname\@firstofthree{#1}}
-\def\lyreftitle#1{\expandafter\@setref\csname r@#1\endcsname\@secondofthree{#1}}
-\def\lyrefpage#1{\expandafter\@setref\csname r@#1\endcsname\@thirdofthree{#1}}
-
-\def\lyrefgenrenumber#1{\expandafter\@setref\csname r@#1\endcsname\@firstoffour{#1}}
-\def\lyrefgenregenre#1{\expandafter\@setref\csname r@#1\endcsname\@secondoffour{#1}}
-\def\lyrefgenretitle#1{\expandafter\@setref\csname r@#1\endcsname\@thirdoffour{#1}}
-\def\lyrefgenrepage#1{\expandafter\@setref\csname r@#1\endcsname\@fourthoffour{#1}}
-
-\def\lyref#1{%
-  \begingroup%
-  \makebox[0pt][l]{\color{oldred}\lyrefnumber{#1}}\hspace*{2em}%
-  \lyreftitle{#1}\Dotfill\lyrefpage{#1}%
-  \endgroup%
-}
-\def\lyrefpart#1{%
-  \begingroup%
-  \makebox[0pt][l]{\sbseries\color{oldred}\lyrefnumber{#1}}\hspace*{2em}%
-  \makebox[0pt][l]{\sbseries\lyreftitle{#1}}\hspace*{6.5em}%
-  \hfill\sbseries\lyrefpage{#1}%
-  \endgroup%
-}
-\def\lyrefsection#1{%
-  \begingroup%
-  \makebox[0pt][l]{\color{oldred}\lyrefgenrenumber{#1}}\hspace*{2em}%
-  \makebox[0pt][l]{\ltseries\lyrefgenregenre{#1}}\hspace*{6.5em}%
-  \lyrefgenretitle{#1}\Dotfill\lyrefgenrepage{#1}%
-  \endgroup%
-}
-\InputIfFileExists{../tmp/lilypond.ref}{}{\InputIfFileExists{../lilypond.ref}{}{}}
-
-
-\newcommand\fancytitlehead{
-  \headingfont%
-  \fontsize{65}{65}\selectfont%
-  \textcolor{black!80}{%
-    \makebox[0pt][l]{\@ifundefined{@shortname}{\@lastname}{\@shortname}.}%
-  }\\[15pt]%
-  \fontsize{55}{55}\selectfont%
-  \makebox[0pt][l]{\@ifundefined{@shorttitle}{\@title}{\@shorttitle}.}%
-}
-
-
-\def\firstname#1{\def\@firstname{#1}}
-\def\lastname#1{\def\@lastname{#1}}
-\def\shortname#1{\def\@shortname{#1}}
-\def\shorttitle#1{\def\@shorttitle{#1}}
-\def\namesuffix#1{\def\@namesuffix{#1}}
-\def\scoring#1{\def\@scoring{#1}}
-\def\parts#1{\def\@parts{#1}}
-
-\firstname{\relax}
-\lastname{\relax}
-\namesuffix{\relax}
-\scoring{\relax}
-\parts{\relax}
-
-
-\def\maketitle{%
-\begin{titlepage}%
-  \Large%
-  {\@titlehead}%
-  \vfill%
-  {\strut\@firstname}\\%
-  {\sbseries\color{oldred}\strut\@lastname}\\%
-  {\strut\@namesuffix}%
-  \vfill%
-  {\sbseries\@title}\\%
-  {\@subtitle}\\[\baselineskip]%
-  {\itshape\@scoring}%
-  \vfill%
-  {\itshape\@parts}\hspace*{\fill}\raisebox{0pt}[0pt][0pt]{\includegraphics{ees_logo}}%
-\end{titlepage}%
-}
-
-
-\newif\iftemplate\templatetrue
-\newif\ifprintreport\printreportfalse
-\directlua{
-scores = {
-  vl1 = "Violino I",
-  vl2 = "Violino II",
-  coro = "Coro",
-  org = "Organo",
-  org_realized = "Organo (realized)",
-  b = "Bassi",
-  full_score = "Full Score"
-}
-
-last_arg = arg[\string#arg]
-texio.write("Last argument: " .. last_arg)
-if not (scores[last_arg] == nil) then
-  tex.print("\string\\def\string\\lypdfname{" .. last_arg .. "}")
-  tex.print("\string\\parts{" .. scores[last_arg] .. "}")
-  if (last_arg == "full_score") then
-    tex.print("\string\\printreporttrue")
-  end
-end
-}
-
-\@ifundefined{lypdfname}{%
-  \templatefalse
-  \printreporttrue
-  \parts{Draft}
-}{\templatetrue}
-
-\makeatother
-
-
+\shorttitle{Missa Visitationis}
 
 \begin{document}
-\frenchspacing
 
-\titlehead{\fancytitlehead}
-\firstname{Johann Georg}
-\lastname{Albrechtsberger}
-\title{Missa Visitationis Beatae Mariae Virginis}
-\shorttitle{Missa Visitationis}
-\subtitle{SchAl A.I.20 · WeiA 94\\(H-Bn Ms. Mus. 2.485)}
-\scoring{S, A, T, B (coro), 2 vl, b, org}
-\maketitle
+\eesTitlePage
 
-
-\thispagestyle{empty}
-
-\vspace*{\fill}
-
-\raisebox{-4mm}{\includegraphics{byncsaeu}}\hspace*{1em}Wolfgang Esser-Skala, 2021
-
-© 2021 by Wolfgang Esser-Skala. This edition is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit \url{http://creativecommons.org/licenses/by-nc-sa/4.0/}.
-
-Music engraving by LilyPond 2.22.0 (\url{http://www.lilypond.org}).\\
-Front matter typeset with Source Sans Pro and Fredericka the Great.
-
-The financial support of the \textit{Verein der Freunde der Kurhauskirche der Barmherzigen Brüder Schärding} is gratefully acknowledged.
-
-\textit{Third version, September 2021}
-
-\vspace*{2cm}
-
-\ifprintreport
-\chapter*{Critical Report}
-
-This edition bases upon
-\begin{enumerate}
-  \item the autograph manuscript in the National Széchényi Library, Budapest\\
-  (siglum Ms. Mus. 2.485; no RISM entry); and
-  \item a copy in the Benediktinerabtei Niederaltaich\\
-  (siglum NA/SP (H-59); see also RISM ID 455039712; digital version available at\\
-  \url{https://mirador.acdh.oeaw.ac.at/musikarchivspitz/D-NATk_A5/}).
-\end{enumerate}
-
-In general, this edition closely follows the autograph manuscript. Any changes that were introduced by the editor are indicated by italic type (lyrics, dynamics and directions), parentheses (expressive marks and bass figures) or dashes (slurs and ties). Accidentals are used according to modern conventions. Asterisks denote changes that are clarified in the detailed remarks below.\footnote{Abbreviations: A, alto; B, bass; b, basses; org, organ; r, rest; S, soprano; T, tenor; trb, trombone; vl, violin.}
-
-\bigskip
-
-\begin{longtable}{lll L{10cm}}
-  \toprule
-  \itshape Mov. & \itshape Bar & \itshape Staff & \itshape Note \\
-  \midrule \endhead
-  – & –   & trb 1, 2 & Parts for trombone I and II (colla parte with A and T, respectively) are only available in (2). \\
+\eesCriticalReport{
+  – & –   & trb 1, 2 & only available in \B1 (colla parte with A and T, respectively) \\
   \midrule
-  1 & 9   & B        & last eighth in (2): f8 \\
-    & 34  & T        & last eighth in (2): c′8 \\
-    & 49  & org      & 4th eighth in (2): G8 \\
+  1 & 9   & B        & last \eighthNote\ in \B1: f8 \\
+    & 34  & T        & last \eighthNote\ in \B1: c′8 \\
+    & 49  & org      & 4th \eighthNote\ in \B1: G8 \\
   \midrule
-  2 & 4   & T        & 1st quarter in (2): g8–d′8 \\
-    & 7   & vl 1     & all d16 in (2) one octave higher \\
-    & 21  & S        & 2nd note in (2): c″2 \\
-    & 44  & S        & 3rd quarter in (2): g′4 \\
-    & 50  & vl 2     & 10th sixteenth in (2): f″16 \\
-    & 51  & vl 2     & 5th sixteenth in (2): f″16 \\
-    & 83  & vl 2     & 10th sixteenth in (2): c′16 \\
+  2 & 4   & T        & 1st \quarterNote\ in \B1: g8–d′8 \\*
+    & 7   & vl 1     & all d16 in \B1 one octave higher \\
+    & 21  & S        & 2nd note in \B1: c″2 \\
+    & 44  & S        & 3rd \quarterNote\ in \B1: g′4 \\
+    & 50  & vl 2     & 10th \sixteenthNote\ in \B1: f″16 \\
+    & 51  & vl 2     & 5th \sixteenthNote\ in \B1: f″16 \\
+    & 83  & vl 2     & 10th \sixteenthNote\ in \B1: c′16 \\
   \midrule
-  3 & 12  & org      & 1st quarter in (2): d8–d8 \\
-    & 14  & org      & 6th eighth in (2): fis16–a16 \\
-    & 22  & vl 2     & 1st quarter in (2): a8–a8 \\
-    & 38  & vl 1     & 3rd sixteenth in (2): d″16 \\
-    & 41  & vl 2     & last eighth in (2): g8 \\
-    & 50  & B        & last eighth in (2): es8 \\
-    & 54  & vl 1     & 4th/8th sixteenth in (2): bes16 \\
-    & 86  & org      & 4th to 6th eighth in (2): cis8–e8–cis8 \\
-    & 104 & org      & 3rd quarter in (2): g8–g8 \\
-    & 109 & T        & 3rd quarter in (2): bes4 \\
-    & 124 & org      & 2nd/3rd quarter in (2) unison with S \\
-    & 126 & vl 1     & 1st eighth in (2): g″8 \\
-    & 155 & vl 1     & 4th eighth in (2): d″8 \\
-    & 165 & vl 2     & 4th eighth in (2): e″8 \\
-    & 168 & vl 2     & 2nd eighth in (2): f′8 \\
-    & 171 & vl 2     & 1st quarter in (2): c′4 \\
+  3 & 12  & org      & 1st \quarterNote\ in \B1: d8–d8 \\
+    & 14  & org      & 6th \eighthNote\ in \B1: \sharp f16–a16 \\
+    & 22  & vl 2     & 1st \quarterNote\ in \B1: a8–a8 \\
+    & 38  & vl 1     & 3rd \sixteenthNote\ in \B1: d″16 \\
+    & 41  & vl 2     & last \eighthNote\ in \B1: g8 \\
+    & 50  & B        & last \eighthNote\ in \B1: \flat e8 \\
+    & 54  & vl 1     & 4th/8th \sixteenthNote\ in \B1: \flat b16 \\
+    & 86  & org      & 4th to 6th \eighthNote\ in \B1: \sharp c8–e8–\sharp c8 \\
+    & 104 & org      & 3rd \quarterNote\ in \B1: g8–g8 \\
+    & 109 & T        & 3rd \quarterNote\ in \B1: \flat b4 \\
+    & 124 & org      & 2nd/3rd \quarterNote\ in \B1 unison with S \\
+    & 126 & vl 1     & 1st \eighthNote\ in \B1: g″8 \\
+    & 155 & vl 1     & 4th \eighthNote\ in \B1: d″8 \\
+    & 165 & vl 2     & 4th \eighthNote\ in \B1: e″8 \\
+    & 168 & vl 2     & 2nd \eighthNote\ in \B1: f′8 \\
+    & 171 & vl 2     & 1st \quarterNote\ in \B1: c′4 \\
   \midrule
-  4 & 12  & vl 1     & 1st sixteenth in (2): d″16 \\
-    & 15  & vl 1     & 2nd half of bar in (2): 8 sixteenth \\
-    & 19  & org      & 2nd quarter in upper voice missing in (2) \\
-    & 21  & vl 2     & last eighth in (2): g′8 \\
+  4 & 12  & vl 1     & 1st \sixteenthNote\ in \B1: d″16 \\
+    & 15  & vl 1     & 2nd \halfNote\ in \B1: 8 \sixteenthNote\ \\
+    & 19  & org      & 2nd \quarterNote\ in upper voice missing in \B1 \\
+    & 21  & vl 2     & last \eighthNote\ in \B1: g′8 \\
   \midrule
-  5 & 7   & vl 1, S  & 1st quarter in (2): c″4 \\
-    & 21  & vl 1, S  & last eighth in (2): bes′8 \\
-    & 24  & B        & 1st half of bar in (2): bes8–d4–f8 \\
-    & 27  & vl 2     & bar in (2): a′8–r8–bes′4–a′8–bes′8–r4 \\
+  5 & 7   & vl 1, S  & 1st \quarterNote\ in \B1: c″4 \\
+    & 21  & vl 1, S  & last \eighthNote\ in \B1: \flat b′8 \\
+    & 24  & B        & 1st \halfNote\ in \B1: \flat b8–d4–f8 \\
+    & 27  & vl 2     & bar in \B1: a′8–\quaverRest–\flat b′4–a′8–\flat b′8–\crotchetRest \\
   \midrule
-  6 & 4   & vl 2     & 3rd quarter in (1) and (2): d′8–d′8 \\
-    & 27  & vl 2     & 8th sixteenth in (2): g16 \\
-    & 32  & B        & last eighth in (2): c8 \\
-    & 35–37 & vl 2   & rhythm in (2): 8.–32–32 (instead of 8–16–16) \\
-    & 38  & vl 1     & 8th sixteenth in (2): g′16 \\
-    & 43  & vl 2     & 3rd eighth in (2) bes8 \\
-    & 48  & T        & 2nd eighth in (2): d′8 \\
-    & 54  & vl 2     & 2nd eighth in (2): bes8 \\
-    & 56  & vl 2     & 2nd quarter in (2): e′8–g′8 \\
-    & 58  & S        & 2nd eighth in (2): g″8 \\
-  \bottomrule
-\end{longtable}
+  6 & 4   & vl 2     & 3rd \quarterNote\ in (1) and \B1: d′8–d′8 \\
+    & 27  & vl 2     & 8th \sixteenthNote\ in \B1: g16 \\
+    & 32  & B        & last \eighthNote\ in \B1: c8 \\
+    & 35–37 & vl 2   & rhythm in \B1: \eighthNoteDotted–\thirtysecondNote–\thirtysecondNote\ (instead of \eighthNote–\sixteenthNote–\sixteenthNote) \\
+    & 38  & vl 1     & 8th \sixteenthNote\ in \B1: g′16 \\
+    & 43  & vl 2     & 3rd \eighthNote\ in \B1 \flat b8 \\
+    & 48  & T        & 2nd \eighthNote\ in \B1: d′8 \\
+    & 54  & vl 2     & 2nd \eighthNote\ in \B1: \flat b8 \\
+    & 56  & vl 2     & 2nd \quarterNote\ in \B1: e′8–g′8 \\
+    & 58  & S        & 2nd \eighthNote\ in \B1: g″8 \\
+}
 
+\eesToc{}
 
-This edition has been compiled and checked with utmost diligence. Nevertheless, errors and mistakes cannot be totally excluded. Please report any errors and mistakes to \url{wolfgang@esser-skala.at} or create an issue or pull request on the edition’s GitHub page \url{https://github.com/skafdasschaf/albrechtsberger-missa-A.I.20}. Your help will be greatly appreciated.
-
-\bigskip
-\textit{Koppl, September 2021\\
-Wolfgang Esser-Skala}
-
-\cleardoublepage
-\chapter*{Contents}
-
-\InputIfFileExists{../tmp/lilypond.toc}{}{\InputIfFileExists{../lilypond.toc}{}{}}
-
-\cleardoublepage
-\fi
-
-\iftemplate
-\includepdf[pages=-]{../tmp/\lypdfname.pdf}
-\fi
+\eesScore
 
 \end{document}
