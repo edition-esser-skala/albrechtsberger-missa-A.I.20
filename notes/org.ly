@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 KyrieOrgano = {
   \relative c {
@@ -52,7 +52,7 @@ KyrieOrgano = {
     \mvTr \slurDashed f(\p-\soloE a) f( a) e[( b'])
     a( f) a( f) e([ c)] \slurSolid
     f a, b \mvTr g\f-\tuttiE c cis
-    d a\ff b h-\critnote c c,
+    d a\ff b h^\critnote c c,
     f f' f,4 r\fermata \bar "|." %50 finis
   }
 }
@@ -69,15 +69,15 @@ KyrieBassFigures = \figuremode {
   r2 <6 4>8 <7 2>
   <8 4>4 <\t 3> <6 4> %10
   q <5 3>r8 <6>
-  <4! 2>4 <6> <4+ 2>
+  <4! 2>4 <6> <4\+ 2>
   <6> <6 5> r
   <6 5> <7 _!> r
   <7-> <6- 4> <5 _!> %15
   <_!>2 <6 4>8 <7! 2>
   <8 4>4 <\t 3> <6 4>
   <\t \t> <5 3> r8 <6>
-  <4+ 2>8. \bassFigureExtendersOn q16 \bassFigureExtendersOff <6>8 <6\\> <8 3> <6 \t>
-  <4+ 2!>8. \bassFigureExtendersOn q16 \bassFigureExtendersOff <6 [_!]>4 <8 3>8 <6 \t> %20
+  <4\+ 2>8. \bassFigureExtendersOn q16 \bassFigureExtendersOff <6>8 <6\\> <8 3> <6 \t>
+  <4\+ 2!>8. \bassFigureExtendersOn q16 \bassFigureExtendersOff <6 [_!]>4 <8 3>8 <6 \t> %20
   <4! 2>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
   <6>2.
   r2 <6 4>8 <5 _!>
@@ -95,7 +95,7 @@ KyrieBassFigures = \figuremode {
   <6 4>4 <5 3>2 %35
   r2 <6 4>8 <7 2>
   <8 4>4 <\t 3> r8 <6>
-  <10 4>4 <10 6> r8 <10- 4+>
+  <10 4>4 <10 6> r8 <10- 4\+>
   <\t \t>4 <6>2
   r2. %40
   r
@@ -222,14 +222,14 @@ GloriaBassFigures = \figuremode {
   <6 5>
   r2 <6 5>8 <3>
   <_!>2.
-  <4! 2+>
+  <4! 2\+>
   <7 [5!] _+> %20
   r4 <5! 4> <\t _+>
   r <6! 5> <[5!] _+>
   r2.
-  <4+ _->
+  <4\+ _->
   <6> %25
-  <7->2 <6 5->4
+  <7- [5!]>2 <6 5->4
   r <5 4> <\t 3>
   r <6 5>2
   r2.
@@ -242,9 +242,9 @@ GloriaBassFigures = \figuremode {
   r2.
   <4! _->
   <6>
-  <6\\ 5>
+  <6\\ 5->
   <6 4>4 <5 _+>2 %40
-  <4+ _->2.
+  <4\+ _->2.
   <6>
   <7->
   <_->
@@ -255,7 +255,7 @@ GloriaBassFigures = \figuremode {
   <5 _+>
   <6 4> %50
   q4 <5 _+>2
-  <4+ _-> <6>4
+  <4\+ _-> <6>4
   r <5 4> <\t _+>
   r <6 5> <_+>
   <_+>2. %55
@@ -307,7 +307,7 @@ CredoOrgano = {
     f8 f f,4 f'16 c a f'
     e8 e e,4 a'16 e cis a %10
     d8 d d,4 d''16 a f d
-    b8-\critnote b b'4 b16 f d b
+    b8^\critnote b b'4 b16 f d b
     a8 a a'4 a16 e cis a
     fis'8 fis fis,4 fis'16 a d,^\critnote fis
     g8 g g,4 g'16d h g %15
@@ -320,9 +320,9 @@ CredoOrgano = {
     g8 g g4 g16 cis e g,
     f8 f f4 b16 c d b
     g8 g a4 a,16 cis e a
-    d,8 d d4 f16 d a f %25
+    d,8 d d4-\soloE f16 d a f %25
     g8 g a4 a'16 e cis a
-    d8 d d4 d'16 a fis d
+    d8-\tuttiE d d4 d'16 a fis d
     g8 g g4 g16 d b g
     c8 c c4 c'16 g e c
     f!8 f f4 f16 c a f %30
@@ -383,7 +383,7 @@ CredoOrgano = {
     d d f f g g
     b b a a a, a
     d4 r8 d-\solo f d %85
-    cis4 r8 a-\critnote cis a
+    cis4 r8 a^\critnote cis a
     d4 g, a
     d8-\tutti d f f d d
     c! c c' c c, c
@@ -401,7 +401,7 @@ CredoOrgano = {
     a4 r8 f a f
     b4 es, f
     b,8-\tutti b b' b as as
-    g g g, g f'-\critnote f
+    g g g, g f'^\critnote f
     es es c c es es %105
     h h g g h h
     c c es es c c
@@ -421,7 +421,7 @@ CredoOrgano = {
     es,4 r8 es-\solo g es
     d4 r8 b d b
     es4 as, b
-    es r-\critnote r
+    es r^\critnote r
     b8-\tutti b d d b b %125
     es es d d b b
     es es d d b b
@@ -496,7 +496,7 @@ CredoBassFigures = \figuremode {
   <6>
   <4! 2> %20
   <6>
-  <4+ 2>
+  <4\+ 2>
   <6>
   q4 <6 4> <5 _+>
   r2 <6>4 %25
@@ -526,7 +526,7 @@ CredoBassFigures = \figuremode {
   r2 <6>4 <\t>8 <4 2>
   <6 5->4  <\t \t>8 <6 _-> r2 %50
   <6 5>4 <\t \t>8 <6!> r2
-  <6 _->4 <7- _!> <6 4> <5 _!>
+  <6- _->4 <7- _!> <6 4> <5! _!>
   <6 5->2 <_!>4 <\t>
   <6 5->2 <3>4 <\t>
   <6 5>4 <\t \t>8 <6> <6 4>4 <5 3> %55
@@ -535,7 +535,7 @@ CredoBassFigures = \figuremode {
   <2> <7 _!>
   <6- 4> <7- 5>
   <6- 4>4 <5 _!> <4! _->2 %60
-  <6> <[6!] 4+ _->
+  <6> <[6!] 4\+ _->
   <6> <4! _->
   <6>4 <_-> <6 4> <5 _!>
   r2. <_!>8 <6 5>
@@ -702,8 +702,8 @@ SanctusBassFigures = \figuremode {
   <5 4> <\t _!> <_-> r
   r <6>8 <\t> <8>4 <7->
   <6 5-> <_-> <5 4> <\t _!> %5
-  <4! 2> <6> <7 _+> <_->
-  <4+ 2> <6> <7> <6\\>
+  <4! 2!> <6> <7 _+> <_->
+  <4\+ 2> <6> <7> <6\\>
   <6 4> <5 _+>8 <4 2!> <5 _+>2
   <_+>4. \bassFigureExtendersOn q8 <6 4>4. q8
   <7 _+>4. q8 \bassFigureExtendersOff <9 4>4 <8 3> %10
@@ -814,7 +814,7 @@ BenedictusBassFigures = \figuremode {
   r4. q8 <5!>4. <6\\>8
   r2 <6 5>4 <_+>
   <6>8 <\t> <6> <\t>2 <7 _!>8
-  r4. <7>8 <5+>4 <_+>8 <7 [5!] _+> %5
+  r4. <7>8 <5\+>4 <_+>8 <7 [5!] _+> %5
   r4 <[6]> <6! 5> <[5!] _+>
   <6> <[6]> <6! 5> <5! _!>
   <6 5> <5 3> <4 2> <6>8 <5>
@@ -949,7 +949,7 @@ AgnusDeiBassFigures = \figuremode {
   r2 <6>4
   <2> <6> <6 5->
   r2 r8. <6>16
-  r4 <[7-] 5>4. <\t \t>8
+  \bo <[9 4-]>8 \bc <[8 3]> <[7-] 5>4. <\t \t>8
   <_->8 <_+> <7>4 <6\\> %5
   <_+>2.
   r4 <_!>2
@@ -961,7 +961,7 @@ AgnusDeiBassFigures = \figuremode {
   r2 <6\\>4
   <6>2 <_+>4
   <6\\> <_+>r8. <6>16 %15
-  r4 <6 5->4. <\t \t>8
+  r4 \bo <6 5- [_!]>4. \bc <\t \t [\t]>8
   r4 <7> <6!>
   r2.
   r4 <6> <6 5!>

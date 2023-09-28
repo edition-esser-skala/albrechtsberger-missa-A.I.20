@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 \include "../definitions.ly"
 \include "score_settings/full-score.ly"
@@ -10,6 +10,8 @@
   top-markup-spacing.minimum-distance = #0
   markup-system-spacing.basic-distance = #10
   markup-system-spacing.minimum-distance = #10
+  system-system-spacing.basic-distance = #19.5
+  system-system-spacing.minimum-distance = #19.5
   systems-per-page = #2
 }
 
@@ -18,7 +20,7 @@
     \section "1" "Kyrie"
     \addTocEntry
     \paper { indent = 3\cm }
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup <<
           \new GrandStaff <<
@@ -74,7 +76,7 @@
   \bookpart {
     \section "2" "Gloria"
     \addTocEntry
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup <<
           \new GrandStaff <<
@@ -130,7 +132,7 @@
   \bookpart {
     \section "3" "Credo"
     \addTocEntry
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup <<
           \new GrandStaff <<
@@ -180,13 +182,13 @@
         \new FiguredBass { \CredoBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 110 }
+      \midi { \tempo 4 = 110 } % 50 – 110
     }
   }
   \bookpart {
     \section "4" "Sanctus"
     \addTocEntry
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup <<
           \new GrandStaff <<
@@ -236,13 +238,13 @@
         \new FiguredBass { \SanctusBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 60 }
+      \midi { \tempo 4 = 55 } % 110
     }
   }
   \bookpart {
     \section "5" "Benedictus"
     \addTocEntry
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup <<
           \new GrandStaff <<
@@ -292,13 +294,13 @@
         \new FiguredBass { \BenedictusBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 80 }
+      \midi { \tempo 4 = 90 } % 110
     }
   }
   \bookpart {
     \section "6" "Agnus Dei"
     \addTocEntry
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup <<
           \new GrandStaff <<
@@ -348,7 +350,7 @@
         \new FiguredBass { \AgnusDeiBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 70 }
+      \midi { \tempo 4 = 60 } % 90
     }
   }
 }

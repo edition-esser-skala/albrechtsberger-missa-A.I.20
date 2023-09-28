@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 KyrieSopranoNotes = {
   \relative c' {
@@ -117,7 +117,7 @@ GloriaSopranoNotes = {
     g g g
     as2 as4
     g g g
-    b2 b4
+    b!2 b4
     b a! r %40
     a4. a8 a4
     b4. b8 b4

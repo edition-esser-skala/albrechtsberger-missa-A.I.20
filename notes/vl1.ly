@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 KyrieViolinoI = {
   \relative c' {
@@ -99,7 +99,7 @@ GloriaViolinoI = {
     g g' g g g b, b b b g' g g
     h, as' as as as h, h h h as' as as
     c, g' g g g c, c c c g' g g
-    cis, g' g g g cis, cis cis cis b' b b
+    cis, g' g g g cis, cis cis cis b'! b b
     b b, b b a a a a a fis' fis fis %40
     fis a, a a a a a a a fis' fis fis
     g b, b b b b b b b g' g g

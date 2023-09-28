@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 KyrieTenoreNotes = {
   \relative c' {
@@ -110,7 +110,7 @@ GloriaTenoreNotes = {
     r a a8 a
     b!4 b b8 b
     a4 a a8 a %25
-    c4 c c
+    c!4 c c
     b8 b b4( a)
     b r f
     f f f
@@ -321,7 +321,7 @@ CredoTenoreNotes = {
     g4 r r2
     r es'4\fE es
     es es e8. e16 e8e
-    f4 c8 c d8. d16 d8 d
+    f4 c8 c d!8. d16 d8 d
     c4 c e2\ff %60
     f4 r fis2
     g4 r h,4. d8
