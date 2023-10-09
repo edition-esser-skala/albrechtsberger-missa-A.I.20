@@ -8,7 +8,7 @@
   \bookpart {
     \section "1" "Kyrie"
     \addTocEntry
-    \paper { indent = 2\cm }
+    \paper { indent = 2\cm systems-per-page = #7 }
     \score {
       <<
         \new Staff {
@@ -31,6 +31,7 @@
   \bookpart {
     \section "3" "Credo"
     \addTocEntry
+    \paper { page-count = #4 }
     \score {
       <<
         \new Staff { \CredoViolinoII }
@@ -50,6 +51,7 @@
   \bookpart {
     \section "5" "Benedictus"
     \addTocEntry
+    \paper { systems-per-page = #7 }
     \score {
       <<
         \new Staff { \BenedictusViolinoII }

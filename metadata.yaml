@@ -4,9 +4,17 @@ composer:
 title: Missa Visitationis Beatæ Mariæ Virginis
 id: SchAl A.I.20
 genre: mass
-scoring: S, A, T, B (coro), 2 vl, b, org
+scoring: S, A, T, B (coro), [2 trb], 2 vl, b, org
 license: cc-by-sa-4.0
 sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms. mus. 2.485
+    date: 1786-05-13
+    url: https://nektar.oszk.hu/en/manifestation/2686829
+    license: public domain
+    principal: true
+    notes: full score
   B1:
     siglum: D-NATk
     shelfmark: NA/SP (A-5)
@@ -14,5 +22,5 @@ sources:
     rism: 455039712
     url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/D-NATk_A5/
     license: public domain
-    principal: true
+    notes: parts for S, A, T, B, trb 1, trb 2, vl 1, vl 2, and org
 imslp: Missa_in_F_major,_SchAl_A.I.20_(Albrechtsberger,_Johann_Georg)

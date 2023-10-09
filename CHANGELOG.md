@@ -1,5 +1,13 @@
 # Changelog
 
+## 4.0.0 - 2023-10-09
+
+### Changed
+
+- uses autograph manuscript as principal source
+- updates to LilyPond 2.24.2 (EES Tools 2023.10.0)
+
+
 ## 3.0.0 - 2021-12-15
 
 ### Changed
